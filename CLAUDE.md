@@ -18,6 +18,9 @@ Do not mix the two. Vocabulary belongs in flashcards; grammar paradigms belong i
 ## Tooling
 
 - **Flashcards: Mochi** (free tier, no cloud sync). Cards are authored in Markdown. A copy lives in this repo as the working source of truth; Daniel manually syncs back to Mochi. Card content can be edited programmatically and AI-audited (dedupe, fix errors, check Spanish glosses, flag interference traps, normalize formatting).
+  - **Mochi iOS export formats:** `.mochi` (native, optionally with review history), Markdown with IDs (`markdown-export/` is this), or SQLite.
+  - **Mochi iOS import formats:** `.mochi`, Anki, CSV, or Markdown.
+  - **Open problem:** programmatic edits need to round-trip back into Mochi *without losing review history / SRS progress*. Import-merge behavior across formats is not yet characterized — see workflow notes before bulk-editing.
 - **Conjugation drilling: conjuguemos.com.** Holds verb sets; used for paradigm drilling.
 - **This repo** is the canonical workspace.
 
