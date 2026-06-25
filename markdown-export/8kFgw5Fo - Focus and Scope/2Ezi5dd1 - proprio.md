@@ -1,0 +1,3 @@
+## proprio
+---
+precisamente/justamente

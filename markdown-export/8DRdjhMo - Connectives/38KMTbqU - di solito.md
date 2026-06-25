@@ -1,0 +1,3 @@
+## di solito
+---
+normalmente/usually

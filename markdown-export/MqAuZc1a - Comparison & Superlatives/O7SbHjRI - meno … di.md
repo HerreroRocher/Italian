@@ -1,0 +1,3 @@
+## meno (… di)
+---
+menos (… que)
