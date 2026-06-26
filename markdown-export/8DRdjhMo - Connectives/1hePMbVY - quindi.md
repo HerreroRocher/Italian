@@ -1,3 +1,0 @@
-## quindi
----
-así que/entonces

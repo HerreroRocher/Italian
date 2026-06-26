@@ -1,3 +1,0 @@
-## mentre
----
-mientras

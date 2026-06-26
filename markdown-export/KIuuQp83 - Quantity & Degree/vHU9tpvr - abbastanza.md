@@ -1,3 +1,0 @@
-## abbastanza
----
-bastante

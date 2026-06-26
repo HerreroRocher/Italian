@@ -1,3 +1,0 @@
-## spesso
----
-frequentemente/often

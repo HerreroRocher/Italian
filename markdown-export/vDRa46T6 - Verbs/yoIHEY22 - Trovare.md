@@ -1,3 +1,0 @@
-## Trovare
----
-encontrar

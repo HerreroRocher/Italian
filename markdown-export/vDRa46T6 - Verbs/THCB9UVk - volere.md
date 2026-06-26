@@ -1,3 +1,0 @@
-## volere
----
-querer

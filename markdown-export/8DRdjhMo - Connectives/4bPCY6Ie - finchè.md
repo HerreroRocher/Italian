@@ -1,3 +1,0 @@
-## finchè
----
-hasta/until

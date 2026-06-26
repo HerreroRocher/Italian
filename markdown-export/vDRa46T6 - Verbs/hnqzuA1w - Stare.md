@@ -1,3 +1,0 @@
-## Stare
----
-stay/estar

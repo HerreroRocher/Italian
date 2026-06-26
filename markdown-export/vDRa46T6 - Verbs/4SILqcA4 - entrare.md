@@ -1,3 +1,0 @@
-## entrare
----
-entrar

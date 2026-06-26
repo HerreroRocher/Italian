@@ -1,3 +1,0 @@
-## neanche
----
-tampoco/ni siquiera

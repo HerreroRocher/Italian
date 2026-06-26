@@ -1,3 +1,0 @@
-## tenere
----
-tener

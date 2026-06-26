@@ -1,76 +1,105 @@
 #!/usr/bin/env python3
-"""Unpack/repack Mochi .mochi files for programmatic editing.
+"""Unpack/repack/edit Mochi .mochi files.
 
 A .mochi file is a zip containing a single data.json (Transit-encoded).
 
 Usage:
-    python mochi_pack.py unpack <input.mochi> <output.json>
-    python mochi_pack.py pack   <input.json>  <output.mochi>
-    python mochi_pack.py test-edit <input.mochi> <output.mochi>
-        # Appends " ." to the first card's content; for round-trip testing.
+    mochi_pack.py unpack <in.mochi> <out.json>
+    mochi_pack.py pack   <in.json>  <out.mochi>
+    mochi_pack.py edit-card <in.mochi> <out.mochi> --name <card-name>
+                             [--content <new-content>] [--reset-reviews]
 """
 
+import argparse
 import json
 import sys
 import zipfile
 from pathlib import Path
 
 
-def unpack(mochi_path: Path, json_path: Path) -> None:
+def _load(mochi_path: Path) -> dict:
     with zipfile.ZipFile(mochi_path) as z:
-        names = z.namelist()
-        if "data.json" not in names:
-            raise SystemExit(f"expected data.json in {mochi_path}, got {names}")
-        with z.open("data.json") as f:
-            data = json.load(f)
-    json_path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
-    print(f"unpacked {mochi_path} -> {json_path}")
+        return json.loads(z.read("data.json"))
 
 
-def pack(json_path: Path, mochi_path: Path) -> None:
-    data = json.loads(json_path.read_text())
+def _save(data: dict, mochi_path: Path) -> None:
     payload = json.dumps(data, ensure_ascii=False)
     with zipfile.ZipFile(mochi_path, "w", zipfile.ZIP_DEFLATED) as z:
         z.writestr("data.json", payload)
-    print(f"packed {json_path} -> {mochi_path}")
 
 
-def test_edit(in_mochi: Path, out_mochi: Path) -> None:
-    """Round-trip test: tweak one card's content, leave reviews untouched."""
-    with zipfile.ZipFile(in_mochi) as z:
-        data = json.loads(z.read("data.json"))
+def _iter_cards(data: dict):
+    for deck in data["~:decks"]:
+        for card in deck["~:cards"]["~#list"]:
+            yield deck, card
 
-    decks = data["~:decks"]
-    first_card = decks[0]["~:cards"]["~#list"][0]
-    original = first_card["~:content"]
-    first_card["~:content"] = original.rstrip() + " .\n"
 
-    payload = json.dumps(data, ensure_ascii=False)
-    with zipfile.ZipFile(out_mochi, "w", zipfile.ZIP_DEFLATED) as z:
-        z.writestr("data.json", payload)
+def unpack(args: argparse.Namespace) -> None:
+    data = _load(args.src)
+    args.dst.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+    print(f"unpacked {args.src} -> {args.dst}")
 
-    deck_name = decks[0]["~:name"]
-    card_name = first_card["~:name"]
-    n_reviews = len(first_card.get("~:reviews", []))
-    print(f"edited card '{card_name}' in deck '{deck_name}' ({n_reviews} reviews preserved)")
-    print(f"  before: {original!r}")
-    print(f"  after:  {first_card['~:content']!r}")
-    print(f"wrote {out_mochi}")
+
+def pack(args: argparse.Namespace) -> None:
+    data = json.loads(args.src.read_text())
+    _save(data, args.dst)
+    print(f"packed {args.src} -> {args.dst}")
+
+
+def edit_card(args: argparse.Namespace) -> None:
+    if args.content is None and not args.reset_reviews:
+        sys.exit("edit-card: nothing to do (pass --content and/or --reset-reviews)")
+
+    data = _load(args.src)
+    matches = [(d, c) for d, c in _iter_cards(data) if c["~:name"] == args.name]
+    if not matches:
+        sys.exit(f"edit-card: no card named {args.name!r}")
+    if len(matches) > 1:
+        decks = ", ".join(d["~:name"] for d, _ in matches)
+        sys.exit(f"edit-card: {len(matches)} cards named {args.name!r} (in {decks}); narrow scope not yet supported")
+
+    deck, card = matches[0]
+    changes = []
+    if args.content is not None:
+        before = card["~:content"]
+        card["~:content"] = args.content
+        changes.append(f"content: {before!r} -> {args.content!r}")
+    if args.reset_reviews:
+        n = len(card.get("~:reviews", []))
+        card["~:reviews"] = []
+        changes.append(f"reviews cleared ({n} dropped)")
+
+    _save(data, args.dst)
+    print(f"edited '{args.name}' in deck '{deck['~:name']}':")
+    for c in changes:
+        print(f"  - {c}")
+    print(f"wrote {args.dst}")
 
 
 def main() -> None:
-    args = sys.argv[1:]
-    if len(args) != 3 or args[0] not in {"unpack", "pack", "test-edit"}:
-        print(__doc__, file=sys.stderr)
-        raise SystemExit(2)
-    cmd, src, dst = args
-    src_p, dst_p = Path(src), Path(dst)
-    if cmd == "unpack":
-        unpack(src_p, dst_p)
-    elif cmd == "pack":
-        pack(src_p, dst_p)
-    else:
-        test_edit(src_p, dst_p)
+    p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    sub = p.add_subparsers(dest="cmd", required=True)
+
+    u = sub.add_parser("unpack")
+    u.add_argument("src", type=Path)
+    u.add_argument("dst", type=Path)
+    u.set_defaults(func=unpack)
+
+    k = sub.add_parser("pack")
+    k.add_argument("src", type=Path)
+    k.add_argument("dst", type=Path)
+    k.set_defaults(func=pack)
+
+    e = sub.add_parser("edit-card")
+    e.add_argument("src", type=Path)
+    e.add_argument("dst", type=Path)
+    e.add_argument("--name", required=True)
+    e.add_argument("--content")
+    e.add_argument("--reset-reviews", action="store_true")
+    e.set_defaults(func=edit_card)
+
+    args = p.parse_args()
+    args.func(args)
 
 
 if __name__ == "__main__":

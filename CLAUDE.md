@@ -21,11 +21,14 @@ Do not mix the two. Vocabulary belongs in flashcards; grammar paradigms belong i
   - **Mochi iOS export formats:** `.mochi` (native zip of Transit-JSON, optionally with review history), Markdown with IDs (`markdown-export/` is this), or SQLite.
   - **Mochi iOS import formats:** `.mochi`, Anki, CSV, or Markdown.
   - **Edit workflow (free tier, verified 2026-06-25):** `.mochi` re-import will NOT overwrite existing cards — it skips by ID. The working roundtrip is **wipe-and-reimport**:
-    1. Export current state as `.mochi` (with review history) → commit to `backups/`.
-    2. Edit `data.json` via `mochi_pack.py unpack` → edit → `mochi_pack.py pack`.
+    1. Export current state as `.mochi` (with review history) → commit to `backups/YYYY-MM-DD.mochi`.
+    2. Apply edits via `mochi_pack.py` → produces a new `.mochi` next to the backup.
+       - Targeted edit: `mochi_pack.py edit-card <in> <out> --name <card> [--content <md>] [--reset-reviews]`.
+       - Bulk/structural edits: `unpack` → edit `data.json` → `pack`.
     3. In Mochi iOS: delete all decks, empty trash.
     4. Import the edited `.mochi`. Card content updates **and** the embedded `reviews[]` array restores SRS state (interval, due date, remembered-history) verbatim.
-  - **Safety rule:** never delete in-app before confirming the new `.mochi` exists on disk and a backup of the prior state is committed. The wipe step is irreversible.
+  - **When fixing a card's meaning (not just formatting), always `--reset-reviews`.** Past "remembered? = true" entries were against the wrong content — keeping them would lock in the error. Pure formatting/whitespace edits leave reviews alone.
+  - **Safety rule:** never delete in-app before confirming the new `.mochi` exists on disk and the prior `.mochi` is committed to `backups/`. The wipe step is irreversible.
 - **Conjugation drilling: conjuguemos.com.** Holds verb sets; used for paradigm drilling.
 - **This repo** is the canonical workspace.
 

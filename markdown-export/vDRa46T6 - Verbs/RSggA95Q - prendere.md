@@ -1,3 +1,0 @@
-## prendere
----
-tomar/coger

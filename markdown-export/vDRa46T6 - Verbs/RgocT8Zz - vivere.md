@@ -1,3 +1,0 @@
-## vivere
----
-vivir
