@@ -3,10 +3,10 @@
 Usage pattern:
     from mochi_edit import load, save, add_to, add_deck
 
-    d = load('backups/YYYY-MM-DD.json')      # output of: mochi_pack.py unpack
+    d = load('data/working.json')            # output of: scripts/mochi_unpack.py
     add_to(d, 'Verbs', [('hablar', 'parlare'), ...])
     add_deck(d, 'New Deck')
-    save(d, 'backups/YYYY-MM-DD-v2.json')    # then: mochi_pack.py pack ...
+    save(d, 'data/working.json')             # then: scripts/mochi_pack.py pack ...
 
 Gotchas (verified 2026-06-26):
   - Mochi caches by import filename. Re-importing the same `.mochi` name after
