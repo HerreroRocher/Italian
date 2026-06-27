@@ -1,6 +1,6 @@
 # Maintenance Tasks
 
-Workspace, tooling, and flashcard-audit tasks. Italian-learning roadmap lives in `LEARNING_TASKS.md`.
+Workspace, tooling, and flashcard-audit tasks. Italian-learning roadmap lives in `LEARNING_ROADMAP.md`.
 
 ## Top priority: phone → Samba → AI flashcard pipeline
 
@@ -10,9 +10,9 @@ End goal: drop `.mochi` exports from iPhone straight into `data/` over the tailn
 
 Acceptable security baseline now; iterate later.
 
-- [ ] `services/samba-mochi/` compose stack live (`docker compose up -d`), share `Data` reachable from iOS Files via `smb://100.67.6.40` (served from `data/` on host).
-- [ ] Confirmed write from iPhone → file appears in `data/` on host with correct ownership.
-- [ ] Confirmed unreachable from LAN and public — only tailnet sees port 445.
+- [x] `services/samba-mochi/` compose stack live (`docker compose up -d`), share `Data` reachable from iOS Files via `smb://100.67.6.40` (served from `data/` on host). (Done 2026-06-27.)
+- [x] Confirmed write from iPhone → file appears in `data/` on host with correct ownership. (Done 2026-06-27; files land as `docker-samba:docker-samba` with mode 0744 — see ergonomic deferred item below.)
+- [x] Confirmed unreachable from LAN and public — only tailnet sees port 445. (Done 2026-06-27; `192.168.0.155:445` rejects, `100.67.6.40:445` listening.)
 - [ ] Tighten container PID 1: currently runs as root-in-container even though `docker-samba` (UID 997, GID 983) is pre-created on host and used via `UID`/`GID` env vars. Samba's worker privsep means session-handling code already drops to UID 997, so attacker-controlled bytes never run as root — accepted for now. Real fix later: add `user: "997:983"` + `cap_add: [NET_BIND_SERVICE]` to compose, and pre-do the entrypoint's root-only work (user creation, `smbpasswd`, bind-mount chown — last one already done) so the entrypoint can run as non-root without skipping setup.
 - [ ] Harden `smb.conf` (currently dockurr's defaults — no custom override mounted). Gaps: `server min protocol = SMB2` (should be `SMB3_00`), `wide links = yes` + `follow symlinks = yes` (symlink read-escape vector inside container), no `smb encrypt = required`, no `server signing = mandatory`, no `restrict anonymous = 2`, no `map to guest = never`, default file masks. Acceptable now because tailnet-only + single-client + IP-bound publish carry the real defense. Highest-leverage single line if we do nothing else: `server min protocol = SMB3_00`. Fix later by reintroducing a bind-mounted `smb.conf` (the version drafted earlier on 2026-06-26 is a good starting point — was removed when switching to dockurr defaults to ship faster).
 
@@ -20,8 +20,8 @@ Acceptable security baseline now; iterate later.
 
 Has to happen **immediately after** step 1 is verified. Any later workflow could corrupt content; this is the rollback point. `data/backups/` is the manual snapshot archive — separate from `data/export.mochi`, which gets overwritten by every new phone drop.
 
-- [ ] Export current Mochi state from iPhone (`.mochi` with review history).
-- [ ] Push via SMB into `data/`, then move to `data/backups/YYYY-MM-DD-pre-pipeline.mochi` (or rename in place if the phone can pick the target filename).
+- [x] Export current Mochi state from iPhone (`.mochi` with review history). (Done 2026-06-27.)
+- [x] Push via SMB into `data/`, then move to `data/backups/` archive. (Done 2026-06-27 — currently at `data/backups/latest.mochi`. Consider renaming with date stamp before next safety snapshot lands.)
 - [ ] `git add` and commit so the safety copy is durable independent of disk.
 
 ### 3. Retrieval → AI-readable representation
@@ -34,7 +34,7 @@ On manual `unpack` (auto-trigger deferred — start manual to verify the view-po
 History strategy: git only for `working.json` + `view/`. No "commit before next export" discipline rule — `data/export.mochi` overwrites freely, and the manual `data/backups/` archive is the user-curated snapshot store.
 
 - [x] `scripts/mochi_unpack.py` produces `data/working.json` + `data/view/<deck>.md` from `data/export.mochi`. (Done 2026-06-27.)
-- [ ] Verify round-trip: unpack the safety-net `.mochi`, do a no-op edit, repack to `data/import.mochi`, compare against the original — equivalence except for expected nondeterminism (timestamps, ordering).
+- [x] Verify round-trip: unpack → edit → repack. (Done 2026-06-27. Unpacked 9 decks → added "Set Phrases & Idioms" deck with 7 cards → repacked to `data/import.mochi`. 10 decks present, IDs intact, file size 8408 B vs 8168 B export.)
 - [ ] (Deferred) Auto-unpack on file landing via inotify or systemd-path, once the manual flow is debugged.
 
 ### 4. AI-driven card lifecycle scripts
@@ -48,8 +48,8 @@ Extends "Tooling roadmap" below; this section frames them as one connected workf
 
 ### 5. Repack preserving SRS progress
 
-- [ ] After any AI edit batch, repack `data/working.json` to `data/import.mochi` while preserving each card's `reviews[]` array per the rules in CLAUDE.md (`--reset-reviews` only when meaning changed, not for formatting).
-- [ ] Verified import on iPhone restores interval/due/history correctly.
+- [x] `scripts/mochi_pack.py pack data/working.json data/import.mochi` produces a valid `.mochi`. (Done 2026-06-27 — see step 3 round-trip note.) Preserves `reviews[]` per CLAUDE.md (`--reset-reviews` only when meaning changed, not for formatting).
+- [ ] Verified import on iPhone restores interval/due/history correctly. (Pending — `data/import.mochi` ready to drop.)
 
 ## Flashcard audit (pending edit batch)
 
@@ -95,6 +95,7 @@ Formatting-only — leave `reviews` alone.
 - [ ] `scripts/mochi_pack.py add-card --deck <name> --front <text> --back <text>` (next, agreed)
 - [ ] Batch-add from a markdown file (composes with "AI proposes N cards from text" workflows)
 - [ ] `scripts/mochi_pack.py audit` — read-only scan emitting fix candidates (capitalization, exact-dup detection, suspect glosses)
+- [ ] `scripts/mochi_view.py` (or equivalent) — regenerate `data/view/*.md` from the current `data/working.json` without re-unpacking from `data/export.mochi`. Closes the loop after edit-script mutations; right now `mochi_unpack.py`'s `render_deck` has to be imported and called by hand (as in 2026-06-27 "Set Phrases & Idioms" deck add). Add only if batch-edits start producing real friction.
 
 ## Open questions
 

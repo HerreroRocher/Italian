@@ -4341,6 +4341,157 @@
           }
         ]
       }
+    },
+    {
+      "~:name": "Set Phrases & Idioms",
+      "~:id": "~:jGEsdTu0",
+      "~:show-sides?": true,
+      "~:cards-view": "~:list",
+      "~:sort": 9,
+      "~:cards": {
+        "~#list": [
+          {
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:content": "\n## no ver la hora de\n---\nnon vedere l'ora di + inf\n*Non vedo l'ora di rivederti.*\n",
+            "~:created-at": {
+              "~#dt": 1782564765128
+            },
+            "~:deck-id": "~:jGEsdTu0",
+            "~:id": "~:mzA7ErhS",
+            "~:name": "no ver la hora de",
+            "~:pos": "M",
+            "~:references": {
+              "~#set": []
+            },
+            "~:reviews": [],
+            "~:tags": {
+              "~#set": []
+            }
+          },
+          {
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:content": "\n## tener ganas de\n---\navere voglia di + inf\n*Non ho voglia di uscire stasera.*\n",
+            "~:created-at": {
+              "~#dt": 1782564765128
+            },
+            "~:deck-id": "~:jGEsdTu0",
+            "~:id": "~:zXG0zemc",
+            "~:name": "tener ganas de",
+            "~:pos": "o",
+            "~:references": {
+              "~#set": []
+            },
+            "~:reviews": [],
+            "~:tags": {
+              "~#set": []
+            }
+          },
+          {
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:content": "\n## estar a punto de\n---\nstare per + inf\n*Sto per uscire.*\n",
+            "~:created-at": {
+              "~#dt": 1782564765128
+            },
+            "~:deck-id": "~:jGEsdTu0",
+            "~:id": "~:GOPKgnRV",
+            "~:name": "estar a punto de",
+            "~:pos": "L",
+            "~:references": {
+              "~#set": []
+            },
+            "~:reviews": [],
+            "~:tags": {
+              "~#set": []
+            }
+          },
+          {
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:content": "\n## dar asco\n---\nfare schifo\n*Questa pasta fa schifo.*\n",
+            "~:created-at": {
+              "~#dt": 1782564765128
+            },
+            "~:deck-id": "~:jGEsdTu0",
+            "~:id": "~:jzNpO4qJ",
+            "~:name": "dar asco",
+            "~:pos": "a",
+            "~:references": {
+              "~#set": []
+            },
+            "~:reviews": [],
+            "~:tags": {
+              "~#set": []
+            }
+          },
+          {
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:content": "\n## valer la pena\n---\nvalere la pena (+ inf) / che + cong.\n*Vale la pena vedere quel film.*\n",
+            "~:created-at": {
+              "~#dt": 1782564765128
+            },
+            "~:deck-id": "~:jGEsdTu0",
+            "~:id": "~:judvpsle",
+            "~:name": "valer la pena",
+            "~:pos": "W",
+            "~:references": {
+              "~#set": []
+            },
+            "~:reviews": [],
+            "~:tags": {
+              "~#set": []
+            }
+          },
+          {
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:content": "\n## buena suerte / mucha mierda\n---\nin bocca al lupo  /  *crepi (il lupo)* [response]\n*—In bocca al lupo per l'esame! —Crepi!*\n",
+            "~:created-at": {
+              "~#dt": 1782564765128
+            },
+            "~:deck-id": "~:jGEsdTu0",
+            "~:id": "~:NOmgOTpQ",
+            "~:name": "buena suerte / mucha mierda",
+            "~:pos": "K",
+            "~:references": {
+              "~#set": []
+            },
+            "~:reviews": [],
+            "~:tags": {
+              "~#set": []
+            }
+          },
+          {
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:content": "\n## menos mal\n---\nmeno male (che ...)\n*Meno male che sei arrivato!*\n",
+            "~:created-at": {
+              "~#dt": 1782564765128
+            },
+            "~:deck-id": "~:jGEsdTu0",
+            "~:id": "~:d6lDpzAd",
+            "~:name": "menos mal",
+            "~:pos": "J",
+            "~:references": {
+              "~#set": []
+            },
+            "~:reviews": [],
+            "~:tags": {
+              "~#set": []
+            }
+          }
+        ]
+      }
     }
   ]
 }

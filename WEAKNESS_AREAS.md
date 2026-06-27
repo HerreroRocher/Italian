@@ -1,6 +1,6 @@
 # Weakness Areas
 
-Current observations about Daniel's Italian — recurring errors, gaps, interference patterns. Descriptive, not a plan. The forward-looking plan lives in `ROADMAP.md`.
+Current observations about Daniel's Italian — recurring errors, gaps, interference patterns. Descriptive, not a plan. The forward-looking plan lives in `LEARNING_ROADMAP.md`.
 
 ## Drill targets
 
@@ -32,4 +32,4 @@ Patterns to flag in any Italian Daniel writes.
 
 - Add a row when a recurring error surfaces in quiz or free writing — don't wait to be sure it'll persist.
 - Remove a row only after a clean quiz round (no slip under load) confirms it's internalized.
-- Keep it short and clinical. Drill ideas, sequencing, and planned additions belong in `ROADMAP.md`.
+- Keep it short and clinical. Drill ideas, sequencing, and planned additions belong in `LEARNING_ROADMAP.md`.
