@@ -13,4 +13,4 @@ services:
     env_file: .env
 
     volumes:
-      - /home/daniel/GitRepos/Italian/backups:/storage
+      - /home/daniel/GitRepos/Italian/data:/storage
