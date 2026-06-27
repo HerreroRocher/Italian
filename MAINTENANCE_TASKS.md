@@ -2,6 +2,46 @@
 
 Workspace, tooling, and flashcard-audit tasks. Italian-learning roadmap lives in `LEARNING_TASKS.md`.
 
+## Top priority: phone → Samba → AI flashcard pipeline
+
+End goal: drop `.mochi` exports from iPhone straight into `backups/` over the tailnet, then have AI-driven audit/edit/add/delete tooling operate on the dropped file and repack it without losing SRS progress. Steps are dependency-ordered — do not start step N before N-1 is verified.
+
+### 1. Samba server up and running — most pressing
+
+Acceptable security baseline now; iterate later.
+
+- [ ] `services/samba-mochi/` compose stack live (`docker compose up -d`), share reachable from iOS Files via `smb://<tailscale-host>/backups`.
+- [ ] Confirmed write from iPhone → file appears in `backups/` on host with correct ownership.
+- [ ] Confirmed unreachable from LAN and public — only tailnet sees port 445.
+- [ ] Tighten container PID 1: currently runs as root-in-container even though `docker-samba` (UID 997, GID 983) is pre-created on host and used via `UID`/`GID` env vars. Samba's worker privsep means session-handling code already drops to UID 997, so attacker-controlled bytes never run as root — accepted for now. Real fix later: add `user: "997:983"` + `cap_add: [NET_BIND_SERVICE]` to compose, and pre-do the entrypoint's root-only work (user creation, `smbpasswd`, bind-mount chown — last one already done) so the entrypoint can run as non-root without skipping setup.
+
+### 2. Safety net — drop current iPhone Mochi state into `backups/`
+
+Has to happen **immediately after** step 1 is verified. Any later workflow could corrupt content; this is the rollback point.
+
+- [ ] Export current Mochi state from iPhone (`.mochi` with review history).
+- [ ] Push via SMB into `backups/YYYY-MM-DD-pre-pipeline.mochi`.
+- [ ] `git add` and commit so the safety copy is durable independent of disk.
+
+### 3. Retrieval → AI-readable representation
+
+- [ ] Define the canonical "unpacked" form for Claude to read (likely the existing `mochi_pack.py unpack` → `data.json` path; confirm granularity is right).
+- [ ] Verify round-trip: unpack the safety-net `.mochi`, do a no-op edit, repack, compare — file equivalence except for expected nondeterminism.
+
+### 4. AI-driven card lifecycle scripts
+
+Extends "Tooling roadmap" below; this section frames them as one connected workflow rather than isolated CLI verbs.
+
+- [ ] Audit (overlap with `mochi_pack.py audit` below).
+- [ ] Edit in place — beyond the existing `edit-card` (which is single-card targeted); want batch-edit by AI-emitted patch.
+- [ ] Add (overlap with `add-card` below).
+- [ ] Delete.
+
+### 5. Repack preserving SRS progress
+
+- [ ] After any AI edit batch, repack to `.mochi` while preserving each card's `reviews[]` array per the rules in CLAUDE.md (`--reset-reviews` only when meaning changed, not for formatting).
+- [ ] Verified import on iPhone restores interval/due/history correctly.
+
 ## Flashcard audit (pending edit batch)
 
 Findings from the 2026-06-25 backup. Each fix needs the wipe-and-reimport workflow (see CLAUDE.md).
