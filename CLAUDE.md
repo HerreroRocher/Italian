@@ -18,10 +18,11 @@ You are Daniel's Italian tutor and the maintainer of this learning workspace. Th
 ## Tooling inventory
 
 - **Flashcards: Mochi** (free tier, no cloud sync). Cards authored in Markdown. A copy lives in this repo as the working source of truth; Daniel manually syncs back to Mochi.
-  - Export formats from Mochi iOS: `.mochi` (native zip of Transit-JSON, optionally with review history), Markdown with IDs (`markdown-export/`), SQLite.
+  - Export formats from Mochi iOS: `.mochi` (native zip of Transit-JSON, optionally with review history), Markdown with IDs, SQLite.
   - Import formats to Mochi iOS: `.mochi`, Anki, CSV, Markdown.
   - Edit-roundtrip procedure: see `rules.md` → Mochi edit workflow.
-  - Helpers: `mochi_pack.py` (zip pack/unpack), `mochi_edit.py` (card/deck primitives).
+  - **Pipeline**: iPhone exports `.mochi` over SMB+Tailscale into `data/export.mochi` (see `services/samba-mochi/`) → `scripts/mochi_unpack.py` derives `data/working.json` (authoritative, mutable) + `data/view/<deck>.md` (AI-cheap scan view, regenerated wholesale) → edits target `working.json` → `scripts/mochi_pack.py` repacks to `data/import.mochi` for re-import on phone.
+  - Helpers in `scripts/`: `mochi_unpack.py`, `mochi_pack.py` (low-level zip + `edit-card` CLI), `mochi_edit.py` (card/deck primitive library — load/save/add_to/add_deck/remove/move/append_to_content).
 - **Conjugation drilling:** conjuguemos.com. Holds verb sets; used for paradigm drilling.
 - **This repo** is the canonical workspace.
 

@@ -61,15 +61,15 @@ Do not mix the two. Vocabulary belongs in flashcards; grammar paradigms belong i
 
 The free-tier roundtrip is **wipe-and-reimport**, verified 2026-06-25:
 
-1. Export current state as `.mochi` (with review history) → commit to `backups/YYYY-MM-DD.mochi`.
-2. Apply edits via `mochi_pack.py` (low-level zip/unzip) and the `mochi_edit.py` helpers (load/save/add_to/add_deck/remove/move/append_to_content) → produces a new `.mochi` next to the backup.
-   - Targeted edit: `mochi_pack.py edit-card <in> <out> --name <card> [--content <md>] [--reset-reviews]`.
-   - Bulk/structural edits: `unpack` → edit `data.json` with `mochi_edit.py` primitives → `pack`.
-3. In Mochi iOS: delete all decks, empty trash.
-4. Import the edited `.mochi`. Card content updates **and** the embedded `reviews[]` array restores SRS state (interval, due date, remembered-history) verbatim.
+1. Export current state as `.mochi` (with review history) from Mochi iOS. Via SMB+Tailscale (`services/samba-mochi/`), it lands as `data/export.mochi` on host. Snapshot to `data/backups/YYYY-MM-DD.mochi` for safety.
+2. `scripts/mochi_unpack.py` derives `data/working.json` (authoritative, mutable) + `data/view/<deck>.md` (regenerated each unpack, never edited directly).
+3. Apply edits to `data/working.json` via the `scripts/mochi_edit.py` helpers (load/save/add_to/add_deck/remove/move/append_to_content) or the `scripts/mochi_pack.py edit-card` CLI for single-card targeted edits.
+4. `scripts/mochi_pack.py pack data/working.json data/import.mochi` to produce the import artifact.
+5. In Mochi iOS: delete all decks, empty trash.
+6. Import `data/import.mochi`. Card content updates **and** the embedded `reviews[]` array restores SRS state (interval, due date, remembered-history) verbatim.
 
 **Review-reset rule:** when fixing a card's *meaning* (not just formatting), always reset its `~:reviews` to `[]`. Past "remembered? = true" entries were against the wrong content — keeping them would lock in the error. Pure formatting/whitespace/example-add edits leave reviews alone.
 
-**Safety rule:** never delete in-app before confirming the new `.mochi` exists on disk and the prior `.mochi` is committed to `backups/`. The wipe step is irreversible.
+**Safety rule:** never delete in-app before confirming `data/import.mochi` exists on disk and the prior snapshot is committed to `data/backups/`. The wipe step is irreversible.
 
 **Filename rule:** Mochi caches by import filename — if an import fails, bump the suffix (`-v2.mochi`, `-v3.mochi`) before retrying, otherwise the old failure resurfaces.

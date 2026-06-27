@@ -33,7 +33,7 @@ On manual `unpack` (auto-trigger deferred — start manual to verify the view-po
 
 History strategy: git only for `working.json` + `view/`. No "commit before next export" discipline rule — `data/export.mochi` overwrites freely, and the manual `data/backups/` archive is the user-curated snapshot store.
 
-- [ ] `mochi_pack.py unpack` produces `data/working.json` + `data/view/<deck>.md` from `data/export.mochi`.
+- [x] `scripts/mochi_unpack.py` produces `data/working.json` + `data/view/<deck>.md` from `data/export.mochi`. (Done 2026-06-27.)
 - [ ] Verify round-trip: unpack the safety-net `.mochi`, do a no-op edit, repack to `data/import.mochi`, compare against the original — equivalence except for expected nondeterminism (timestamps, ordering).
 - [ ] (Deferred) Auto-unpack on file landing via inotify or systemd-path, once the manual flow is debugged.
 
@@ -41,7 +41,7 @@ History strategy: git only for `working.json` + `view/`. No "commit before next 
 
 Extends "Tooling roadmap" below; this section frames them as one connected workflow rather than isolated CLI verbs.
 
-- [ ] Audit (overlap with `mochi_pack.py audit` below).
+- [ ] Audit (overlap with `scripts/mochi_pack.py audit` below).
 - [ ] Edit in place — beyond the existing `edit-card` (which is single-card targeted); want batch-edit by AI-emitted patch.
 - [ ] Add (overlap with `add-card` below).
 - [ ] Delete.
@@ -57,7 +57,7 @@ Findings from the 2026-06-25 backup. Each fix needs the wipe-and-reimport workfl
 
 ### Errors (content wrong — `--reset-reviews` required)
 
-- [x] `[Verbs] caminar` → was `Caminare`, fixed to `camminare` (in `backups/2026-06-25-fix-camminare.mochi`, pending import)
+- [x] `[Verbs] caminar` → was `Caminare`, fixed to `camminare` (in `data/backups/2026-06-25-fix-camminare.mochi`, pending import)
 
 ### Capitalization sweep — Verbs deck
 
@@ -92,16 +92,14 @@ Formatting-only — leave `reviews` alone.
 
 ## Tooling roadmap
 
-- [ ] `mochi_pack.py add-card --deck <name> --front <text> --back <text>` (next, agreed)
+- [ ] `scripts/mochi_pack.py add-card --deck <name> --front <text> --back <text>` (next, agreed)
 - [ ] Batch-add from a markdown file (composes with "AI proposes N cards from text" workflows)
-- [ ] `mochi_pack.py audit` — read-only scan emitting fix candidates (capitalization, exact-dup detection, suspect glosses)
+- [ ] `scripts/mochi_pack.py audit` — read-only scan emitting fix candidates (capitalization, exact-dup detection, suspect glosses)
 
 ## Open questions
 
 - What does the `~:pos` field on a card represent? Values seen: `"O"`, `"8"`. Likely position/sort key but unverified.
-- Should `markdown-export/` be regenerable from `.mochi` via a `dump-markdown` subcommand? It's been deleted from disk; if we want a human-readable diff view of card content for git, this would be the way.
 
 ## Setup leftovers
 
 - LICENSE file — discussed 2026-06-25, deferred. Public repo; current state is implicit "all rights reserved." Decide if `MIT` / `CC-BY` / explicit license is wanted.
-- README — was written before the `.mochi` workflow was characterized; may need a refresh to point at `mochi_pack.py` and `backups/`.
