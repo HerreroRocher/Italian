@@ -38,8 +38,11 @@ def _decks_by_name(d):
     return {dk['~:name']: dk for dk in d['~:decks']}
 
 
-def _fmt(spanish, italian):
-    return f'\n## {spanish}\n---\n{italian}\n'
+def _fmt(spanish, italian, example=None):
+    body = f'\n## {spanish}\n---\n{italian}\n'
+    if example:
+        body += f'*{example}*\n'
+    return body
 
 
 def make_card(deck_id, name, content):
@@ -57,11 +60,18 @@ def make_card(deck_id, name, content):
     }
 
 
-def add_to(d, deck_name, pairs):
-    """Append (spanish, italian) cards to the named deck."""
+def add_to(d, deck_name, entries):
+    """Append cards to the named deck.
+
+    Each entry is either (spanish, italian) or (spanish, italian, example).
+    The example line is rendered as an italicized one-liner per rules.md.
+    """
     deck = _decks_by_name(d)[deck_name]
-    for sp, it in pairs:
-        deck['~:cards']['~#list'].append(make_card(deck['~:id'], sp, _fmt(sp, it)))
+    for e in entries:
+        sp, it, ex = (e[0], e[1], e[2] if len(e) > 2 else None)
+        deck['~:cards']['~#list'].append(
+            make_card(deck['~:id'], sp, _fmt(sp, it, ex))
+        )
 
 
 def add_deck(d, name):

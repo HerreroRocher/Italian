@@ -95,7 +95,7 @@ Formatting-only — leave `reviews` alone.
 - [ ] `scripts/mochi_pack.py add-card --deck <name> --front <text> --back <text>` (next, agreed)
 - [ ] Batch-add from a markdown file (composes with "AI proposes N cards from text" workflows)
 - [ ] `scripts/mochi_pack.py audit` — read-only scan emitting fix candidates (capitalization, exact-dup detection, suspect glosses)
-- [ ] `scripts/mochi_view.py` (or equivalent) — regenerate `data/view/*.md` from the current `data/working.json` without re-unpacking from `data/export.mochi`. Closes the loop after edit-script mutations; right now `mochi_unpack.py`'s `render_deck` has to be imported and called by hand (as in 2026-06-27 "Set Phrases & Idioms" deck add). Add only if batch-edits start producing real friction.
+- [x] `scripts/mochi_view.py` — regenerate `data/view/*.md` from `data/working.json` without re-unpacking. (Done 2026-07-02, after re-running `mochi_unpack.py` post-edit silently wiped a batch of in-flight card additions.)
 
 ## Open questions
 
