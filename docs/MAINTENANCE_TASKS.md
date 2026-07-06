@@ -8,13 +8,7 @@ End goal: drop `.mochi` exports from iPhone straight into `data/` over the tailn
 
 ### 1. Samba server up and running — most pressing
 
-Acceptable security baseline now; iterate later.
-
-- [x] `services/samba-mochi/` compose stack live (`docker compose up -d`), share `Data` reachable from iOS Files via `smb://100.67.6.40` (served from `data/` on host). (Done 2026-06-27.)
-- [x] Confirmed write from iPhone → file appears in `data/` on host with correct ownership. (Done 2026-06-27; files land as `docker-samba:docker-samba` with mode 0744 — see ergonomic deferred item below.)
-- [x] Confirmed unreachable from LAN and public — only tailnet sees port 445. (Done 2026-06-27; `192.168.0.155:445` rejects, `100.67.6.40:445` listening.)
-- [ ] Tighten container PID 1: currently runs as root-in-container even though `docker-samba` (UID 997, GID 983) is pre-created on host and used via `UID`/`GID` env vars. Samba's worker privsep means session-handling code already drops to UID 997, so attacker-controlled bytes never run as root — accepted for now. Real fix later: add `user: "997:983"` + `cap_add: [NET_BIND_SERVICE]` to compose, and pre-do the entrypoint's root-only work (user creation, `smbpasswd`, bind-mount chown — last one already done) so the entrypoint can run as non-root without skipping setup.
-- [ ] Harden `smb.conf` (currently dockurr's defaults — no custom override mounted). Gaps: `server min protocol = SMB2` (should be `SMB3_00`), `wide links = yes` + `follow symlinks = yes` (symlink read-escape vector inside container), no `smb encrypt = required`, no `server signing = mandatory`, no `restrict anonymous = 2`, no `map to guest = never`, default file masks. Acceptable now because tailnet-only + single-client + IP-bound publish carry the real defense. Highest-leverage single line if we do nothing else: `server min protocol = SMB3_00`. Fix later by reintroducing a bind-mounted `smb.conf` (the version drafted earlier on 2026-06-26 is a good starting point — was removed when switching to dockurr defaults to ship faster).
+**Superseded 2026-07-06:** the Samba deployment (compose stack, `smb.conf` hardening, credentials, network exposure) now lives entirely in the separate [samba](../samba) repo, consolidated with Jellyfin's media share. See that repo's `CLAUDE.md` for current state — the `smb.conf` hardening item below is done there.
 
 ### 2. Safety net — drop current iPhone Mochi state into `data/backups/`
 

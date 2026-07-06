@@ -61,7 +61,7 @@ Do not mix the two. Vocabulary belongs in flashcards; grammar paradigms belong i
 
 The free-tier roundtrip is **wipe-and-reimport**, verified 2026-06-25:
 
-1. Export current state as `.mochi` (with review history) from Mochi iOS. Via SMB+Tailscale (`services/samba-mochi/`), it lands as `data/export.mochi` on host. Snapshot to `data/backups/YYYY-MM-DD.mochi` for safety.
+1. Export current state as `.mochi` (with review history) from Mochi iOS. Via SMB (share config lives in the separate [samba](../samba) repo), it lands as `data/export.mochi` on host. Snapshot to `data/backups/YYYY-MM-DD.mochi` for safety.
 2. `scripts/mochi_unpack.py` derives `data/working.json` (authoritative, mutable) + `data/view/<deck>.md` (regenerated each unpack, never edited directly).
 3. Apply edits to `data/working.json` via the `scripts/mochi_edit.py` helpers (load/save/add_to/add_deck/remove/move/append_to_content) or the `scripts/mochi_pack.py edit-card` CLI for single-card targeted edits. `add_to` accepts either `(spanish, italian)` or `(spanish, italian, example)` tuples — pass an example for any non-verb card and for verbs whose IT syntax diverges from Sp.
 4. To refresh the human-scannable views after step 3, run `scripts/mochi_view.py` — NOT `mochi_unpack.py`. Unpack re-derives `working.json` from `data/export.mochi` and will wipe your in-flight edits.
