@@ -1,0 +1,16 @@
+services:
+  samba:
+    image: dockurr/samba:4.23
+    container_name: samba-mochi
+    restart: unless-stopped
+
+    ports:
+      - "${INTERFACE}:445:445"
+
+    security_opt:
+      - no-new-privileges:true
+
+    env_file: .env
+
+    volumes:
+      - /home/daniel/GitRepos/Italian/data:/storage
