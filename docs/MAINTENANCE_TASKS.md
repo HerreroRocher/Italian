@@ -43,46 +43,19 @@ Extends "Tooling roadmap" below; this section frames them as one connected workf
 ### 5. Repack preserving SRS progress
 
 - [x] `scripts/mochi_pack.py pack data/working.json data/import.mochi` produces a valid `.mochi`. (Done 2026-06-27 — see step 3 round-trip note.) Preserves `reviews[]` per CLAUDE.md (`--reset-reviews` only when meaning changed, not for formatting).
-- [ ] Verified import on iPhone restores interval/due/history correctly. (Pending — `data/import.mochi` ready to drop.)
+- [x] Verified import on iPhone restores interval/due/history correctly. (Done 2026-07-14 — full deck restructure + 41 new cards imported successfully via a bumped filename, `data/import-v2.mochi`; see Filename rule in `rules.md`.)
 
-## Flashcard audit (pending edit batch)
+## Flashcard audit (resolved 2026-07-14)
 
-Findings from the 2026-06-25 backup. Each fix needs the wipe-and-reimport workflow (see CLAUDE.md).
+Findings from the 2026-06-25 backup, all resolved by the 2026-07 deck restructure (Italian deck names → English, decks reorganized by function) plus a follow-up audit/edit pass in this repo:
 
-### Errors (content wrong — `--reset-reviews` required)
+- [x] Capitalization sweep (Vedere/Capire/Guardare/Stare/Trovare/Parlare/Andare/Cercare → lowercase) — landed in the phone-side restructure.
+- [x] `entrar`/`ver` duplicates — gone after the restructure.
+- [x] Cross-deck overlap (`troppo`/`abbastanza`/`poco`/`molto` in both Connectives and Quantity & Degree) — resolved by splitting frequency adverbs into their own **Aspect and Frequency** deck, separate from **Quantity and Degree**.
+- [x] Follow-up audit (this repo, 2026-07-14): fixed an ambiguous `hace falta` headword shared by two Verbs cards, a stray `stay/estar` front, a two-concept `seguir+gerundio/dejar de+inf` card split into two, a `pues`/`entonces` cross-deck near-duplicate merged, and a mis-glossed `más bien` synonym dropped. See `rules.md` → Mochi flashcard authoring for the resulting primitives (`edit_card`, `find_card`, `rename_deck` in `mochi_edit.py`) and the new **non-triviality** card-selection criterion.
+- [x] Added 41 new cards (non-trivial/false-friend/syntax-divergence focus) across Verbs, a new **False Friends** deck, Discourse and Fillers, Set Phrases & Idioms, Indefinites, Quantity and Degree, Focus and Scope, Aspect and Frequency. Reorganized the old `loose` catch-all: opinion-framing card → Discourse and Fillers, spatial words → new **Place and Position** deck, `lleno` alone in a renamed **Misc** deck.
 
-- [x] `[Verbs] caminar` → was `Caminare`, fixed to `camminare` (in `data/backups/2026-06-25-fix-camminare.mochi`, pending import)
-
-### Capitalization sweep — Verbs deck
-
-Infinitives should be lowercase. Currently inconsistent:
-
-| Card front | Current back | Should be |
-|---|---|---|
-| ver (dup) | `Vedere` | `vedere` |
-| entender | `Capire` | `capire` |
-| mirar | `Guardare` | `guardare` |
-| stay/estar | `Stare` | `stare` |
-| encontrar | `Trovare` | `trovare` |
-| hablar | `Parlare` | `parlare` |
-| caminar | (already fixing) | `camminare` |
-| ser | `Essere` | `essere` |
-| ir | `Andare` | `andare` |
-| buscar | `Cercare` | `cercare` |
-
-Formatting-only — leave `reviews` alone.
-
-### Duplicates — Verbs deck
-
-- [ ] `entrar :: entrare` appears **twice** — keep one, delete other.
-- [ ] `ver` appears twice (`vedere` and `Vedere`) — merge into one card after capitalization sweep.
-
-### Cross-deck duplicates
-
-`troppo`, `abbastanza`, `poco`, `molto` appear in **both** Connectives and Quantity & Degree.
-
-- [ ] Decide: dedupe, or accept overlap as intentional?
-- [ ] Bigger question: Connectives currently holds frequencies (`spesso`, `poco`), time markers (`oggi/ieri/domani`), and quantifiers (`molto`) that arguably belong elsewhere. Consider deck restructure.
+Current deck count: 13 decks, 241 cards (was 9 decks / 200 cards before this pass).
 
 ## Tooling roadmap
 

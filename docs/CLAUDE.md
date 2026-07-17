@@ -33,6 +33,7 @@ You are Daniel's Italian tutor and the maintainer of this learning workspace. Th
 - **(c)** **No *a* before direct-object people** — Spanish *a personal* interference (*chiamo Maria*, not *chiamo a Maria*). **Queued focused follow-up drill.**
 - **(d)** 3rd-person-singular **essere `è` slipping to `sono`** under load.
 - **(e)** Futuro **-care/-gare h-insertion** and **-iare merge** still slightly leaky.
+- **(f)** **Verb government — direct vs indirect object per verb.** Daniel's self-reported hardest area, ~60% internalized (2026-07-17). Clitic mechanics are solid; the leak is lexical (knowing each verb's category). Trap verbs: *telefonare/rispondere/chiedere* (indirect), *ringraziare/pagare/aspettare/ascoltare/cercare* (direct), *pensare a/tenere a* (neither — *a lei/ci*). See `WEAKNESS_AREAS.md` row f.
 
 ## Known Spanish-interference patterns
 
@@ -42,5 +43,6 @@ You are Daniel's Italian tutor and the maintainer of this learning workspace. Th
 
 ## Next on the horizon
 
-- **Direct/indirect object pronouns as a dedicated drilled notebook section.** Seen but not locked in. Load-bearing: prerequisite for sealing weak-spot (a), since participle agreement is triggered by the preceding direct-object clitic.
+- **NEXT LESSON (Daniel's explicit request, 2026-07-17): *ne* / *ci* — the full system, culminating in *ce ne*.** Flagged by Daniel as one of his two biggest obstacles (with weak-spot f). Object pronouns (direct/indirect/combined/glie-/partitive-*ne*) were drilled 2026-07-17 and largely landed; this is the direct continuation. Cover: non-partitive *ne* (*di* + cosa), *ci* (locative / *a questo* / existential *c'è / ci sono*), and the fusion *ce ne* (*ce ne sono tre*). See `WEAKNESS_AREAS.md` row g and roadmap "Combined pronouns, *ne*, *ci*".
+- **Object pronouns** drilled 2026-07-17: mechanics (clitic order, *glie-*, *dartelo*, participle agreement, partitive *ne*) solid; residual leak is lexical verb-government (weak-spot f), not structural.
 - The queued *a*-before-people drill (weak spot c) can run as a warm-up.

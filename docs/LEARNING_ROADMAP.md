@@ -13,8 +13,8 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [ ] Common gender/number traps vs Spanish (*il problema, la mano, il sangue*, …)
 
 ## Articles
-- [ ] Definite article (il / lo / l' / la / i / gli / le) — phonological selection rules
-- [ ] Indefinite article (un / uno / una / un')
+- [x] Definite article (il / lo / l' / la / i / gli / le) — phonological selection rules
+- [x] Indefinite article (un / uno / una / un')
 - [ ] Partitive article (del / dei / …) — "some / any"
 - [ ] When to omit / when required (with abstracts, professions, after *essere*)
 
@@ -40,14 +40,14 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [ ] *Chi, che (cosa), quale, dove, quando, come, perché, quanto* — forms and agreement
 
 ## Prepositions
-- [ ] Simple: *a, da, di, in, su, con, per, tra/fra* — core meanings vs Spanish
-- [ ] Articulated forms (*al, dal, del, nel, sul, …*)
+- [x] Simple: *a, da, di, in, su, con, per, tra/fra* — core meanings vs Spanish
+- [x] Articulated forms (*al, dal, del, nel, sul, …*)
 - [ ] Lexicalised choices (*andare a / in / da*, *pensare a / di*)
 
 ## Present tense
 - [ ] Subject pronouns and typical omission
-- [ ] Regular -are / -ere / -ire (with the -isc- subgroup)
-- [ ] Top irregulars: *essere, avere, andare, fare, dare, dire, stare, venire, uscire, sapere, potere, volere, dovere*
+- [x] Regular -are / -ere / -ire (with the -isc- subgroup)
+- [x] Top irregulars: *essere, avere, andare, fare, dare, dire, stare, venire, uscire, sapere, potere, volere, dovere*
 - [ ] Reflexive verbs (forms + everyday uses)
 
 ## Negation
@@ -55,19 +55,20 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [ ] Doubled negatives: *non … mai / niente / nessuno / più / nemmeno / ancora*
 
 ## Object pronouns
+*Taught & drilled 2026-07-17 (incl. combined forms, glie-, clitic position, participle agreement, partitive ne). Landed well; transcription to notebook pending. Residual leak is lexical verb-government, not structural — see WEAKNESS_AREAS row f. Tick when written.*
 - [ ] Direct (*mi, ti, lo, la, ci, vi, li, le*)
 - [ ] Indirect (*mi, ti, gli, le, ci, vi, gli*)
 - [ ] Stressed/disjunctive (*me, te, lui, lei, …*) — after prepositions, for emphasis
 
 ## Passato prossimo
-- [ ] Auxiliary choice (avere vs essere — verb classes that take each)
-- [ ] Past participle agreement with *essere* subjects
-- [ ] Past participle agreement with preceding direct-object clitic
-- [ ] Common irregular past participles
+- [x] Auxiliary choice (avere vs essere — verb classes that take each)
+- [x] Past participle agreement with *essere* subjects
+- [ ] Past participle agreement with preceding direct-object clitic — **blocked on Object pronouns**
+- [x] Common irregular past participles
 
 ## Imperfetto & trapassato prossimo
-- [ ] Imperfetto forms (regular + *essere, fare, dire, bere*)
-- [ ] Imperfetto vs passato prossimo — aspect distinction
+- [x] Imperfetto forms (regular + *essere, fare, dire, bere*)
+- [x] Imperfetto vs passato prossimo — aspect distinction
 - [ ] Trapassato prossimo
 
 ## Combined pronouns, *ne*, *ci*
@@ -76,9 +77,9 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [ ] *Ci* — locative, "about it", existential *c'è / ci sono*
 
 ## Futuro
-- [ ] Futuro semplice — regular endings
-- [ ] Spelling rules: -care/-gare (h-insertion), -ciare/-giare/-iare (vowel merge)
-- [ ] Common irregular stems (*essere, avere, andare, venire, fare, dovere, potere, …*)
+- [x] Futuro semplice — regular endings
+- [x] Spelling rules: -care/-gare (h-insertion), -ciare/-giare/-iare (vowel merge)
+- [x] Common irregular stems (*essere, avere, andare, venire, fare, dovere, potere, …*)
 - [ ] Futuro anteriore
 
 ## Condizionale
