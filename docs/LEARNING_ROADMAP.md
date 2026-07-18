@@ -5,7 +5,7 @@ Italian-grammar curriculum in strict dependency order — each section assumes t
 For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see `MAINTENANCE_TASKS.md`.
 
 ## Foundations
-- [ ] Orthography & sound rules (c/g before e/i vs a/o/u; *gli, gn, sci/sce*; double consonants; stress and accents)
+- [x] Orthography & sound rules (c/g before e/i vs a/o/u; *gli, gn, sci/sce*; double consonants; stress and accents)
 
 ## Nouns
 - [ ] Gender — defaults and patterns (-o / -a / -e; *-ma, -ista, -ione, -ore* groups)
@@ -15,7 +15,7 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 ## Articles
 - [x] Definite article (il / lo / l' / la / i / gli / le) — phonological selection rules
 - [x] Indefinite article (un / uno / una / un')
-- [ ] Partitive article (del / dei / …) — "some / any"
+- [x] Partitive article (del / dei / …) — "some / any"
 - [ ] When to omit / when required (with abstracts, professions, after *essere*)
 
 ## Adjectives
@@ -37,7 +37,7 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [ ] *Questo / quello* — *quello*'s article-like inflection
 
 ## Interrogatives
-- [ ] *Chi, che (cosa), quale, dove, quando, come, perché, quanto* — forms and agreement
+- [x] *Chi, che (cosa), quale, dove, quando, come, perché, quanto* — forms and agreement
 
 ## Prepositions
 - [x] Simple: *a, da, di, in, su, con, per, tra/fra* — core meanings vs Spanish
@@ -55,9 +55,9 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [ ] Doubled negatives: *non … mai / niente / nessuno / più / nemmeno / ancora*
 
 ## Object pronouns
-*Taught & drilled 2026-07-17 (incl. combined forms, glie-, clitic position, participle agreement, partitive ne). Landed well; transcription to notebook pending. Residual leak is lexical verb-government, not structural — see WEAKNESS_AREAS row f. Tick when written.*
-- [ ] Direct (*mi, ti, lo, la, ci, vi, li, le*)
-- [ ] Indirect (*mi, ti, gli, le, ci, vi, gli*)
+*Taught & drilled 2026-07-17, re-drilled 2026-07-18 (incl. combined forms, glie-, modal clitic position, participle agreement, partitive ne). Mechanics solid; transcription to notebook pending. Residual leaks are lexical/irregular — verb-government (WEAKNESS row f), irregular participles (row h), agreement scope (row a) — not structural. Tick when written.*
+- [x] Direct (*mi, ti, lo, la, ci, vi, li, le*)
+- [x] Indirect (*mi, ti, gli, le, ci, vi, gli*)
 - [ ] Stressed/disjunctive (*me, te, lui, lei, …*) — after prepositions, for emphasis
 
 ## Passato prossimo
@@ -72,9 +72,10 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [ ] Trapassato prossimo
 
 ## Combined pronouns, *ne*, *ci*
-- [ ] Combined: *me lo, te la, glielo, …* (and the *mi → me* shift)
-- [ ] *Ne* — partitive, topic, source
-- [ ] *Ci* — locative, "about it", existential *c'è / ci sono*
+*Ne (partitive: quantity/topic/source via* di *) and ci (locative/topic via* a *, existential* c'è/ci sono *) taught & drilled 2026-07-19, incl. the* che ne pensi di X *idiom exception and the* ce ne *fusion (tested clean 5/5, incl. agreement and first-mention-vs-antecedent contrast). Combined clitics (*me lo, te la, glielo*) already covered under Object pronouns 2026-07-17/18. Residual leak: *ne*/*ci* selection under *pensare a* vs *pensare di* — see WEAKNESS_AREAS.md row f/g. **Not yet covered:** *non c'è / non ce n'è* (negative existential) — next session's starting point. Tick when written.*
+- [x] Combined: *me lo, te la, glielo, …* (and the *mi → me* shift)
+- [x] *Ne* — partitive, topic, source
+- [x] *Ci* — locative, "about it", existential *c'è / ci sono*
 
 ## Futuro
 - [x] Futuro semplice — regular endings
