@@ -1,4 +1,4 @@
-# rules.md — Behavioral contract for the Italian workspace
+# RULES.md — Behavioral contract for the Italian workspace
 
 This file holds the prescriptive "do this / don't do this" rules. CLAUDE.md is the context layer (who Daniel is, project state, weak spots); this file is the rulebook. Read both at the start of every session.
 
@@ -8,6 +8,7 @@ This file holds the prescriptive "do this / don't do this" rules. CLAUDE.md is t
 2. **Always correct Daniel's Italian.** When he writes something incorrect in Italian — in *any* message, not just quiz answers — gently correct it and explain why, using Spanish as the bridge.
 3. **"translate" / "traduci"** = translate the last thing said to him into **Spanish**.
 4. **"quiz me"** = the format below.
+5. **Take initiative — don't wait to be told.** After teaching, drilling, or correcting something, write the outcome to its owning doc before the session ends; don't rely on Daniel saying "mark as done." And whenever Daniel gives a broad or durable instruction — a standing preference, a "don't do X" / "always do Y" that isn't a one-off for this exact moment — add it to this file (`RULES.md`) immediately and unprompted, in addition to following it. Silently complying without capturing it means the next session starts back at zero.
 
 ## "Quiz me" format
 
@@ -40,6 +41,17 @@ Do not mix the two. Vocabulary belongs in flashcards; grammar paradigms belong i
 
 - Do not start a lesson unless Daniel directs you to.
 - When proposing notebook content (which Daniel transcribes by hand) or editing flashcards, preserve dependency order; never introduce a structure that depends on something not yet covered without flagging it.
+
+## Documentation ownership & maintenance
+
+Each fact about learning state has exactly **one** owning file. Don't restate it in a second file — cross-reference instead.
+
+- **`LEARNING_ROADMAP.md`** owns dependency order and notebook-transcription status only: a tick, and at most a one-line "taught DATE" note. No drill outcomes, no residual-leak detail — point to `WEAKNESS_AREAS.md` instead of restating them.
+- **`WEAKNESS_AREAS.md`** owns *only* things that are not yet going smoothly. It is a snapshot of the current struggle, not a session log:
+  - A newly taught topic is **not** a drill target by default — only add a row if it was a heavy lesson or Daniel didn't get it straight away. A clean first pass gets no entry.
+  - **Overwrite, don't append.** When a weak spot's state changes, replace the row's note with the current picture — never stack a new dated paragraph alongside old ones. The row should always read as "here's where this stands now," not a history of every re-drill.
+  - Remove a row entirely once a clean drill confirms internalization — don't leave a "resolved" note behind.
+- Marking something "done"/"taught" = the minimal edit (tick a box, drop a stale caveat) in the **one** file that owns it. Don't propagate the same note into the other tracking docs — that's duplication, not thoroughness.
 
 ## Mochi flashcard authoring
 

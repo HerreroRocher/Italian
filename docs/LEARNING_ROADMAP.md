@@ -55,7 +55,7 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [ ] Doubled negatives: *non … mai / niente / nessuno / più / nemmeno / ancora*
 
 ## Object pronouns
-*Taught & drilled 2026-07-17, re-drilled 2026-07-18 (incl. combined forms, glie-, modal clitic position, participle agreement, partitive ne). Mechanics solid; transcription to notebook pending. Residual leaks are lexical/irregular — verb-government (WEAKNESS row f), irregular participles (row h), agreement scope (row a) — not structural. Tick when written.*
+*Taught 2026-07-17, re-drilled 2026-07-18. Transcription to notebook pending — see `WEAKNESS_AREAS.md` for drill outcomes.*
 - [x] Direct (*mi, ti, lo, la, ci, vi, li, le*)
 - [x] Indirect (*mi, ti, gli, le, ci, vi, gli*)
 - [ ] Stressed/disjunctive (*me, te, lui, lei, …*) — after prepositions, for emphasis
@@ -72,10 +72,11 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [ ] Trapassato prossimo
 
 ## Combined pronouns, *ne*, *ci*
-*Ne (partitive: quantity/topic/source via* di *) and ci (locative/topic via* a *, existential* c'è/ci sono *) taught & drilled 2026-07-19, incl. the* che ne pensi di X *idiom exception and the* ce ne *fusion (tested clean 5/5, incl. agreement and first-mention-vs-antecedent contrast). Combined clitics (*me lo, te la, glielo*) already covered under Object pronouns 2026-07-17/18. Residual leak: *ne*/*ci* selection under *pensare a* vs *pensare di* — see WEAKNESS_AREAS.md row f/g. **Not yet covered:** *non c'è / non ce n'è* (negative existential) — next session's starting point. Tick when written.*
+*Ne, ci, and the negative existential (non c'è / non ce n'è) taught 2026-07-19. Transcription to notebook pending — see `WEAKNESS_AREAS.md` for drill outcomes.*
 - [x] Combined: *me lo, te la, glielo, …* (and the *mi → me* shift)
 - [x] *Ne* — partitive, topic, source
 - [x] *Ci* — locative, "about it", existential *c'è / ci sono*
+- [x] Negative existential: *non c'è / non ce n'è*
 
 ## Futuro
 - [x] Futuro semplice — regular endings
@@ -129,4 +130,4 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 
 ---
 
-**Maintenance:** tick a section when its notebook page is written. If a new dependency emerges, slot the new section *before* what depends on it — don't just append. Keep grouping coarse; sub-item detail belongs in the notebook, not here.
+**Maintenance:** tick a section when its notebook page is written. If a new dependency emerges, slot the new section *before* what depends on it — don't just append. Keep grouping coarse; sub-item detail belongs in the notebook, not here. Entries here carry only dependency order, tick status, and at most a one-line "taught DATE" note — drill outcomes and residual leaks belong solely in `WEAKNESS_AREAS.md`, referenced not restated.
