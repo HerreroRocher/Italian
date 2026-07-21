@@ -8,7 +8,8 @@ This file holds the prescriptive "do this / don't do this" rules. CLAUDE.md is t
 2. **Always correct Daniel's Italian.** When he writes something incorrect in Italian — in *any* message, not just quiz answers — gently correct it and explain why, using Spanish as the bridge.
 3. **"translate" / "traduci"** = translate the last thing said to him into **Spanish**.
 4. **"quiz me"** = the format below.
-5. **Take initiative — don't wait to be told.** After teaching, drilling, or correcting something, write the outcome to its owning doc before the session ends; don't rely on Daniel saying "mark as done." And whenever Daniel gives a broad or durable instruction — a standing preference, a "don't do X" / "always do Y" that isn't a one-off for this exact moment — add it to this file (`RULES.md`) immediately and unprompted, in addition to following it. Silently complying without capturing it means the next session starts back at zero.
+5. **"terminate"** = end-of-session cleanup: reconcile `LEARNING_ROADMAP.md` and `WEAKNESS_AREAS.md` with what actually happened this session (ticks, drill-outcome rows), confirm both are internally consistent, then stop — no unrelated tidying. Do not commit the changes unless Daniel separately says to.
+6. **Take initiative — don't wait to be told.** Tick a roadmap item in `LEARNING_ROADMAP.md` **immediately after teaching it** — same turn, not deferred to session end or a "stopping point" check. Deferring it is how items get silently missed. After teaching, drilling, or correcting something, write the outcome to its owning doc right away; don't rely on Daniel saying "mark as done." And whenever Daniel gives a broad or durable instruction — a standing preference, a "don't do X" / "always do Y" that isn't a one-off for this exact moment — add it to this file (`RULES.md`) immediately and unprompted, in addition to following it. Silently complying without capturing it means the next session starts back at zero.
 
 ## "Quiz me" format
 
@@ -18,6 +19,7 @@ This file holds the prescriptive "do this / don't do this" rules. CLAUDE.md is t
 - Covertly target specific grammar systems with **traps** (e.g. same verb flipping avere↔essere; essere-verbs needing plural agreement; the *a*-before-people interference).
 - After Daniel answers: mark each line (✓ or inline correction with a brief *why*), then a **scoreboard** identifying which systems are solid vs. the **narrowest remaining leak**, then offer a focused follow-up round on that leak.
 - Use Spanish as the bridge wherever it clarifies a divergence.
+- **Scope traps to what's actually been taught.** Every targeted system in a quiz must be either a formally taught lesson (ticked in `LEARNING_ROADMAP.md` or covered earlier this session) or an active row in `WEAKNESS_AREAS.md`. Don't build a trap around something that was only mentioned once in passing (an aside example, a one-off correction) without being taught as its own point — that's not fair game yet.
 
 ## Strict separation of materials
 
@@ -37,9 +39,14 @@ Do not mix the two. Vocabulary belongs in flashcards; grammar paradigms belong i
 - **Notebook content stays concise but accurate.** Full irregular paradigms only for top-tier verbs (*essere, avere, andare, fare*). Everything else minimal.
 - Vague questions about a word (e.g. "what about *mai*") = asking about its **frequency/commonality in everyday spoken Italian**.
 
+## Lesson content priorities
+
+- **Broad, generative structure over narrow/closed material.** Prioritize patterns that recombine across many contexts — conjugation systems, agreement rules, syntax, productive derivational patterns — over closed lists of exceptions, false friends, or items that are really vocabulary (a single word/short list to memorize, not a rule). If a roadmap item's scope turns out to be vocab-shaped and narrow (e.g. the small closed list of Latin-neuter irregular plurals like *braccio→braccia*), it can still get a tick, but keep it brief and don't treat it as a drill target.
+
 ## Default session conduct
 
 - Do not start a lesson unless Daniel directs you to.
+- **When Daniel says "next lesson" without naming a topic, don't silently pick one and don't ask a blank open-ended question either.** Surface the next dependency-eligible candidates from `LEARNING_ROADMAP.md` with a one-line rationale each, name a recommendation, and let him choose.
 - When proposing notebook content (which Daniel transcribes by hand) or editing flashcards, preserve dependency order; never introduce a structure that depends on something not yet covered without flagging it.
 
 ## Documentation ownership & maintenance

@@ -8,29 +8,29 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [x] Orthography & sound rules (c/g before e/i vs a/o/u; *gli, gn, sci/sce*; double consonants; stress and accents)
 
 ## Nouns
-- [ ] Gender — defaults and patterns (-o / -a / -e; *-ma, -ista, -ione, -ore* groups)
-- [ ] Plural formation — regular + -co/-go, -cia/-gia, -io rules
-- [ ] Common gender/number traps vs Spanish (*il problema, la mano, il sangue*, …)
+- [x] Gender — defaults and patterns (-o / -a / -e; *-ma, -ista, -ione, -ore* groups) — taught 2026-07-19
+- [x] Plural formation — regular + -co/-go, -cia/-gia, -io rules — taught 2026-07-19
+- [x] Common gender/number traps vs Spanish (*il problema, la mano, il sangue*, …) — taught 2026-07-19
 
 ## Articles
 - [x] Definite article (il / lo / l' / la / i / gli / le) — phonological selection rules
 - [x] Indefinite article (un / uno / una / un')
 - [x] Partitive article (del / dei / …) — "some / any"
-- [ ] When to omit / when required (with abstracts, professions, after *essere*)
+- [x] When to omit / when required (with abstracts, professions, after *essere*) — taught 2026-07-19
 
 ## Adjectives
-- [ ] Agreement (gender + number); four-ending vs two-ending classes
-- [ ] Position — default postnominal; prenominal meaning shifts
-- [ ] Apocopated forms: *bello, buono, grande, santo*
+- [x] Agreement (gender + number); four-ending vs two-ending classes — taught 2026-07-19
+- [x] Position — default postnominal; prenominal meaning shifts — taught 2026-07-19
+- [x] Apocopated forms: *bello, buono, grande, santo* — taught 2026-07-19
 
 ## Adverbs
-- [ ] Formation in -mente; common irregulars (*bene, male, meglio, peggio*)
-- [ ] Placement (typical post-verbal; restrictions in compound tenses)
+- [x] Formation in -mente; common irregulars (*bene, male, meglio, peggio*) — taught 2026-07-19
+- [x] Placement (typical post-verbal; restrictions in compound tenses) — taught 2026-07-19, drilled clean 2026-07-19
 
 ## Numerals, dates, time
-- [ ] Cardinals + ordinals
-- [ ] Dates and days/months
-- [ ] Telling the time (*sono le …, è l'una, mezzogiorno*)
+- [x] Cardinals + ordinals — taught 2026-07-20
+- [x] Dates and days/months — taught 2026-07-20
+- [x] Telling the time (*sono le …, è l'una, mezzogiorno*) — taught 2026-07-20
 
 ## Possessives & demonstratives
 - [ ] Possessives — forms + the **article requirement** rule (and the family-singular exception)
@@ -63,7 +63,7 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 ## Passato prossimo
 - [x] Auxiliary choice (avere vs essere — verb classes that take each)
 - [x] Past participle agreement with *essere* subjects
-- [ ] Past participle agreement with preceding direct-object clitic — **blocked on Object pronouns**
+- [x] Past participle agreement with preceding direct-object clitic — taught 2026-07-19
 - [x] Common irregular past participles
 
 ## Imperfetto & trapassato prossimo
