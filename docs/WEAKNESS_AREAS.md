@@ -34,7 +34,7 @@ Patterns to flag in any Italian Daniel writes.
 
 ## How to maintain this file
 
-- Add a row when a recurring error surfaces in quiz or free writing — don't wait to be sure it'll persist. A single clean first exposure to a new topic does **not** get a row.
+- Add a row once an error type **recurs** (2+ instances) in quiz or free writing, or Daniel flags it as a real struggle. A single isolated slip — even on brand-new material — is normal noise, not a pattern, and does **not** get a row.
 - **Overwrite, don't append.** When a row's state changes, replace its note with the current picture — never stack a new dated paragraph next to the old one. Each row is a snapshot of where things stand *now*, not a log of every re-drill.
 - Remove a row entirely once a clean drill confirms internalization — don't leave a "resolved" note behind.
 - Keep it short and clinical. Drill ideas, sequencing, and planned additions belong in `LEARNING_ROADMAP.md`.

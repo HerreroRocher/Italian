@@ -33,8 +33,8 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [x] Telling the time (*sono le …, è l'una, mezzogiorno*) — taught 2026-07-20
 
 ## Possessives & demonstratives
-- [ ] Possessives — forms + the **article requirement** rule (and the family-singular exception)
-- [ ] *Questo / quello* — *quello*'s article-like inflection
+- [x] Possessives — forms + the **article requirement** rule (and the family-singular exception) — taught 2026-07-22
+- [x] *Questo / quello* — *quello*'s article-like inflection — taught 2026-07-22
 
 ## Interrogatives
 - [x] *Chi, che (cosa), quale, dove, quando, come, perché, quanto* — forms and agreement
