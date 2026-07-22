@@ -42,23 +42,23 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 ## Prepositions
 - [x] Simple: *a, da, di, in, su, con, per, tra/fra* — core meanings vs Spanish
 - [x] Articulated forms (*al, dal, del, nel, sul, …*)
-- [ ] Lexicalised choices (*andare a / in / da*, *pensare a / di*)
+- [x] Lexicalised choices (*andare a / in / da*, *pensare a / di*) — taught 2026-07-22
 
 ## Present tense
-- [ ] Subject pronouns and typical omission
+- [x] Subject pronouns and typical omission — taught 2026-07-22
 - [x] Regular -are / -ere / -ire (with the -isc- subgroup)
 - [x] Top irregulars: *essere, avere, andare, fare, dare, dire, stare, venire, uscire, sapere, potere, volere, dovere*
-- [ ] Reflexive verbs (forms + everyday uses)
+- [x] Reflexive verbs (forms + everyday uses) — taught 2026-07-22
 
 ## Negation
-- [ ] *Non* placement
-- [ ] Doubled negatives: *non … mai / niente / nessuno / più / nemmeno / ancora*
+- [x] *Non* placement — taught 2026-07-22
+- [x] Doubled negatives: *non … mai / niente / nessuno / più / nemmeno / ancora* — taught 2026-07-22
 
 ## Object pronouns
 *Taught 2026-07-17, re-drilled 2026-07-18. Transcription to notebook pending — see `WEAKNESS_AREAS.md` for drill outcomes.*
 - [x] Direct (*mi, ti, lo, la, ci, vi, li, le*)
 - [x] Indirect (*mi, ti, gli, le, ci, vi, gli*)
-- [ ] Stressed/disjunctive (*me, te, lui, lei, …*) — after prepositions, for emphasis
+- [x] Stressed/disjunctive (*me, te, lui, lei, …*) — after prepositions, for emphasis — taught 2026-07-22
 
 ## Passato prossimo
 - [x] Auxiliary choice (avere vs essere — verb classes that take each)

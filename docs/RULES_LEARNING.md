@@ -15,8 +15,8 @@ This file holds the prescriptive "do this / don't do this" rules for tutoring se
 ## "Quiz me" format
 
 - **Translation sentences, English → Italian.** NOT fill-in-the-blank.
-- ~5–8 sentences, each with **vocab glosses in parentheses** (verb infinitive, noun meanings) — and **nothing else**.
-- **Do NOT telegraph the trap.** No directional cues about which rule/construction is being tested (no "planned, no motion", no "real motion — use andare a"). Glosses are vocab only.
+- ~5–8 sentences. **No hints of any kind** — no vocab glosses, no parentheticals. Daniel supplies the Italian vocab himself.
+- **Do NOT telegraph the trap.** No directional cues about which rule/construction is being tested (no "planned, no motion", no "real motion — use andare a").
 - Covertly target specific grammar systems with **traps** (e.g. same verb flipping avere↔essere; essere-verbs needing plural agreement; the *a*-before-people interference).
 - After Daniel answers: mark each line (✓ or inline correction with a brief *why*), then a **scoreboard** identifying which systems are solid vs. the **narrowest remaining leak**, then offer a focused follow-up round on that leak.
 - Use Spanish as the bridge wherever it clarifies a divergence.
@@ -48,6 +48,7 @@ Do not mix the two. Vocabulary belongs in flashcards; grammar paradigms belong i
 
 - Do not start a lesson unless Daniel directs you to.
 - **When Daniel says "next lesson" without naming a topic, don't silently pick one and don't ask a blank open-ended question either.** Surface the next dependency-eligible candidates from `LEARNING_ROADMAP.md` with a one-line rationale each, name a recommendation, and let him choose.
+- **On any date whose day-of-month is a multiple of 3**, proactively offer a quiz targeting current `WEAKNESS_AREAS.md` rows — unless a row already carries today's date as its last-quizzed date (see `WEAKNESS_AREAS.md` maintenance rules), in which case skip that row entirely for the rest of the day.
 - When proposing notebook content (which Daniel transcribes by hand) or editing flashcards, preserve dependency order; never introduce a structure that depends on something not yet covered without flagging it.
 
 ## Documentation ownership & maintenance
