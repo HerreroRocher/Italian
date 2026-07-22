@@ -42,12 +42,12 @@ Extends "Tooling roadmap" below; this section frames them as one connected workf
 
 ### 5. Repack preserving SRS progress
 
-- [x] `scripts/mochi_pack.py pack data/working.json data/import.mochi` produces a valid `.mochi`. (Done 2026-06-27 — see step 3 round-trip note.) Preserves `reviews[]` per `RULES.md`'s review-reset rule (`--reset-reviews` only when meaning changed, not for formatting).
-- [x] Verified import on iPhone restores interval/due/history correctly. (Done 2026-07-14 — full deck restructure + 41 new cards imported successfully via a bumped filename, `data/import-v2.mochi`; see Filename rule in `RULES.md`.)
+- [x] `scripts/mochi_pack.py pack data/working.json data/import.mochi` produces a valid `.mochi`. (Done 2026-06-27 — see step 3 round-trip note.) Preserves `reviews[]` per `RULES_CARDS.md`'s review-reset rule (`--reset-reviews` only when meaning changed, not for formatting).
+- [x] Verified import on iPhone restores interval/due/history correctly. (Done 2026-07-14 — full deck restructure + 41 new cards imported successfully via a bumped filename, `data/import-v2.mochi`; see Filename rule in `RULES_CARDS.md`.)
 
 ## Flashcard audit (resolved 2026-07-14)
 
-2026-06-25 backup audit (capitalization, cross-deck duplicates/overlap, ambiguous or two-concept cards) resolved via the 2026-07 deck restructure plus a follow-up audit/edit pass in this repo, which also added 41 non-trivial cards. Current: 13 decks, 241 cards (was 9/200). Resulting primitives (`edit_card`, `find_card`, `rename_deck` in `mochi_edit.py`) and the **non-triviality** card-selection criterion live in `RULES.md` → Mochi flashcard authoring.
+2026-06-25 backup audit (capitalization, cross-deck duplicates/overlap, ambiguous or two-concept cards) resolved via the 2026-07 deck restructure plus a follow-up audit/edit pass in this repo, which also added 41 non-trivial cards. Current: 13 decks, 241 cards (was 9/200). Resulting primitives (`edit_card`, `find_card`, `rename_deck` in `mochi_edit.py`) and the **non-triviality** card-selection criterion live in `RULES_CARDS.md` → Mochi flashcard authoring.
 
 ## Tooling roadmap
 

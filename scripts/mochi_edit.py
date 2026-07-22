@@ -117,7 +117,7 @@ def add_to(d, deck_name, entries):
     """Append cards to the named deck.
 
     Each entry is either (spanish, italian) or (spanish, italian, example).
-    The example line is rendered as an italicized one-liner per RULES.md.
+    The example line is rendered as an italicized one-liner per RULES_CARDS.md.
     """
     deck = _decks_by_name(d)[deck_name]
     for e in entries:
@@ -136,7 +136,7 @@ def edit_card(d, deck_name, card_id, *, spanish=None, italian=None, example=None
 
     Set reset_reviews=True whenever the *meaning* changed (wrong gloss fixed,
     headword disambiguated, translation corrected) per the review-reset rule
-    in RULES.md. Leave it False for pure formatting/typo/example-add edits.
+    in RULES_CARDS.md. Leave it False for pure formatting/typo/example-add edits.
 
     Returns True if found and edited, False if no matching card_id in deck_name.
     """

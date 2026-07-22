@@ -5,8 +5,9 @@ A personal workspace for systematically acquiring Italian from a fluent Spanish 
 ## What lives here
 
 - **Flashcard pipeline** — Mochi `.mochi` exports flow in from iPhone over Tailscale via the on-host Samba share (`services/samba-mochi/`), get unpacked into a working JSON + per-deck markdown views (`data/`), edited and audited via `scripts/`, repacked for re-import. Detailed below.
-- **`CLAUDE.md`** — operational context Claude Code reads each session (who Daniel is, tooling).
-- **`RULES.md`** — behavioral contract: hard rules, quiz format, response style, flashcard authoring conventions, Mochi edit workflow.
+- **`CLAUDE.md`** — operational context Claude Code reads each session (who Daniel is, doc index).
+- **`RULES_LEARNING.md`** — behavioral contract for tutoring: hard rules, quiz format, response style, session conduct.
+- **`RULES_CARDS.md`** — behavioral contract for the flashcard pipeline: card-authoring conventions, Mochi edit workflow.
 - **`MAINTENANCE_TASKS.md` / `LEARNING_ROADMAP.md` / `WEAKNESS_AREAS.md`** — running task lists and learning state.
 
 The **grammar notebook is physical** (a paper notebook Daniel maintains by hand). It is not in this repo. Claude proposes notebook content in transcribable form; Daniel writes it in himself.
@@ -18,7 +19,7 @@ The **grammar notebook is physical** (a paper notebook Daniel maintains by hand)
 | **Mochi** (free tier) | Flashcard SRS, Markdown-authored | **Manual wipe-and-reimport** — no cloud sync on free tier; `.mochi` exports flow into `data/` via the on-host Samba share, edits applied here, repacked file goes back to phone |
 | **conjuguemos.com** | Conjugation drilling, holds verb sets | External; used for paradigm practice |
 | **Physical notebook** | Grammar notebook in strict dependency order — closed-class structural grammar | Hand-written; not in this repo |
-| **This repo** | Flashcard pipeline (`data/`, `scripts/`, `services/samba-mochi/`) + tutor contract (`CLAUDE.md`, `RULES.md`) | — |
+| **This repo** | Flashcard pipeline (`data/`, `scripts/`, `services/samba-mochi/`) + tutor contract (`CLAUDE.md`, `RULES_LEARNING.md`, `RULES_CARDS.md`) | — |
 
 Because Mochi sync is manual, card *content* can be edited programmatically here and AI-audited (dedupe, gloss correctness, interference-trap flags, formatting) before being copied back.
 
@@ -47,4 +48,4 @@ The notebook curriculum, current weak spots, and what's next are live-tracked st
 
 Snapshots at user discretion live in `data/backups/YYYY-MM-DD-*.mochi`. Working state is otherwise tracked through git history.
 
-Detailed workflow rules (review-reset rule for meaning changes vs formatting; safety rule for the wipe step; filename-cache gotcha) live in `RULES.md`.
+Detailed workflow rules (review-reset rule for meaning changes vs formatting; safety rule for the wipe step; filename-cache gotcha) live in `RULES_CARDS.md`.
