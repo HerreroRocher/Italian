@@ -12,6 +12,7 @@ Card-authoring criteria and the free-tier edit/repack workflow. Only needed when
 - **No closed idioms/sayings/proverbs.** Fixed expressions with a single frozen meaning and no productive reuse (*in bocca al lupo*, *chi va piano va sano e va lontano*, etc.) do not belong in the deck — they were deliberately purged. This is a durable rule, not a one-off cleanup.
 - **Functional multi-word constructions still qualify** — these are not "sayings" in the excluded sense because they're productive/glue-like and recur constantly (*stare per* + inf, *avere voglia di* + inf, *avere bisogno di* + noun/inf, *non vedere l'ora di* + inf). The `Set Phrases & Idioms` deck is for these, not for proverbs.
 - **Verbs**: prefer the single most common Italian verb per Spanish synonym cluster (e.g. Sp *ganar* → IT splits into *vincere*/*guadagnare*; pick both only because Italian genuinely forces the split, not because both are equally common translations of one sense).
+- **-isc marker.** Every -ire verb must be checked against the -isc conjugation pattern (present tense infix: *-isco, -isci, -isce, ...-iscono*, e.g. *capisco, finisco, agisco*). Tag the Italian side with `(isc)` immediately after the verb when it takes the infix (*capire (isc)*, *finire (isc)*, *pulire (isc)*). No marker for regular -ire verbs (*dormire*, *partire*, *aprire*) or irregular ones outside the pattern (*venire*, *uscire*, *salire*, *dire*).
 
 **Audit checklist when reviewing existing cards:**
 - Duplicates (within and across decks)

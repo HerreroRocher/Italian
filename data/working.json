@@ -56,7 +56,27 @@
               "~#set": []
             },
             "~:id": "~:jtpWDb23",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784415600000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 2
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1785020400000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 3
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783389345028
             }
@@ -68,7 +88,6 @@
             "~:content": "\n## frequentemente/often\n---\nspesso\n*Vengo spesso in questo bar.*\n",
             "~:name": "frequentemente/often",
             "~:deck-id": "~:0tktNSdO",
-            "~:needs-rereview?": true,
             "~:cloze/indexes": {
               "~#set": []
             },
@@ -117,6 +136,27 @@
                 "~:interval": 3.6,
                 "~:remembered?": false,
                 "~:duration": 6
+              },
+              {
+                "~:date": "~t1784156400000",
+                "~:due": "~t1784329200000",
+                "~:interval": 1.8,
+                "~:remembered?": false,
+                "~:duration": 4
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784674800000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 3
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1785279600000",
+                "~:interval": 7.2,
+                "~:remembered?": true,
+                "~:duration": 1
               }
             ],
             "~:created-at": {
@@ -182,6 +222,39 @@
             ],
             "~:created-at": {
               "~#dt": 1782229136646
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## de repente\n---\nall'improvviso (di repente exists but is rare/literary)\n*All'improvviso ha iniziato a piovere.*\n",
+            "~:name": "de repente",
+            "~:deck-id": "~:0tktNSdO",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "z",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:XCUuyZui",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 20
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052755
             }
           },
           {
@@ -262,6 +335,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 22
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785106800000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 10
               }
             ],
             "~:created-at": {
@@ -485,6 +565,13 @@
                 "~:interval": 9,
                 "~:remembered?": true,
                 "~:duration": 9
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1785884400000",
+                "~:interval": 16.2,
+                "~:remembered?": true,
+                "~:duration": 5
               }
             ],
             "~:created-at": {
@@ -695,26 +782,6 @@
             "~:created-at": {
               "~#dt": 1782229136646
             }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## de repente\n---\nall'improvviso (di repente exists but is rare/literary)\n*All'improvviso ha iniziato a piovere.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052755
-            },
-            "~:deck-id": "~:0tktNSdO",
-            "~:id": "~:XCUuyZui",
-            "~:name": "de repente",
-            "~:pos": "z",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
           }
         ]
       }
@@ -731,7 +798,7 @@
             "~:tags": {
               "~#set": []
             },
-            "~:content": "\n## peor\n---\npeggio\n*Va sempre peggio.*\n",
+            "~:content": "\n## peor\n---\npeggio (adverb) / peggiore (adjective — il/la peggiore)\n*Va sempre peggio. / È il peggior film che abbia visto.*\n",
             "~:name": "peor",
             "~:deck-id": "~:0ola8yQp",
             "~:cloze/indexes": {
@@ -742,7 +809,27 @@
               "~#set": []
             },
             "~:id": "~:tgGR5Pp7",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784415600000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784502000000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 2
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784934000000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 2
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783389345028
             }
@@ -781,6 +868,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 11
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785106800000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 2
               }
             ],
             "~:created-at": {
@@ -797,7 +891,6 @@
             "~:content": "## tan … como / as … as\n---\n(così) … come [qualities] / tanto … quant(o) [quantities]\n*Sono alto quanto te.*\n",
             "~:name": "tan … como / as … as",
             "~:deck-id": "~:0ola8yQp",
-            "~:needs-rereview?": true,
             "~:cloze/indexes": {
               "~#set": []
             },
@@ -855,6 +948,42 @@
                 "~:remembered?": false,
                 "~:rereview?": true,
                 "~:duration": 180
+              },
+              {
+                "~:date": "~t1783983600000",
+                "~:due": "~t1784070000000",
+                "~:interval": 1,
+                "~:remembered?": false,
+                "~:rereview?": true,
+                "~:duration": 70
+              },
+              {
+                "~:date": "~t1784070000000",
+                "~:due": "~t1784242800000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 9
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784415600000",
+                "~:interval": 1,
+                "~:remembered?": false,
+                "~:duration": 39
+              },
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784588400000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 12
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784934000000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 32
               }
             ],
             "~:created-at": {
@@ -866,7 +995,7 @@
             "~:tags": {
               "~#set": []
             },
-            "~:content": "\n## mejor\n---\nmeglio\n*Oggi sto meglio.*\n",
+            "~:content": "\n## mejor\n---\nmeglio (adverb) / migliore (adjective — il/la migliore)\n*Oggi sto meglio. / È il miglior ristorante della città.*\n",
             "~:name": "mejor",
             "~:deck-id": "~:0ola8yQp",
             "~:cloze/indexes": {
@@ -877,7 +1006,34 @@
               "~#set": []
             },
             "~:id": "~:8qw1HVqw",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784329200000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784415600000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 2
+              },
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784588400000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 2
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784934000000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 3
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783389345028
             }
@@ -1171,10 +1327,57 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 16
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785106800000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 17
               }
             ],
             "~:created-at": {
               "~#dt": 1783389345029
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## además\n---\ninoltre\n*Inoltre, non ho tempo.*\n",
+            "~:name": "además",
+            "~:deck-id": "~:CWuDTki3",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "P",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:woQeTZxw",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 7
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 8
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052755
             }
           },
           {
@@ -1286,6 +1489,20 @@
                 "~:interval": 1.8,
                 "~:remembered?": true,
                 "~:duration": 20
+              },
+              {
+                "~:date": "~t1783983600000",
+                "~:due": "~t1784415600000",
+                "~:interval": 5.4,
+                "~:remembered?": true,
+                "~:duration": 6
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1785452400000",
+                "~:interval": 10.8,
+                "~:remembered?": true,
+                "~:duration": 16
               }
             ],
             "~:created-at": {
@@ -1368,7 +1585,34 @@
               "~#set": []
             },
             "~:id": "~:QpoCOt5r",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1783983600000",
+                "~:due": "~t1783983600000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1783983600000",
+                "~:due": "~t1784070000000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 7
+              },
+              {
+                "~:date": "~t1784156400000",
+                "~:due": "~t1784502000000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 2
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1785106800000",
+                "~:interval": 7.2,
+                "~:remembered?": true,
+                "~:duration": 5
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783389345028
             }
@@ -1407,6 +1651,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 4
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785106800000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 3
               }
             ],
             "~:created-at": {
@@ -1604,26 +1855,6 @@
             "~:created-at": {
               "~#dt": 1782229261521
             }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## además\n---\ninoltre\n*Inoltre, non ho tempo.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052755
-            },
-            "~:deck-id": "~:CWuDTki3",
-            "~:id": "~:woQeTZxw",
-            "~:name": "además",
-            "~:pos": "P",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
           }
         ]
       }
@@ -1734,6 +1965,13 @@
                 "~:interval": 9.72,
                 "~:remembered?": true,
                 "~:duration": 4
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1786143600000",
+                "~:interval": 18,
+                "~:remembered?": true,
+                "~:duration": 8
               }
             ],
             "~:created-at": {
@@ -1782,6 +2020,13 @@
                 "~:interval": 7.2,
                 "~:remembered?": true,
                 "~:duration": 9
+              },
+              {
+                "~:date": "~t1784070000000",
+                "~:due": "~t1785279600000",
+                "~:interval": 14.4,
+                "~:remembered?": true,
+                "~:duration": 3
               }
             ],
             "~:created-at": {
@@ -1943,6 +2188,13 @@
                 "~:interval": 7.2,
                 "~:remembered?": true,
                 "~:duration": 43
+              },
+              {
+                "~:date": "~t1784070000000",
+                "~:due": "~t1785279600000",
+                "~:interval": 14.4,
+                "~:remembered?": true,
+                "~:duration": 5
               }
             ],
             "~:created-at": {
@@ -2014,8 +2266,8 @@
             "~:tags": {
               "~#set": []
             },
-            "~:content": "\n## ya no … / Don’t … anymore\n---\nnon … più\n*Non lavoro più qui.*\n",
-            "~:name": "ya no … / Don’t … anymore",
+            "~:content": "\n## ya no … / Don't … anymore\n---\nnon … più\n*Non lavoro più qui.*\n",
+            "~:name": "ya no … / Don't … anymore",
             "~:deck-id": "~:OS3bjjxr",
             "~:cloze/indexes": {
               "~#set": []
@@ -2078,6 +2330,7 @@
             "~:content": "\n## a menos que\n---\na meno che (non) (+ cong.) — pleonastic *non*\n*Vengo, a meno che non piova.*\n",
             "~:name": "a menos que",
             "~:deck-id": "~:OS3bjjxr",
+            "~:needs-rereview?": true,
             "~:cloze/indexes": {
               "~#set": []
             },
@@ -2086,7 +2339,27 @@
               "~#set": []
             },
             "~:id": "~:Q5YzR0uc",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": false,
+                "~:duration": 77
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784761200000",
+                "~:interval": 1,
+                "~:remembered?": false,
+                "~:duration": 9
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783033012152
             }
@@ -2172,6 +2445,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 3
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785106800000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 5
               }
             ],
             "~:created-at": {
@@ -2347,6 +2627,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 24
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785106800000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 19
               }
             ],
             "~:created-at": {
@@ -2381,6 +2668,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 88
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785106800000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 6
               }
             ],
             "~:created-at": {
@@ -2424,6 +2718,20 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 9
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784502000000",
+                "~:interval": 1.8,
+                "~:remembered?": false,
+                "~:duration": 10
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1785020400000",
+                "~:interval": 5.4,
+                "~:remembered?": true,
+                "~:duration": 4
               }
             ],
             "~:created-at": {
@@ -2521,6 +2829,9 @@
             "~:pos": "r",
             "~:references": {
               "~#set": []
+            },
+            "~:trashed?": {
+              "~#dt": 1784658347644
             },
             "~:id": "~:fsvjXgGi",
             "~:reviews": [],
@@ -2818,6 +3129,41 @@
                 "~:interval": 1.8,
                 "~:remembered?": true,
                 "~:duration": 6
+              },
+              {
+                "~:date": "~t1783983600000",
+                "~:due": "~t1784070000000",
+                "~:interval": 1,
+                "~:remembered?": false,
+                "~:duration": 4
+              },
+              {
+                "~:date": "~t1784070000000",
+                "~:due": "~t1784242800000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 7
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784329200000",
+                "~:interval": 1,
+                "~:remembered?": false,
+                "~:duration": 3
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784502000000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 6
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784847600000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 3
               }
             ],
             "~:created-at": {
@@ -2959,6 +3305,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 108
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 7.2,
+                "~:remembered?": true,
+                "~:duration": 2
               }
             ],
             "~:created-at": {
@@ -2999,6 +3352,13 @@
                 "~:interval": 10.8,
                 "~:remembered?": true,
                 "~:duration": 8
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1786402800000",
+                "~:interval": 19.8,
+                "~:remembered?": true,
+                "~:duration": 5
               }
             ],
             "~:created-at": {
@@ -3009,7 +3369,7 @@
             "~:tags": {
               "~#set": []
             },
-            "~:content": "\n## si\n---\nse\n*Se vuoi, vengo anch’io.*\n",
+            "~:content": "\n## si\n---\nse\n*Se vuoi, vengo anch'io.*\n",
             "~:name": "si",
             "~:deck-id": "~:OS3bjjxr",
             "~:cloze/indexes": {
@@ -3100,6 +3460,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 14
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785106800000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 13
               }
             ],
             "~:created-at": {
@@ -3147,6 +3514,13 @@
                 "~:interval": 7.2,
                 "~:remembered?": true,
                 "~:duration": 23
+              },
+              {
+                "~:date": "~t1784070000000",
+                "~:due": "~t1785279600000",
+                "~:interval": 14.4,
+                "~:remembered?": true,
+                "~:duration": 2
               }
             ],
             "~:created-at": {
@@ -3296,6 +3670,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": false,
                 "~:duration": 15
+              },
+              {
+                "~:date": "~t1784156400000",
+                "~:due": "~t1784934000000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 2
               }
             ],
             "~:created-at": {
@@ -3417,6 +3798,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": false,
                 "~:duration": 3
+              },
+              {
+                "~:date": "~t1784156400000",
+                "~:due": "~t1784934000000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 4
               }
             ],
             "~:created-at": {
@@ -3518,6 +3906,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 4
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785106800000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 2
               }
             ],
             "~:created-at": {
@@ -3569,6 +3964,39 @@
             ],
             "~:created-at": {
               "~#dt": 1782482122468
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## un montón (de)\n---\nun sacco (di)\n*Ho un sacco di lavoro.*\n",
+            "~:name": "un montón (de)",
+            "~:deck-id": "~:LZI9GB0d",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "f",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:XmTY8sRC",
+            "~:reviews": [
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784502000000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784761200000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 2
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052754
             }
           },
           {
@@ -3729,14 +4157,34 @@
             "~:cloze/indexes": {
               "~#set": []
             },
-            "~:content": "\n## un montón (de)\n---\nun sacco (di)\n*Ho un sacco di lavoro.*\n",
+            "~:content": "\n## la mayoría (de)\n---\nla maggior parte (di)\n*La maggior parte dei miei amici parla inglese.*\n",
             "~:created-at": {
-              "~#dt": 1783994052754
+              "~#dt": 1784745504796
             },
             "~:deck-id": "~:LZI9GB0d",
-            "~:id": "~:XmTY8sRC",
-            "~:name": "un montón (de)",
-            "~:pos": "f",
+            "~:id": "~:vXGEtlUp",
+            "~:name": "la mayoría (de)",
+            "~:pos": "u",
+            "~:references": {
+              "~#set": []
+            },
+            "~:reviews": [],
+            "~:tags": {
+              "~#set": []
+            }
+          },
+          {
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:content": "\n## apenas (barely)\n---\na malapena / a stento (distinct from apenas = 'as soon as' → appena)\n*Lo sento a malapena.*\n",
+            "~:created-at": {
+              "~#dt": 1784745504796
+            },
+            "~:deck-id": "~:LZI9GB0d",
+            "~:id": "~:7QWdArRQ",
+            "~:name": "apenas (barely)",
+            "~:pos": "M",
             "~:references": {
               "~#set": []
             },
@@ -3812,6 +4260,13 @@
                 "~:interval": 7.2,
                 "~:remembered?": true,
                 "~:duration": 5
+              },
+              {
+                "~:date": "~t1784070000000",
+                "~:due": "~t1785279600000",
+                "~:interval": 14.4,
+                "~:remembered?": true,
+                "~:duration": 2
               }
             ],
             "~:created-at": {
@@ -3852,6 +4307,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 17
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 7.2,
+                "~:remembered?": true,
+                "~:duration": 3
               }
             ],
             "~:created-at": {
@@ -4132,6 +4594,13 @@
                 "~:interval": 7.2,
                 "~:remembered?": true,
                 "~:duration": 11
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785452400000",
+                "~:interval": 12.96,
+                "~:remembered?": true,
+                "~:duration": 11
               }
             ],
             "~:created-at": {
@@ -4408,6 +4877,51 @@
             "~:created-at": {
               "~#dt": 1782482122468
             }
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1784000521658
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "un momento\n---\nun attimo",
+            "~:name": "un momento",
+            "~:deck-id": "~:oMSGtlqU",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "U",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:dizKa7Nm",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 4
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 2
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1784000514883
+            },
+            "~:new?": false,
+            "~:template-id": null
           }
         ]
       }
@@ -4608,7 +5122,34 @@
               "~#set": []
             },
             "~:id": "~:8XgLzsL7",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784502000000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784588400000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 2
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": false,
+                "~:duration": 14
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 6
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783389345029
             }
@@ -4665,6 +5206,108 @@
             ],
             "~:created-at": {
               "~#dt": 1782229529241
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## quejarse\n---\nlamentarsi\n*Si lamenta sempre del lavoro.*\n",
+            "~:name": "quejarse",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "H",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:KenuXDj6",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 6
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 26
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052753
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## llevarse bien/mal (con)\n---\nandare d'accordo (con)\n*Vado d'accordo con mia sorella.*\n",
+            "~:name": "llevarse bien/mal (con)",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "f",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:LiX7BuDN",
+            "~:reviews": [
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784329200000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784415600000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 10
+              },
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784588400000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 39
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": false,
+                "~:duration": 31
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": false,
+                "~:rereview?": true,
+                "~:duration": 29
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 6
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052753
             }
           },
           {
@@ -4790,7 +5433,27 @@
               "~#set": []
             },
             "~:id": "~:NeiZKMpY",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 4
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 13
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783033012152
             }
@@ -4822,10 +5485,50 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 18
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785106800000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 1
               }
             ],
             "~:created-at": {
               "~#dt": 1783389345029
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## cuidar\n---\noccuparsi di / prendersi cura di (NOT curare — false friend: curare = treat/cure medically)\n*Mi occupo dei miei nipoti.*\n",
+            "~:name": "cuidar",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "u",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:ckGScQSZ",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 3
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052753
             }
           },
           {
@@ -4934,6 +5637,133 @@
             ],
             "~:created-at": {
               "~#dt": 1782482122468
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## caer bien/mal\n---\nstare simpatico/antipatico (a) — piacere-style inversion\n*Quella persona mi sta simpatica.*\n",
+            "~:name": "caer bien/mal",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "R",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:i0m2xeFX",
+            "~:reviews": [
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784242800000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784329200000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 5
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784502000000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 23
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784847600000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 34
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052754
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## enojarse / enfadarse\n---\narrabbiarsi\n*Si è arrabbiato con me.*\n",
+            "~:name": "enojarse / enfadarse",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "y",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:8IUIAQsk",
+            "~:reviews": [
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784415600000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784502000000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 15
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784934000000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 5
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052753
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## casarse\n---\nsposarsi\n*Si sono sposati l'anno scorso.*\n",
+            "~:name": "casarse",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "H",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:QnjHEtSb",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 3
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 3
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052753
             }
           },
           {
@@ -5059,6 +5889,13 @@
                 "~:interval": 9,
                 "~:remembered?": true,
                 "~:duration": 6
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1786143600000",
+                "~:interval": 18,
+                "~:remembered?": true,
+                "~:duration": 6
               }
             ],
             "~:created-at": {
@@ -5080,7 +5917,27 @@
               "~#set": []
             },
             "~:id": "~:dsqliFvK",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 8
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 10
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783389345029
             }
@@ -5119,6 +5976,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 17
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 7.2,
+                "~:remembered?": true,
+                "~:duration": 14
               }
             ],
             "~:created-at": {
@@ -5206,6 +6070,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 4
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 7.2,
+                "~:remembered?": true,
+                "~:duration": 1
               }
             ],
             "~:created-at": {
@@ -5244,6 +6115,13 @@
                 "~:date": "~t1783897200000",
                 "~:due": "~t1784242800000",
                 "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 14
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785106800000",
+                "~:interval": 9,
                 "~:remembered?": true,
                 "~:duration": 14
               }
@@ -5291,6 +6169,13 @@
                 "~:date": "~t1783724400000",
                 "~:due": "~t1784674800000",
                 "~:interval": 10.8,
+                "~:remembered?": true,
+                "~:duration": 6
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1786402800000",
+                "~:interval": 19.8,
                 "~:remembered?": true,
                 "~:duration": 6
               }
@@ -5375,9 +6260,117 @@
               "~#set": []
             },
             "~:id": "~:Bnf41P2L",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1783983600000",
+                "~:due": "~t1783983600000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784070000000",
+                "~:due": "~t1784242800000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 11
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784761200000",
+                "~:interval": 5.4,
+                "~:remembered?": true,
+                "~:duration": 6
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783033012152
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## enterarse (de) / descubrir\n---\nvenire a sapere / scoprire\n*Ho scoperto che si sono sposati.*\n",
+            "~:name": "enterarse (de) / descubrir",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "H",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:1jm8uW9l",
+            "~:reviews": [
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784415600000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784502000000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 5
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 25
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1785020400000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 21
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052754
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## meterse (en)\n---\nimmischiarsi / intromettersi\n*Non ti immischiare nei miei affari.*\n",
+            "~:name": "meterse (en)",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:needs-rereview?": true,
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "T",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:l7MM7dsp",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 20
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784761200000",
+                "~:interval": 1,
+                "~:remembered?": false,
+                "~:duration": 9
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052754
             }
           },
           {
@@ -5421,6 +6414,13 @@
                 "~:interval": 10.8,
                 "~:remembered?": true,
                 "~:duration": 6
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1786402800000",
+                "~:interval": 19.8,
+                "~:remembered?": true,
+                "~:duration": 7
               }
             ],
             "~:created-at": {
@@ -5508,10 +6508,71 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 44
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785106800000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 5
               }
             ],
             "~:created-at": {
               "~#dt": 1783389345029
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## soñar (con)\n---\nsognare (di) — prep swap: Sp con → IT di\n*Sogno di viaggiare.*\n",
+            "~:name": "soñar (con)",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "Y",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:LbRC62lG",
+            "~:reviews": [
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784329200000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784415600000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 3
+              },
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784588400000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 5
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": false,
+                "~:duration": 44
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 8
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052753
             }
           },
           {
@@ -5569,10 +6630,13 @@
             }
           },
           {
+            "~:updated-at": {
+              "~#dt": 1784743553361
+            },
             "~:tags": {
               "~#set": []
             },
-            "~:content": "\n## terminar / acabar\n---\nfinire (essere when intransitive: *il film è finito*; avere when transitive: *ho finito il libro*)\n*Il film è finito. / Ho finito il libro.*\n",
+            "~:content": "\n## terminar / acabar\n---\nfinire (essere aux when intransitive, avere when transitive) (isc)\n*Il film è finito. / Ho finito il libro.*\n",
             "~:name": "terminar / acabar",
             "~:deck-id": "~:ddRVIhWs",
             "~:cloze/indexes": {
@@ -5613,7 +6677,8 @@
             ],
             "~:created-at": {
               "~#dt": 1782482122468
-            }
+            },
+            "~:new?": false
           },
           {
             "~:tags": {
@@ -5757,6 +6822,20 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 35
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784502000000",
+                "~:interval": 1.8,
+                "~:remembered?": false,
+                "~:duration": 8
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784847600000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 4
               }
             ],
             "~:created-at": {
@@ -5795,6 +6874,13 @@
                 "~:date": "~t1783897200000",
                 "~:due": "~t1784242800000",
                 "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 1
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 7.2,
                 "~:remembered?": true,
                 "~:duration": 1
               }
@@ -5929,6 +7015,181 @@
             "~:tags": {
               "~#set": []
             },
+            "~:content": "\n## dejar de + inf\n---\nsmettere di + inf\n*Ho smesso di fumare.*\n",
+            "~:name": "dejar de + inf",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "l",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:ejPBagLn",
+            "~:reviews": [
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784329200000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784415600000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 6
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784847600000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 13
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783991687809
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## seguir + gerundio\n---\ncontinuare a + inf (Sp uses gerund; IT uses inf)\n*Continua a piovere.*\n",
+            "~:name": "seguir + gerundio",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "h",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:1Gt0HfjG",
+            "~:reviews": [
+              {
+                "~:date": "~t1784156400000",
+                "~:due": "~t1784156400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784156400000",
+                "~:due": "~t1784242800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 3
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784415600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 7
+              },
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784761200000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 8
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783991687809
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## acostumbrarse (a)\n---\nabituarsi (a)\n*Mi sono abituato al freddo.*\n",
+            "~:name": "acostumbrarse (a)",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "Z",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:xXjAUIqx",
+            "~:reviews": [
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784329200000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784415600000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 12
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784588400000",
+                "~:interval": 1,
+                "~:remembered?": false,
+                "~:duration": 22
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": false,
+                "~:rereview?": true,
+                "~:duration": 11
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 8
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052753
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## molestar\n---\ndare fastidio / infastidire (NOT molestare — false friend: IT molestare = harass)\n*Mi dà fastidio il rumore.*\n",
+            "~:name": "molestar",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "z",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:YUWbylpH",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 4
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052753
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
             "~:content": "\n## salir\n---\nuscire\n",
             "~:name": "salir",
             "~:deck-id": "~:ddRVIhWs",
@@ -6020,6 +7281,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 10
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 7.2,
+                "~:remembered?": true,
+                "~:duration": 14
               }
             ],
             "~:created-at": {
@@ -6041,7 +7309,34 @@
               "~#set": []
             },
             "~:id": "~:TDsEHDC4",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1783983600000",
+                "~:due": "~t1783983600000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1783983600000",
+                "~:due": "~t1784070000000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 4
+              },
+              {
+                "~:date": "~t1784156400000",
+                "~:due": "~t1784502000000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 3
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1785366000000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 291
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783389345024
             }
@@ -6104,6 +7399,53 @@
             "~:tags": {
               "~#set": []
             },
+            "~:content": "\n## despedirse (de)\n---\nsalutare (no reflexive, no prep — Sp has both)\n*Ho salutato i miei amici.*\n",
+            "~:name": "despedirse (de)",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "f",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:7nFs5yY5",
+            "~:reviews": [
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784329200000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784415600000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 7
+              },
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784588400000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 4
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784934000000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 71
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052754
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
             "~:content": "\n## ganar\n---\nvincere (win) / guadagnare (earn - IT splits Sp ganar)\n*Ho vinto la partita. / Guadagno poco.*\n",
             "~:name": "ganar",
             "~:deck-id": "~:ddRVIhWs",
@@ -6115,7 +7457,27 @@
               "~#set": []
             },
             "~:id": "~:CubeNw47",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784502000000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784588400000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 8
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784761200000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 41
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783389345029
             }
@@ -6196,7 +7558,27 @@
               "~#set": []
             },
             "~:id": "~:7tt2ruhl",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1784156400000",
+                "~:due": "~t1784156400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784415600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 2
+              },
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784761200000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 2
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783389345029
             }
@@ -6249,6 +7631,98 @@
             }
           },
           {
+            "~:updated-at": {
+              "~#dt": 1784400006110
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "## atreverse (a) / dare to\n---\nosare + inf (no reflexive, no prep — Sp has both)\n*Non oso chiederglielo.*",
+            "~:name": "atreverse (a) / dare to",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "e",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:Cdi66Wth",
+            "~:reviews": [
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784329200000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784415600000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 29
+              },
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784588400000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 31
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784934000000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 36
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052753
+            },
+            "~:new?": false
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## hacer caso (a)\n---\ndare retta (a) / fare caso a\n*Non mi dà mai retta.*\n",
+            "~:name": "hacer caso (a)",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:needs-rereview?": true,
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "b",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:L5uxYlm0",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 5
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784761200000",
+                "~:interval": 1,
+                "~:remembered?": false,
+                "~:duration": 14
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052754
+            }
+          },
+          {
             "~:tags": {
               "~#set": []
             },
@@ -6282,11 +7756,62 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 29
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785106800000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 10
               }
             ],
             "~:created-at": {
               "~#dt": 1783389345029
             }
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1784657976895
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "## quedar (en verse)\n---\nvedersi / darsi appuntamento (distinct from quedarse = rimanere)\n*Ci vediamo alle otto?*",
+            "~:name": "quedar (en verse)",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "a",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:Ai9urXPh",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 13
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 10
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052753
+            },
+            "~:new?": false
           },
           {
             "~:tags": {
@@ -6350,6 +7875,51 @@
             }
           },
           {
+            "~:updated-at": {
+              "~#dt": 1783955901392
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "reir\n---\nridere",
+            "~:name": "reir",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "Q",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:ZyhcMCfg",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 4
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 3
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783955892672
+            },
+            "~:new?": false,
+            "~:template-id": null
+          },
+          {
             "~:tags": {
               "~#set": []
             },
@@ -6383,6 +7953,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 8
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 7.2,
+                "~:remembered?": true,
+                "~:duration": 2
               }
             ],
             "~:created-at": {
@@ -6482,6 +8059,13 @@
                 "~:date": "~t1783897200000",
                 "~:due": "~t1784242800000",
                 "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 2
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 7.2,
                 "~:remembered?": true,
                 "~:duration": 2
               }
@@ -6585,6 +8169,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 6
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 7.2,
+                "~:remembered?": true,
+                "~:duration": 3
               }
             ],
             "~:created-at": {
@@ -6679,6 +8270,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 2
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 7.2,
+                "~:remembered?": true,
+                "~:duration": 2
               }
             ],
             "~:created-at": {
@@ -6712,6 +8310,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 4
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785106800000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 3
               }
             ],
             "~:created-at": {
@@ -6766,6 +8371,13 @@
                 "~:interval": 9,
                 "~:remembered?": true,
                 "~:duration": 9
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1785884400000",
+                "~:interval": 16.2,
+                "~:remembered?": true,
+                "~:duration": 88
               }
             ],
             "~:created-at": {
@@ -6773,11 +8385,14 @@
             }
           },
           {
+            "~:updated-at": {
+              "~#dt": 1784573037886
+            },
             "~:tags": {
               "~#set": []
             },
-            "~:content": "\n## volverse / hacerse / ponerse\n---\ndiventare (essere aux)\n*È diventato famoso.*\n",
-            "~:name": "volverse / hacerse / ponerse",
+            "~:content": "## volverse / hacerse / ponerse / become\n---\ndiventare (essere aux)\n*È diventato famoso.*",
+            "~:name": "volverse / hacerse / ponerse / become",
             "~:deck-id": "~:ddRVIhWs",
             "~:cloze/indexes": {
               "~#set": []
@@ -6787,10 +8402,31 @@
               "~#set": []
             },
             "~:id": "~:SZyEqaRP",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 4
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 3
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783033012152
-            }
+            },
+            "~:new?": false
           },
           {
             "~:tags": {
@@ -6894,10 +8530,104 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 24
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 7.2,
+                "~:remembered?": true,
+                "~:duration": 3
               }
             ],
             "~:created-at": {
               "~#dt": 1783389345028
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## irse\n---\nandarsene\n*Me ne vado.*\n",
+            "~:name": "irse",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "f",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:LAKLrB39",
+            "~:reviews": [
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784502000000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784588400000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 5
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784761200000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 11
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052753
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## equivocarse\n---\nsbagliarsi\n*Mi sono sbagliato.*\n",
+            "~:name": "equivocarse",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "g",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:57Uj7P48",
+            "~:reviews": [
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784415600000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784502000000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 8
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 3
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1785020400000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 4
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052753
             }
           },
           {
@@ -6934,6 +8664,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 12
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785106800000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 3
               }
             ],
             "~:created-at": {
@@ -7070,7 +8807,34 @@
               "~#set": []
             },
             "~:id": "~:bwlI1JDr",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1784070000000",
+                "~:due": "~t1784070000000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784070000000",
+                "~:due": "~t1784156400000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 2
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784588400000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 3
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1785193200000",
+                "~:interval": 7.2,
+                "~:remembered?": true,
+                "~:duration": 45
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783389345028
             }
@@ -7191,7 +8955,27 @@
               "~#set": []
             },
             "~:id": "~:Qdp6IDQD",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1784156400000",
+                "~:due": "~t1784156400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784415600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 13
+              },
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784761200000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 19
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783033012152
             }
@@ -7230,6 +9014,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 14
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785106800000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 2
               }
             ],
             "~:created-at": {
@@ -7240,7 +9031,7 @@
             "~:tags": {
               "~#set": []
             },
-            "~:content": "\n## entender\n---\ncapire\n",
+            "~:content": "\n## entender\n---\ncapire (isc)\n",
             "~:name": "entender",
             "~:deck-id": "~:ddRVIhWs",
             "~:cloze/indexes": {
@@ -7420,7 +9211,27 @@
               "~#set": []
             },
             "~:id": "~:0uyqXwS5",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1783983600000",
+                "~:due": "~t1783983600000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784070000000",
+                "~:due": "~t1784242800000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 6
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784761200000",
+                "~:interval": 5.4,
+                "~:remembered?": true,
+                "~:duration": 5
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783389345029
             }
@@ -7501,7 +9312,27 @@
               "~#set": []
             },
             "~:id": "~:pus6sPxk",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784329200000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784415600000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 30
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784847600000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 19
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783033012152
             }
@@ -7558,6 +9389,46 @@
             ],
             "~:created-at": {
               "~#dt": 1782229529241
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## pelear(se)\n---\nlitigare\n*Litigano sempre per soldi.*\n",
+            "~:name": "pelear(se)",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "m",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:4q61IkpH",
+            "~:reviews": [
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784329200000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784588400000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 9
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784934000000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 12
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052753
             }
           },
           {
@@ -7675,6 +9546,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": false,
                 "~:duration": 6
+              },
+              {
+                "~:date": "~t1784156400000",
+                "~:due": "~t1784934000000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 2
               }
             ],
             "~:created-at": {
@@ -7741,6 +9619,51 @@
             "~:created-at": {
               "~#dt": 1782229529241
             }
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1784399964711
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "## darse cuenta (de)\n---\naccorgersi (di) / rendersi conto (di)\n*Mi sono accorto dell'errore.*",
+            "~:name": "darse cuenta (de)",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:needs-rereview?": true,
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "R",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:8pd9adhk",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 23
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784761200000",
+                "~:interval": 1,
+                "~:remembered?": false,
+                "~:duration": 22
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052753
+            },
+            "~:new?": false
           },
           {
             "~:tags": {
@@ -7898,6 +9821,35 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 10
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784502000000",
+                "~:interval": 1.8,
+                "~:remembered?": false,
+                "~:duration": 21
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784588400000",
+                "~:interval": 1,
+                "~:remembered?": false,
+                "~:duration": 7
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": false,
+                "~:rereview?": true,
+                "~:duration": 11
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 4
               }
             ],
             "~:created-at": {
@@ -8013,7 +9965,34 @@
               "~#set": []
             },
             "~:id": "~:eYlS6Mt5",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1784070000000",
+                "~:due": "~t1784070000000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784070000000",
+                "~:due": "~t1784156400000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 1
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784588400000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 46
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1785193200000",
+                "~:interval": 7.2,
+                "~:remembered?": true,
+                "~:duration": 20
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783389345029
             }
@@ -8033,7 +10012,27 @@
               "~#set": []
             },
             "~:id": "~:sw7UhLeA",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 10
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 22
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783389345030
             }
@@ -8042,7 +10041,7 @@
             "~:tags": {
               "~#set": []
             },
-            "~:content": "## pensar\n---\npensare\n",
+            "~:content": "\n## pensar\n---\npensare a (topic) / pensare di (opinion) — Sp pensar en/de splits differently\n*Penso a te. / Che ne pensi di questo film?*\n",
             "~:name": "pensar",
             "~:deck-id": "~:ddRVIhWs",
             "~:cloze/indexes": {
@@ -8053,48 +10052,7 @@
               "~#set": []
             },
             "~:id": "~:1ahfxO4X",
-            "~:reviews": [
-              {
-                "~:date": "~t1782255600000",
-                "~:due": "~t1782255600000",
-                "~:remembered?": true
-              },
-              {
-                "~:date": "~t1782255600000",
-                "~:due": "~t1782342000000",
-                "~:interval": 1,
-                "~:remembered?": true,
-                "~:duration": 2
-              },
-              {
-                "~:date": "~t1782342000000",
-                "~:due": "~t1782514800000",
-                "~:interval": 1.8,
-                "~:remembered?": true,
-                "~:duration": 2
-              },
-              {
-                "~:date": "~t1782514800000",
-                "~:due": "~t1782860400000",
-                "~:interval": 3.6,
-                "~:remembered?": true,
-                "~:duration": 5
-              },
-              {
-                "~:date": "~t1782860400000",
-                "~:due": "~t1783465200000",
-                "~:interval": 7.2,
-                "~:remembered?": true,
-                "~:duration": 1
-              },
-              {
-                "~:date": "~t1783724400000",
-                "~:due": "~t1785279600000",
-                "~:interval": 18,
-                "~:remembered?": true,
-                "~:duration": 2
-              }
-            ],
+            "~:reviews": [],
             "~:created-at": {
               "~#dt": 1782229529241
             }
@@ -8162,13 +10120,171 @@
           },
           {
             "~:updated-at": {
-              "~#dt": 1783955901392
+              "~#dt": 1784079061674
             },
             "~:tags": {
               "~#set": []
             },
-            "~:content": "reir\n---\nridere",
-            "~:name": "reir",
+            "~:content": "convencer\n---\nconvincere",
+            "~:name": "convencer",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "R",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:rmFar6Wf",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 3
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1784079028481
+            },
+            "~:new?": false,
+            "~:template-id": null
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1784078085371
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## actuar\n---\nagire (isc)\n",
+            "~:name": "actuar",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "T",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:IKFgTOxv",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 1
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 2
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1784078077155
+            },
+            "~:new?": false,
+            "~:template-id": null
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1784079027430
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## arrepentirse\n---\npentirsi\n*Mi pento di quello che ho detto.*\n",
+            "~:name": "arrepentirse",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "S",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:W2v4Q9hr",
+            "~:reviews": [],
+            "~:created-at": {
+              "~#dt": 1784079015670
+            },
+            "~:new?": false,
+            "~:template-id": null
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1784693242902
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## confiar\n---\nfidarsi\n*Mi fido di te.*\n",
+            "~:name": "confiar",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "K",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:BCLQwqVB",
+            "~:reviews": [],
+            "~:created-at": {
+              "~#dt": 1784693232133
+            },
+            "~:new?": false,
+            "~:template-id": null
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1784743502259
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "limpiar\n---\npulire (isc)",
+            "~:name": "limpiar",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "J",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:x9vSDx7N",
+            "~:reviews": [],
+            "~:created-at": {
+              "~#dt": 1784743490671
+            },
+            "~:new?": false,
+            "~:template-id": null
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1784079199791
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "pegar\n---\ncolpire",
+            "~:name": "pegar",
             "~:deck-id": "~:ddRVIhWs",
             "~:cloze/indexes": {
               "~#set": []
@@ -8177,10 +10293,68 @@
             "~:references": {
               "~#set": []
             },
-            "~:id": "~:ZyhcMCfg",
-            "~:reviews": [],
+            "~:id": "~:NOfPTJo0",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 4
+              }
+            ],
             "~:created-at": {
-              "~#dt": 1783955892672
+              "~#dt": 1784079194449
+            },
+            "~:new?": false,
+            "~:template-id": null
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1784656859833
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## regañar\n---\nrimproverare\n",
+            "~:name": "regañar",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "M",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:6FEAu8Nr",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 3
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 6
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1784656851853
             },
             "~:new?": false,
             "~:template-id": null
@@ -8189,14 +10363,14 @@
             "~:cloze/indexes": {
               "~#set": []
             },
-            "~:content": "\n## seguir + gerundio\n---\ncontinuare a + inf (Sp uses gerund; IT uses inf)\n*Continua a piovere.*\n",
+            "~:content": "\n## mudarse (de casa)\n---\ntraslocare\n",
             "~:created-at": {
-              "~#dt": 1783991687809
+              "~#dt": 1784745504795
             },
             "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:1Gt0HfjG",
-            "~:name": "seguir + gerundio",
-            "~:pos": "h",
+            "~:id": "~:qFjnWCCS",
+            "~:name": "mudarse (de casa)",
+            "~:pos": "o",
             "~:references": {
               "~#set": []
             },
@@ -8209,133 +10383,13 @@
             "~:cloze/indexes": {
               "~#set": []
             },
-            "~:content": "\n## dejar de + inf\n---\nsmettere di + inf\n*Ho smesso di fumare.*\n",
+            "~:content": "\n## ahorrar\n---\nrisparmiare\n",
             "~:created-at": {
-              "~#dt": 1783991687809
+              "~#dt": 1784745504795
             },
             "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:ejPBagLn",
-            "~:name": "dejar de + inf",
-            "~:pos": "l",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## cuidar\n---\noccuparsi di / prendersi cura di (NOT curare — false friend: curare = treat/cure medically)\n*Mi occupo dei miei nipoti.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052753
-            },
-            "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:ckGScQSZ",
-            "~:name": "cuidar",
-            "~:pos": "u",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## molestar\n---\ndare fastidio / infastidire (NOT molestare — false friend: IT molestare = harass)\n*Mi dà fastidio il rumore.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052753
-            },
-            "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:YUWbylpH",
-            "~:name": "molestar",
-            "~:pos": "z",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## quejarse\n---\nlamentarsi\n*Si lamenta sempre del lavoro.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052753
-            },
-            "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:KenuXDj6",
-            "~:name": "quejarse",
-            "~:pos": "H",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## atreverse (a)\n---\nosare + inf (no reflexive, no prep — Sp has both)\n*Non oso chiederglielo.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052753
-            },
-            "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:Cdi66Wth",
-            "~:name": "atreverse (a)",
-            "~:pos": "e",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## darse cuenta (de)\n---\naccorgersi (di) / rendersi conto (di)\n*Mi sono accorto dell'errore.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052753
-            },
-            "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:8pd9adhk",
-            "~:name": "darse cuenta (de)",
-            "~:pos": "R",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## equivocarse\n---\nsbagliarsi\n*Mi sono sbagliato.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052753
-            },
-            "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:57Uj7P48",
-            "~:name": "equivocarse",
+            "~:id": "~:IjYjaCoC",
+            "~:name": "ahorrar",
             "~:pos": "g",
             "~:references": {
               "~#set": []
@@ -8349,14 +10403,14 @@
             "~:cloze/indexes": {
               "~#set": []
             },
-            "~:content": "\n## enojarse / enfadarse\n---\narrabbiarsi\n*Si è arrabbiato con me.*\n",
+            "~:content": "\n## gastar\n---\nspendere (NOT guastare — false friend: guastare = to spoil/break)\n*Spendo troppo per i vestiti.*\n",
             "~:created-at": {
-              "~#dt": 1783994052753
+              "~#dt": 1784745504795
             },
             "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:8IUIAQsk",
-            "~:name": "enojarse / enfadarse",
-            "~:pos": "y",
+            "~:id": "~:xuBwdSPo",
+            "~:name": "gastar",
+            "~:pos": "B",
             "~:references": {
               "~#set": []
             },
@@ -8369,14 +10423,14 @@
             "~:cloze/indexes": {
               "~#set": []
             },
-            "~:content": "\n## pelear(se)\n---\nlitigare\n*Litigano sempre per soldi.*\n",
+            "~:content": "\n## cruzar\n---\nattraversare\n",
             "~:created-at": {
-              "~#dt": 1783994052753
+              "~#dt": 1784745504795
             },
             "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:4q61IkpH",
-            "~:name": "pelear(se)",
-            "~:pos": "m",
+            "~:id": "~:zkndvVGf",
+            "~:name": "cruzar",
+            "~:pos": "G",
             "~:references": {
               "~#set": []
             },
@@ -8389,13 +10443,53 @@
             "~:cloze/indexes": {
               "~#set": []
             },
-            "~:content": "\n## casarse\n---\nsposarsi\n*Si sono sposati l'anno scorso.*\n",
+            "~:content": "\n## empujar\n---\nspingere\n",
             "~:created-at": {
-              "~#dt": 1783994052753
+              "~#dt": 1784745504795
             },
             "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:QnjHEtSb",
-            "~:name": "casarse",
+            "~:id": "~:VGe8mwqA",
+            "~:name": "empujar",
+            "~:pos": "D",
+            "~:references": {
+              "~#set": []
+            },
+            "~:reviews": [],
+            "~:tags": {
+              "~#set": []
+            }
+          },
+          {
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:content": "\n## doblar / girar\n---\ngirare\n*Gira a destra.*\n",
+            "~:created-at": {
+              "~#dt": 1784745504795
+            },
+            "~:deck-id": "~:ddRVIhWs",
+            "~:id": "~:z7DjjYsx",
+            "~:name": "doblar / girar",
+            "~:pos": "M",
+            "~:references": {
+              "~#set": []
+            },
+            "~:reviews": [],
+            "~:tags": {
+              "~#set": []
+            }
+          },
+          {
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:content": "\n## devolver\n---\nrestituire\n*Ti restituisco il libro domani.*\n",
+            "~:created-at": {
+              "~#dt": 1784745504795
+            },
+            "~:deck-id": "~:ddRVIhWs",
+            "~:id": "~:yT0wW7ZJ",
+            "~:name": "devolver",
             "~:pos": "H",
             "~:references": {
               "~#set": []
@@ -8409,14 +10503,14 @@
             "~:cloze/indexes": {
               "~#set": []
             },
-            "~:content": "\n## soñar (con)\n---\nsognare (di) — prep swap: Sp con → IT di\n*Sogno di viaggiare.*\n",
+            "~:content": "\n## acercarse (a)\n---\navvicinarsi (a)\n",
             "~:created-at": {
-              "~#dt": 1783994052753
+              "~#dt": 1784745504795
             },
             "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:LbRC62lG",
-            "~:name": "soñar (con)",
-            "~:pos": "Y",
+            "~:id": "~:3HF73ljI",
+            "~:name": "acercarse (a)",
+            "~:pos": "H",
             "~:references": {
               "~#set": []
             },
@@ -8429,13 +10523,33 @@
             "~:cloze/indexes": {
               "~#set": []
             },
-            "~:content": "\n## acostumbrarse (a)\n---\nabituarsi (a)\n*Mi sono abituato al freddo.*\n",
+            "~:content": "\n## alejarse (de)\n---\nallontanarsi (da)\n",
             "~:created-at": {
-              "~#dt": 1783994052753
+              "~#dt": 1784745504795
             },
             "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:xXjAUIqx",
-            "~:name": "acostumbrarse (a)",
+            "~:id": "~:J1HGvGsC",
+            "~:name": "alejarse (de)",
+            "~:pos": "W",
+            "~:references": {
+              "~#set": []
+            },
+            "~:reviews": [],
+            "~:tags": {
+              "~#set": []
+            }
+          },
+          {
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:content": "\n## enamorarse (de)\n---\ninnamorarsi (di)\n",
+            "~:created-at": {
+              "~#dt": 1784745504796
+            },
+            "~:deck-id": "~:ddRVIhWs",
+            "~:id": "~:DI6gmqq4",
+            "~:name": "enamorarse (de)",
             "~:pos": "Z",
             "~:references": {
               "~#set": []
@@ -8449,154 +10563,14 @@
             "~:cloze/indexes": {
               "~#set": []
             },
-            "~:content": "\n## irse\n---\nandarsene\n*Me ne vado.*\n",
+            "~:content": "\n## disfrutar (de)\n---\ngodersi (no prep — direct object, unlike Sp disfrutar de)\n*Mi godo la vacanza.*\n",
             "~:created-at": {
-              "~#dt": 1783994052753
+              "~#dt": 1784745504796
             },
             "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:LAKLrB39",
-            "~:name": "irse",
-            "~:pos": "f",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## quedar (en verse)\n---\nvedersi / darsi appuntamento (distinct from quedarse = rimanere)\n*Ci vediamo alle otto?*\n",
-            "~:created-at": {
-              "~#dt": 1783994052753
-            },
-            "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:Ai9urXPh",
-            "~:name": "quedar (en verse)",
-            "~:pos": "a",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## llevarse bien/mal (con)\n---\nandare d'accordo (con)\n*Vado d'accordo con mia sorella.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052753
-            },
-            "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:LiX7BuDN",
-            "~:name": "llevarse bien/mal (con)",
-            "~:pos": "f",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## despedirse (de)\n---\nsalutare (no reflexive, no prep — Sp has both)\n*Ho salutato i miei amici.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052754
-            },
-            "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:7nFs5yY5",
-            "~:name": "despedirse (de)",
-            "~:pos": "f",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## enterarse (de)\n---\nvenire a sapere / scoprire\n*Ho scoperto che si sono sposati.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052754
-            },
-            "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:1jm8uW9l",
-            "~:name": "enterarse (de)",
-            "~:pos": "H",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## meterse (en)\n---\nimmischiarsi / intromettersi\n*Non ti immischiare nei miei affari.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052754
-            },
-            "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:l7MM7dsp",
-            "~:name": "meterse (en)",
+            "~:id": "~:JpDVAe7I",
+            "~:name": "disfrutar (de)",
             "~:pos": "T",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## caer bien/mal\n---\nstare simpatico/antipatico (a) — piacere-style inversion\n*Quella persona mi sta simpatica.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052754
-            },
-            "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:i0m2xeFX",
-            "~:name": "caer bien/mal",
-            "~:pos": "R",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## hacer caso (a)\n---\ndare retta (a) / fare caso a\n*Non mi dà mai retta.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052754
-            },
-            "~:deck-id": "~:ddRVIhWs",
-            "~:id": "~:L5uxYlm0",
-            "~:name": "hacer caso (a)",
-            "~:pos": "b",
             "~:references": {
               "~#set": []
             },
@@ -8617,10 +10591,13 @@
       "~:cards": {
         "~#list": [
           {
+            "~:updated-at": {
+              "~#dt": 1784163971049
+            },
             "~:tags": {
               "~#set": []
             },
-            "~:content": "\n## claro\n---\ncerto\n*Vieni anche tu? Certo!*\n",
+            "~:content": "## claro\n---\ncerto / chiaro \n*Vieni anche tu? Certo!*",
             "~:name": "claro",
             "~:deck-id": "~:VWLdqOXu",
             "~:cloze/indexes": {
@@ -8650,11 +10627,150 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 5
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785106800000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 14
               }
             ],
             "~:created-at": {
               "~#dt": 1783389345028
+            },
+            "~:new?": false
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## oye / oiga\n---\nsenti / senta (hey, listen! — imperative used as attention-getter)\n*Senti, hai un minuto?*\n",
+            "~:name": "oye / oiga",
+            "~:deck-id": "~:VWLdqOXu",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "D",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:JOuP4LI5",
+            "~:reviews": [
+              {
+                "~:date": "~t1784070000000",
+                "~:due": "~t1784070000000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784070000000",
+                "~:due": "~t1784156400000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 1
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784588400000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 6
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1785193200000",
+                "~:interval": 7.2,
+                "~:remembered?": true,
+                "~:duration": 7
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052754
             }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## lo siento\n---\nmi dispiace\n*Mi dispiace per il ritardo.*\n",
+            "~:name": "lo siento",
+            "~:deck-id": "~:VWLdqOXu",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "E",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:NQnoj6eF",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 4
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 5
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052754
+            }
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1784051013296
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "## de nada\n---\nprego/di niente\n*—Grazie! —Prego!*",
+            "~:name": "de nada",
+            "~:deck-id": "~:VWLdqOXu",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "q",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:1TyzjOxl",
+            "~:reviews": [
+              {
+                "~:date": "~t1783983600000",
+                "~:due": "~t1783983600000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784070000000",
+                "~:due": "~t1784242800000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 7
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784761200000",
+                "~:interval": 5.4,
+                "~:remembered?": true,
+                "~:duration": 4
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052754
+            },
+            "~:new?": false
           },
           {
             "~:tags": {
@@ -8716,12 +10832,71 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 5
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 7.2,
+                "~:remembered?": true,
+                "~:duration": 5
               }
             ],
             "~:created-at": {
               "~#dt": 1783389345028
             },
             "~:new?": false
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1783905959216
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "en mi/tu opinion\n---\nsecondo me/te\n*Secondo me, hai ragione.*",
+            "~:name": "en mi/tu opinion",
+            "~:deck-id": "~:VWLdqOXu",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "R",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:hQ4xwu2w",
+            "~:reviews": [
+              {
+                "~:date": "~t1783897200000",
+                "~:due": "~t1783897200000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1783983600000",
+                "~:due": "~t1784156400000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 13
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784674800000",
+                "~:interval": 5.4,
+                "~:remembered?": true,
+                "~:duration": 9
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1785538800000",
+                "~:interval": 9.72,
+                "~:remembered?": true,
+                "~:duration": 6
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783905943693
+            },
+            "~:new?": false,
+            "~:template-id": null
           },
           {
             "~:tags": {
@@ -8738,7 +10913,27 @@
               "~#set": []
             },
             "~:id": "~:dJY0ycrA",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784329200000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784415600000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 3
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784847600000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 3
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783389345028
             }
@@ -8777,6 +10972,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 65
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 7.2,
+                "~:remembered?": true,
+                "~:duration": 2
               }
             ],
             "~:created-at": {
@@ -8841,6 +11043,53 @@
             "~:tags": {
               "~#set": []
             },
+            "~:content": "\n## pues / entonces / bueno\n---\nallora (so / then — standalone discourse opener)\n*Allora, cominciamo?*\n",
+            "~:name": "pues / entonces / bueno",
+            "~:deck-id": "~:VWLdqOXu",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "z",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:DJbbjCDG",
+            "~:reviews": [
+              {
+                "~:date": "~t1783983600000",
+                "~:due": "~t1783983600000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1783983600000",
+                "~:due": "~t1784070000000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 2
+              },
+              {
+                "~:date": "~t1784156400000",
+                "~:due": "~t1784502000000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 2
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1785106800000",
+                "~:interval": 7.2,
+                "~:remembered?": true,
+                "~:duration": 4
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783991687809
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
             "~:content": "\n## adelante\n---\navanti (come in! / go ahead! - encouragement or permission)\n*Avanti, si accomodi!*\n",
             "~:name": "adelante",
             "~:deck-id": "~:VWLdqOXu",
@@ -8871,10 +11120,64 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 31
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785106800000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 17
               }
             ],
             "~:created-at": {
               "~#dt": 1783389345028
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## ojalá\n---\nmagari (+ cong.)\n*Magari potessi venire!*\n",
+            "~:name": "ojalá",
+            "~:deck-id": "~:VWLdqOXu",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "O",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:5zQ0Dsdq",
+            "~:reviews": [
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784329200000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784415600000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 2
+              },
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784588400000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 2
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784934000000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 33
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052754
             }
           },
           {
@@ -8986,6 +11289,20 @@
                 "~:interval": 1.8,
                 "~:remembered?": true,
                 "~:duration": 7
+              },
+              {
+                "~:date": "~t1783983600000",
+                "~:due": "~t1784415600000",
+                "~:interval": 5.4,
+                "~:remembered?": true,
+                "~:duration": 3
+              },
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1785279600000",
+                "~:interval": 9.72,
+                "~:remembered?": true,
+                "~:duration": 2
               }
             ],
             "~:created-at": {
@@ -9038,137 +11355,6 @@
             "~:created-at": {
               "~#dt": 1782482122468
             }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## pues / entonces / bueno\n---\nallora (so / then — standalone discourse opener)\n*Allora, cominciamo?*\n",
-            "~:created-at": {
-              "~#dt": 1783991687809
-            },
-            "~:deck-id": "~:VWLdqOXu",
-            "~:id": "~:DJbbjCDG",
-            "~:name": "pues / entonces / bueno",
-            "~:pos": "z",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## ojalá\n---\nmagari (+ cong.)\n*Magari potessi venire!*\n",
-            "~:created-at": {
-              "~#dt": 1783994052754
-            },
-            "~:deck-id": "~:VWLdqOXu",
-            "~:id": "~:5zQ0Dsdq",
-            "~:name": "ojalá",
-            "~:pos": "O",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## de nada\n---\nprego\n*—Grazie! —Prego!*\n",
-            "~:created-at": {
-              "~#dt": 1783994052754
-            },
-            "~:deck-id": "~:VWLdqOXu",
-            "~:id": "~:1TyzjOxl",
-            "~:name": "de nada",
-            "~:pos": "q",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## lo siento\n---\nmi dispiace\n*Mi dispiace per il ritardo.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052754
-            },
-            "~:deck-id": "~:VWLdqOXu",
-            "~:id": "~:NQnoj6eF",
-            "~:name": "lo siento",
-            "~:pos": "E",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## oye / oiga\n---\nsenti / senta (hey, listen! — imperative used as attention-getter)\n*Senti, hai un minuto?*\n",
-            "~:created-at": {
-              "~#dt": 1783994052754
-            },
-            "~:deck-id": "~:VWLdqOXu",
-            "~:id": "~:JOuP4LI5",
-            "~:name": "oye / oiga",
-            "~:pos": "D",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:updated-at": {
-              "~#dt": 1783905959216
-            },
-            "~:tags": {
-              "~#set": []
-            },
-            "~:content": "en mi/tu opinion\n---\nsecondo me/te\n*Secondo me, hai ragione.*",
-            "~:name": "en mi/tu opinion",
-            "~:deck-id": "~:VWLdqOXu",
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:pos": "R",
-            "~:references": {
-              "~#set": []
-            },
-            "~:id": "~:hQ4xwu2w",
-            "~:reviews": [
-              {
-                "~:date": "~t1783897200000",
-                "~:due": "~t1783897200000",
-                "~:remembered?": true
-              }
-            ],
-            "~:created-at": {
-              "~#dt": 1783905943693
-            },
-            "~:new?": false,
-            "~:template-id": null
           }
         ]
       }
@@ -9222,6 +11408,13 @@
                 "~:interval": 7.2,
                 "~:remembered?": true,
                 "~:duration": 7
+              },
+              {
+                "~:date": "~t1784070000000",
+                "~:due": "~t1785279600000",
+                "~:interval": 14.4,
+                "~:remembered?": true,
+                "~:duration": 2
               }
             ],
             "~:created-at": {
@@ -9432,6 +11625,13 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 78
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 7.2,
+                "~:remembered?": true,
+                "~:duration": 2
               }
             ],
             "~:created-at": {
@@ -9526,10 +11726,64 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 5
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785106800000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 19
               }
             ],
             "~:created-at": {
               "~#dt": 1783389345029
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## todo el mundo\n---\ntutti (literal \"tutto il mondo\" is wrong/unnatural here)\n*Tutti lo sanno.*\n",
+            "~:name": "todo el mundo",
+            "~:deck-id": "~:TKnrT52J",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "U",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:Fp51Fytb",
+            "~:reviews": [
+              {
+                "~:date": "~t1784156400000",
+                "~:due": "~t1784156400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784156400000",
+                "~:due": "~t1784242800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 2
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784674800000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 12
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1785279600000",
+                "~:interval": 7.2,
+                "~:remembered?": true,
+                "~:duration": 4
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052754
             }
           },
           {
@@ -9663,6 +11917,53 @@
             "~:tags": {
               "~#set": []
             },
+            "~:content": "\n## demás\n---\naltri / il resto\n*Gli altri sono già arrivati.*\n",
+            "~:name": "demás",
+            "~:deck-id": "~:TKnrT52J",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "E",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:IsX7IURg",
+            "~:reviews": [
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784329200000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784415600000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 4
+              },
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784588400000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 4
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784934000000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 40
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052754
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
             "~:content": "\n## mismo\n---\nstesso (*lo stesso giorno* = el mismo día)\n*Abitiamo nella stessa via.*\n",
             "~:name": "mismo",
             "~:deck-id": "~:TKnrT52J",
@@ -9757,52 +12058,26 @@
                 "~:interval": 1.8,
                 "~:remembered?": true,
                 "~:duration": 4
+              },
+              {
+                "~:date": "~t1783983600000",
+                "~:due": "~t1784415600000",
+                "~:interval": 5.4,
+                "~:remembered?": true,
+                "~:duration": 9
+              },
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1785279600000",
+                "~:interval": 9.72,
+                "~:remembered?": true,
+                "~:duration": 3
               }
             ],
             "~:created-at": {
               "~#dt": 1782482122468
             },
             "~:new?": false
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## demás\n---\naltri / il resto\n*Gli altri sono già arrivati.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052754
-            },
-            "~:deck-id": "~:TKnrT52J",
-            "~:id": "~:IsX7IURg",
-            "~:name": "demás",
-            "~:pos": "E",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## todo el mundo\n---\ntutti (literal \"tutto il mondo\" is wrong/unnatural here)\n*Tutti lo sanno.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052754
-            },
-            "~:deck-id": "~:TKnrT52J",
-            "~:id": "~:Fp51Fytb",
-            "~:name": "todo el mundo",
-            "~:pos": "U",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
           }
         ]
       }
@@ -9856,6 +12131,13 @@
                 "~:interval": 10.8,
                 "~:remembered?": true,
                 "~:duration": 6
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1786402800000",
+                "~:interval": 19.8,
+                "~:remembered?": true,
+                "~:duration": 4
               }
             ],
             "~:created-at": {
@@ -9913,6 +12195,79 @@
             "~:tags": {
               "~#set": []
             },
+            "~:content": "\n## estar harto de\n---\nessere stufo di\n*Sono stufo di aspettare.*\n",
+            "~:name": "estar harto de",
+            "~:deck-id": "~:jGEsdTu0",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "z",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:ftgXrVuQ",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 42
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052755
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## por si acaso\n---\nper sicurezza / non si sa mai\n*Prendo l'ombrello, non si sa mai.*\n",
+            "~:name": "por si acaso",
+            "~:deck-id": "~:jGEsdTu0",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "o",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:jeWRcqKL",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 36
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 9
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052755
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
             "~:content": "\n## no ver la hora de\n---\nnon vedere l'ora di + inf\n*Non vedo l'ora di rivederti.*\n",
             "~:name": "no ver la hora de",
             "~:deck-id": "~:jGEsdTu0",
@@ -9950,6 +12305,13 @@
                 "~:interval": 7.2,
                 "~:remembered?": true,
                 "~:duration": 72
+              },
+              {
+                "~:date": "~t1784070000000",
+                "~:due": "~t1785279600000",
+                "~:interval": 14.4,
+                "~:remembered?": true,
+                "~:duration": 26
               }
             ],
             "~:created-at": {
@@ -10054,6 +12416,39 @@
             "~:tags": {
               "~#set": []
             },
+            "~:content": "\n## acabar de + inf\n---\nappena + p.p. (Sp periphrasis has no direct IT structural equivalent)\n*Sono appena arrivato.*\n",
+            "~:name": "acabar de + inf",
+            "~:deck-id": "~:jGEsdTu0",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "K",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:FtWYvLjf",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 24
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052755
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
             "~:content": "\n## dar asco\n---\nfare schifo\n*Questa pasta fa schifo.*\n",
             "~:name": "dar asco",
             "~:deck-id": "~:jGEsdTu0",
@@ -10098,92 +12493,36 @@
             }
           },
           {
-            "~:cloze/indexes": {
-              "~#set": []
+            "~:updated-at": {
+              "~#dt": 1784085940220
             },
-            "~:content": "\n## acabar de + inf\n---\nappena + p.p. (Sp periphrasis has no direct IT structural equivalent)\n*Sono appena arrivato.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052755
-            },
-            "~:deck-id": "~:jGEsdTu0",
-            "~:id": "~:FtWYvLjf",
-            "~:name": "acabar de + inf",
-            "~:pos": "K",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
             "~:tags": {
               "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
             },
-            "~:content": "\n## por si acaso\n---\nper sicurezza / non si sa mai\n*Prendo l'ombrello, non si sa mai.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052755
-            },
-            "~:deck-id": "~:jGEsdTu0",
-            "~:id": "~:jeWRcqKL",
-            "~:name": "por si acaso",
-            "~:pos": "o",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## tener que ver con\n---\navere a che fare con\n*Non ha niente a che fare con me.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052755
-            },
-            "~:deck-id": "~:jGEsdTu0",
-            "~:id": "~:2jqy6l67",
+            "~:content": "\n## tener que ver con\n---\nc'entrare (con) (NOT avere a che fare con — that's a Spanish calque)\n*Questo non c'entra niente con quello.*\n",
             "~:name": "tener que ver con",
+            "~:deck-id": "~:jGEsdTu0",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
             "~:pos": "t",
             "~:references": {
               "~#set": []
             },
+            "~:id": "~:2jqy6l67",
             "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## estar harto de\n---\nessere stufo di\n*Sono stufo di aspettare.*\n",
             "~:created-at": {
               "~#dt": 1783994052755
             },
-            "~:deck-id": "~:jGEsdTu0",
-            "~:id": "~:ftgXrVuQ",
-            "~:name": "estar harto de",
-            "~:pos": "z",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
+            "~:new?": false
           }
         ]
       }
     },
     {
+      "~:name": "Misc",
       "~:id": "~:V6L9jIPM",
       "~:sort": 10,
-      "~:name": "Misc",
       "~:cards": {
         "~#list": [
           {
@@ -10223,10 +12562,62 @@
                 "~:interval": 3.6,
                 "~:remembered?": true,
                 "~:duration": 3
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1785106800000",
+                "~:interval": 9,
+                "~:remembered?": true,
+                "~:duration": 4
               }
             ],
             "~:created-at": {
               "~#dt": 1783468515763
+            },
+            "~:new?": false,
+            "~:template-id": null
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1784312493966
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## vacío\n---\nvuoto\n*Il bicchiere è vuoto.*\n",
+            "~:name": "vacío",
+            "~:deck-id": "~:V6L9jIPM",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "P",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:vHyU8lP0",
+            "~:reviews": [
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784415600000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 4
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1785020400000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 2
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1784312482518
             },
             "~:new?": false,
             "~:template-id": null
@@ -10243,144 +12634,283 @@
       "~:cards": {
         "~#list": [
           {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## embarazada\n---\nincinta (NOT imbarazzata — false friend: that means embarrassed)\n*Mia sorella è incinta.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052754
-            },
-            "~:deck-id": "~:5NAzeZif",
-            "~:id": "~:IJFiJ6P5",
-            "~:name": "embarazada",
-            "~:pos": "R",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
             "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## largo\n---\nlungo (NOT largo — false friend: IT largo = wide)\n*Ho i capelli lunghi.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052754
-            },
-            "~:deck-id": "~:5NAzeZif",
-            "~:id": "~:IiaKFw7U",
-            "~:name": "largo",
-            "~:pos": "F",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:content": "\n## ancho\n---\nlargo (cross-trap with largo/lungo above)\n*La strada è molto larga.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052754
-            },
-            "~:deck-id": "~:5NAzeZif",
-            "~:id": "~:MmsC8VyB",
-            "~:name": "ancho",
-            "~:pos": "f",
-            "~:references": {
-              "~#set": []
-            },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
-            }
-          },
-          {
-            "~:cloze/indexes": {
               "~#set": []
             },
             "~:content": "\n## guardar\n---\nconservare / mettere via (NOT guardare — false friend: that means to watch/look)\n*Conservo i documenti importanti.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052754
-            },
-            "~:deck-id": "~:5NAzeZif",
-            "~:id": "~:2HBo2svQ",
             "~:name": "guardar",
+            "~:deck-id": "~:5NAzeZif",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
             "~:pos": "L",
             "~:references": {
               "~#set": []
             },
+            "~:trashed?": {
+              "~#dt": 1784380492853
+            },
+            "~:id": "~:2HBo2svQ",
             "~:reviews": [],
-            "~:tags": {
-              "~#set": []
+            "~:created-at": {
+              "~#dt": 1783994052754
             }
           },
           {
-            "~:cloze/indexes": {
+            "~:tags": {
               "~#set": []
             },
             "~:content": "\n## contestar\n---\nrispondere (NOT contestare — false friend: that means to contest/dispute)\n*Non ha risposto alla mia domanda.*\n",
-            "~:created-at": {
-              "~#dt": 1783994052754
-            },
-            "~:deck-id": "~:5NAzeZif",
-            "~:id": "~:T2Yekw2o",
             "~:name": "contestar",
+            "~:deck-id": "~:5NAzeZif",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
             "~:pos": "M",
             "~:references": {
               "~#set": []
             },
-            "~:reviews": [],
-            "~:tags": {
-              "~#set": []
+            "~:id": "~:T2Yekw2o",
+            "~:reviews": [
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784329200000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784415600000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 2
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784847600000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 6
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052754
             }
           },
           {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## ancho\n---\nlargo (cross-trap with largo/lungo above)\n*La strada è molto larga.*\n",
+            "~:name": "ancho",
+            "~:deck-id": "~:5NAzeZif",
             "~:cloze/indexes": {
               "~#set": []
             },
-            "~:content": "\n## suceso\n---\nevento / fatto (NOT successo — false friend: that means success)\n*È stato un fatto strano.*\n",
+            "~:pos": "f",
+            "~:references": {
+              "~#set": []
+            },
+            "~:trashed?": {
+              "~#dt": 1784492306492
+            },
+            "~:id": "~:MmsC8VyB",
+            "~:reviews": [],
             "~:created-at": {
               "~#dt": 1783994052754
+            }
+          },
+          {
+            "~:tags": {
+              "~#set": []
             },
-            "~:deck-id": "~:5NAzeZif",
-            "~:id": "~:47U3coUV",
+            "~:content": "\n## suceso\n---\nevento / fatto (NOT successo — false friend: that means success)\n*È stato un fatto strano.*\n",
             "~:name": "suceso",
+            "~:deck-id": "~:5NAzeZif",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
             "~:pos": "O",
             "~:references": {
               "~#set": []
             },
+            "~:trashed?": {
+              "~#dt": 1784163601612
+            },
+            "~:id": "~:47U3coUV",
             "~:reviews": [],
-            "~:tags": {
-              "~#set": []
+            "~:created-at": {
+              "~#dt": 1783994052754
             }
           },
           {
-            "~:cloze/indexes": {
+            "~:tags": {
               "~#set": []
             },
             "~:content": "\n## listo (ready)\n---\npronto (IT pronto = ready, NOT soon — unlike Sp pronto)\n*Sei pronto per uscire?*\n",
-            "~:created-at": {
-              "~#dt": 1783994052754
-            },
-            "~:deck-id": "~:5NAzeZif",
-            "~:id": "~:NtRCtAQv",
             "~:name": "listo (ready)",
+            "~:deck-id": "~:5NAzeZif",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
             "~:pos": "H",
             "~:references": {
               "~#set": []
             },
-            "~:reviews": [],
+            "~:id": "~:NtRCtAQv",
+            "~:reviews": [
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784329200000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784588400000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 2
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784934000000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 26
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052754
+            }
+          },
+          {
             "~:tags": {
               "~#set": []
+            },
+            "~:content": "\n## largo\n---\nlungo (NOT largo — false friend: IT largo = wide)\n*Ho i capelli lunghi.*\n",
+            "~:name": "largo",
+            "~:deck-id": "~:5NAzeZif",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "F",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:IiaKFw7U",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 2
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 16
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052754
             }
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## embarazada\n---\nincinta (NOT imbarazzata — false friend: that means embarrassed)\n*Mia sorella è incinta.*\n",
+            "~:name": "embarazada",
+            "~:deck-id": "~:5NAzeZif",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "R",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:IJFiJ6P5",
+            "~:reviews": [
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784588400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784674800000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 2
+              },
+              {
+                "~:date": "~t1784674800000",
+                "~:due": "~t1784847600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 6
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052754
+            }
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1784656702714
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## último (last, time period)\n---\nscorso (NOT ultimo — IT ultimo = last in a series/final, e.g. l'ultimo giorno)\n*L'anno scorso sono andato in Italia.*\n",
+            "~:name": "último (last, time period)",
+            "~:deck-id": "~:5NAzeZif",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "N",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:pXIzLaMM",
+            "~:reviews": [],
+            "~:created-at": {
+              "~#dt": 1784656693569
+            },
+            "~:new?": false,
+            "~:template-id": null
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1784658480396
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## pronto (soon)\n---\npresto (NOT pronto — IT pronto = ready, not soon)\n*Arrivo presto.*\n",
+            "~:name": "pronto (soon)",
+            "~:deck-id": "~:5NAzeZif",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "L",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:yVEndPuu",
+            "~:reviews": [],
+            "~:created-at": {
+              "~#dt": 1784658473370
+            },
+            "~:new?": false,
+            "~:template-id": null
           }
         ]
       }
@@ -10393,6 +12923,46 @@
       "~:sort": 12,
       "~:cards": {
         "~#list": [
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## aquí / acá\n---\nqui / qua\n*Vieni qui!*\n",
+            "~:name": "aquí / acá",
+            "~:deck-id": "~:PcYrMxaI",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "g",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:x1pVlG7F",
+            "~:reviews": [
+              {
+                "~:date": "~t1783983600000",
+                "~:due": "~t1783983600000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784070000000",
+                "~:due": "~t1784242800000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 3
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784761200000",
+                "~:interval": 5.4,
+                "~:remembered?": true,
+                "~:duration": 2
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052755
+            }
+          },
           {
             "~:updated-at": {
               "~#dt": 1783905786763
@@ -10411,12 +12981,72 @@
               "~#set": []
             },
             "~:id": "~:kGL3cope",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1784156400000",
+                "~:due": "~t1784156400000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784242800000",
+                "~:due": "~t1784415600000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 5
+              },
+              {
+                "~:date": "~t1784502000000",
+                "~:due": "~t1784934000000",
+                "~:interval": 5.4,
+                "~:remembered?": true,
+                "~:duration": 11
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783905779271
             },
             "~:new?": false,
             "~:template-id": null
+          },
+          {
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## allí / ahí / allá\n---\nlì / là\n*Il libro è lì.*\n",
+            "~:name": "allí / ahí / allá",
+            "~:deck-id": "~:PcYrMxaI",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "F",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:etu9xfjZ",
+            "~:reviews": [
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784329200000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784415600000",
+                "~:due": "~t1784588400000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 3
+              },
+              {
+                "~:date": "~t1784588400000",
+                "~:due": "~t1784934000000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 20
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1783994052755
+            }
           },
           {
             "~:updated-at": {
@@ -10436,7 +13066,27 @@
               "~#set": []
             },
             "~:id": "~:HiC87rZd",
-            "~:reviews": [],
+            "~:reviews": [
+              {
+                "~:date": "~t1784070000000",
+                "~:due": "~t1784070000000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1784156400000",
+                "~:due": "~t1784329200000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 3
+              },
+              {
+                "~:date": "~t1784329200000",
+                "~:due": "~t1784674800000",
+                "~:interval": 3.6,
+                "~:remembered?": true,
+                "~:duration": 5
+              }
+            ],
             "~:created-at": {
               "~#dt": 1783807579585
             },
@@ -10447,14 +13097,14 @@
             "~:cloze/indexes": {
               "~#set": []
             },
-            "~:content": "\n## aquí / acá\n---\nqui / qua\n*Vieni qui!*\n",
+            "~:content": "\n## cerca (de)\n---\nvicino (a)\n*Abito vicino alla stazione.*\n",
             "~:created-at": {
-              "~#dt": 1783994052755
+              "~#dt": 1784745504796
             },
             "~:deck-id": "~:PcYrMxaI",
-            "~:id": "~:x1pVlG7F",
-            "~:name": "aquí / acá",
-            "~:pos": "g",
+            "~:id": "~:OEMFHAS2",
+            "~:name": "cerca (de)",
+            "~:pos": "D",
             "~:references": {
               "~#set": []
             },
@@ -10467,14 +13117,174 @@
             "~:cloze/indexes": {
               "~#set": []
             },
-            "~:content": "\n## allí / ahí / allá\n---\nlì / là\n*Il libro è lì.*\n",
+            "~:content": "\n## lejos (de)\n---\nlontano (da)\n*Vivo lontano dal centro.*\n",
             "~:created-at": {
-              "~#dt": 1783994052755
+              "~#dt": 1784745504796
             },
             "~:deck-id": "~:PcYrMxaI",
-            "~:id": "~:etu9xfjZ",
-            "~:name": "allí / ahí / allá",
-            "~:pos": "F",
+            "~:id": "~:fr5rSPOI",
+            "~:name": "lejos (de)",
+            "~:pos": "z",
+            "~:references": {
+              "~#set": []
+            },
+            "~:reviews": [],
+            "~:tags": {
+              "~#set": []
+            }
+          },
+          {
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:content": "\n## debajo (de)\n---\nsotto\n*Il gatto è sotto il tavolo.*\n",
+            "~:created-at": {
+              "~#dt": 1784745504796
+            },
+            "~:deck-id": "~:PcYrMxaI",
+            "~:id": "~:UY2RwDUN",
+            "~:name": "debajo (de)",
+            "~:pos": "Q",
+            "~:references": {
+              "~#set": []
+            },
+            "~:reviews": [],
+            "~:tags": {
+              "~#set": []
+            }
+          },
+          {
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:content": "\n## encima (de)\n---\nsopra\n*Il libro è sopra la sedia.*\n",
+            "~:created-at": {
+              "~#dt": 1784745504796
+            },
+            "~:deck-id": "~:PcYrMxaI",
+            "~:id": "~:ZdG3d1Rp",
+            "~:name": "encima (de)",
+            "~:pos": "k",
+            "~:references": {
+              "~#set": []
+            },
+            "~:reviews": [],
+            "~:tags": {
+              "~#set": []
+            }
+          },
+          {
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:content": "\n## detrás (de)\n---\ndietro (a)\n*La macchina è dietro la casa.*\n",
+            "~:created-at": {
+              "~#dt": 1784745504796
+            },
+            "~:deck-id": "~:PcYrMxaI",
+            "~:id": "~:nFsqChY9",
+            "~:name": "detrás (de)",
+            "~:pos": "w",
+            "~:references": {
+              "~#set": []
+            },
+            "~:reviews": [],
+            "~:tags": {
+              "~#set": []
+            }
+          },
+          {
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:content": "\n## delante (de)\n---\ndavanti (a)\n*Ci vediamo davanti al bar.*\n",
+            "~:created-at": {
+              "~#dt": 1784745504796
+            },
+            "~:deck-id": "~:PcYrMxaI",
+            "~:id": "~:eUndYTNM",
+            "~:name": "delante (de)",
+            "~:pos": "z",
+            "~:references": {
+              "~#set": []
+            },
+            "~:reviews": [],
+            "~:tags": {
+              "~#set": []
+            }
+          },
+          {
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:content": "\n## alrededor (de)\n---\nintorno (a)\n*Ci sono negozi intorno alla piazza.*\n",
+            "~:created-at": {
+              "~#dt": 1784745504796
+            },
+            "~:deck-id": "~:PcYrMxaI",
+            "~:id": "~:6PZNDAxO",
+            "~:name": "alrededor (de)",
+            "~:pos": "S",
+            "~:references": {
+              "~#set": []
+            },
+            "~:reviews": [],
+            "~:tags": {
+              "~#set": []
+            }
+          },
+          {
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:content": "\n## al lado (de)\n---\naccanto (a)\n*Siediti accanto a me.*\n",
+            "~:created-at": {
+              "~#dt": 1784745504796
+            },
+            "~:deck-id": "~:PcYrMxaI",
+            "~:id": "~:oVq1plpu",
+            "~:name": "al lado (de)",
+            "~:pos": "R",
+            "~:references": {
+              "~#set": []
+            },
+            "~:reviews": [],
+            "~:tags": {
+              "~#set": []
+            }
+          },
+          {
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:content": "\n## en medio (de)\n---\nin mezzo (a)\n*La tavola è in mezzo alla stanza.*\n",
+            "~:created-at": {
+              "~#dt": 1784745504796
+            },
+            "~:deck-id": "~:PcYrMxaI",
+            "~:id": "~:NjurpsMW",
+            "~:name": "en medio (de)",
+            "~:pos": "i",
+            "~:references": {
+              "~#set": []
+            },
+            "~:reviews": [],
+            "~:tags": {
+              "~#set": []
+            }
+          },
+          {
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:content": "\n## hacia\n---\nverso\n*Cammino verso casa.*\n",
+            "~:created-at": {
+              "~#dt": 1784745504796
+            },
+            "~:deck-id": "~:PcYrMxaI",
+            "~:id": "~:VXk68aKf",
+            "~:name": "hacia",
+            "~:pos": "z",
             "~:references": {
               "~#set": []
             },
@@ -10484,6 +13294,14 @@
             }
           }
         ]
+      }
+    },
+    {
+      "~:id": "~:Q0qW77KD",
+      "~:sort": 13,
+      "~:name": "Loose",
+      "~:cards": {
+        "~#list": []
       }
     }
   ]

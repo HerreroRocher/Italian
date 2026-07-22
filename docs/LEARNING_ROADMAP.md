@@ -69,7 +69,7 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 ## Imperfetto & trapassato prossimo
 - [x] Imperfetto forms (regular + *essere, fare, dire, bere*)
 - [x] Imperfetto vs passato prossimo — aspect distinction
-- [ ] Trapassato prossimo
+- [x] Trapassato prossimo — taught 2026-07-22
 
 ## Combined pronouns, *ne*, *ci*
 *Ne, ci, and the negative existential (non c'è / non ce n'è) taught 2026-07-19. Transcription to notebook pending — see `WEAKNESS_AREAS.md` for drill outcomes.*
@@ -85,7 +85,7 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [ ] Futuro anteriore
 
 ## Condizionale
-- [ ] Presente (stems shared with futuro)
+- [x] Presente (stems shared with futuro) — taught 2026-07-22
 - [ ] Passato
 
 ## Congiuntivo
@@ -95,8 +95,8 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [ ] Triggers — verbs of opinion/emotion, impersonal expressions, key conjunctions (*benché, sebbene, affinché, prima che, a meno che, …*)
 
 ## Imperativo
-- [ ] Forms (tu / voi / Lei / noi), positive and negative
-- [ ] Pronoun placement (attached vs preceding for Lei)
+- [x] Forms (tu / voi / Lei / noi), positive and negative — taught 2026-07-22
+- [x] Pronoun placement (attached vs preceding for Lei) — taught 2026-07-22
 
 ## Modal verbs in compound tenses
 - [ ] *Potere / dovere / volere* — auxiliary choice when the embedded verb takes *essere*
