@@ -64,7 +64,7 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [x] Auxiliary choice (avere vs essere — verb classes that take each)
 - [x] Past participle agreement with *essere* subjects
 - [x] Past participle agreement with preceding direct-object clitic — taught 2026-07-19
-- [x] Common irregular past participles
+- [x] Common irregular past participles — *stato* (shared by *essere*/*stare*) taught 2026-07-22
 
 ## Imperfetto & trapassato prossimo
 - [x] Imperfetto forms (regular + *essere, fare, dire, bere*)
@@ -86,7 +86,7 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 
 ## Condizionale
 - [x] Presente (stems shared with futuro) — taught 2026-07-22
-- [ ] Passato
+- [x] Passato — taught 2026-07-22
 
 ## Congiuntivo
 - [ ] Presente
@@ -99,21 +99,24 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [x] Pronoun placement (attached vs preceding for Lei) — taught 2026-07-22
 
 ## Modal verbs in compound tenses
-- [ ] *Potere / dovere / volere* — auxiliary choice when the embedded verb takes *essere*
+- [x] *Potere / dovere / volere* — auxiliary choice when the embedded verb takes *essere* — taught 2026-07-23
 
 ## *Si* constructions
-- [ ] Reflexive *si*
-- [ ] Passive *si* (*si vendono libri*)
-- [ ] Impersonal *si* (*si dice che …*)
+- [x] Reflexive *si* — covered under reflexive verbs, taught 2026-07-22
+- [x] Passive *si* (*si vendono libri*) — taught 2026-07-25
+- [x] Impersonal *si* (*si dice che …*) — taught 2026-07-25
 
 ## Comparison
-- [ ] Comparativi (*più / meno … di* vs *che*)
-- [ ] Superlativi relativi e assoluti
-- [ ] Irregular: *migliore, peggiore, maggiore, minore*
+- [x] Comparativi (*più / meno … di* vs *che*) — taught 2026-07-25
+- [x] Superlativi relativi e assoluti — taught 2026-07-25
+- [x] Irregular: *migliore, peggiore, maggiore, minore* — taught 2026-07-25
+
+## Troncamento
+- [ ] General rule (no apostrophe, vowel-final syllable in *-le/-no/-ne/-re* before a consonant) + word list: *aver, quale→qual, bene→ben, maggiore/migliore/peggiore/minore→maggior/miglior/peggior/minor* — extends the apocopated-forms adjective subset already taught under Adjectives
 
 ## Relative clauses
-- [ ] *Che, cui, il quale* — selection and use
-- [ ] *Quello che / ciò che*
+- [x] *Che, cui, il quale* — selection and use — taught 2026-07-23
+- [x] *Quello che / ciò che* — taught 2026-07-23
 
 ## Periodo ipotetico
 - [ ] Real (presente + presente/futuro)
@@ -121,7 +124,7 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [ ] Impossible (congiuntivo trapassato + condizionale passato)
 
 ## Discourse & connectors
-- [ ] Coordinating: *ma, però, quindi, allora, invece, infatti, …*
+- [x] Coordinating: *ma, però, quindi, allora, invece, infatti, …* — taught 2026-07-24
 - [ ] Subordinating + the mood each takes (indicative vs subjunctive)
 - [ ] Register notes — formal vs everyday spoken
 
