@@ -20,6 +20,7 @@ This file holds the prescriptive "do this / don't do this" rules for tutoring se
 - Covertly target specific grammar systems with **traps** (e.g. same verb flipping avere↔essere; essere-verbs needing plural agreement; the *a*-before-people interference).
 - After Daniel answers: mark each line (✓ or inline correction with a brief *why*), then a **scoreboard** identifying which systems are solid vs. the **narrowest remaining leak**, then offer a focused follow-up round on that leak.
 - Use Spanish as the bridge wherever it clarifies a divergence.
+- **Passato remoto is recognition-only.** Daniel's goal is to understand it when others (esp. southern Italian speakers) use it, not to produce it himself. Never target passato remoto production as a quiz trap or drill it unprompted — only if Daniel explicitly asks to be tested on it.
 - **Scope traps to what's actually been taught.** Every targeted system in a quiz must be either a formally taught lesson (ticked in `LEARNING_ROADMAP.md` or covered earlier this session) or an active row in `WEAKNESS_AREAS.md`. Don't build a trap around something that was only mentioned once in passing (an aside example, a one-off correction) without being taught as its own point — that's not fair game yet.
 
 ## Strict separation of materials

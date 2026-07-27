@@ -44,7 +44,11 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [x] Simple: *a, da, di, in, su, con, per, tra/fra* — core meanings vs Spanish
 - [x] Articulated forms (*al, dal, del, nel, sul, …*)
 - [x] Lexicalised choices (*andare a / in / da*, *pensare a / di*) — taught 2026-07-22
-- [ ] Time & place idiomatic expressions — never formally taught, only picked up piecemeal via drilling (see `WEAKNESS_AREAS.md` row b). Seasonal (*d'estate, d'inverno, in primavera/in autunno*), time-of-day (*di mattina, la sera, a mezzogiorno*), and the destination-noun families: no-article (*a casa/scuola/letto/teatro*, *in ufficio/banca/chiesa/montagna*) vs with-article (*al cinema/ristorante/mare*).
+- [x] Time & place idiomatic expressions — taught 2026-07-27
+- [ ] *Da* — full functional range: origin vs *essere di*, passive agent (vs Sp *por*), "at [person]'s place" (no Sp equivalent), duration *da* + present tense — flagged 2026-07-27, not yet taught
+- [ ] *Per* vs Spanish *para*/*por* — Italian *per* spans purpose, exchange/price, duration, destination-in-transit, territory Spanish splits across two prepositions — flagged 2026-07-27
+- [ ] *Su* — approximation (*costa sui 100 euro*) and topic (*un libro su Roma*) uses beyond core "on" — flagged 2026-07-27
+- [ ] *Tra/fra* — future-time use (*tra due giorni* = "in two days", Sp switches to *en*) — flagged 2026-07-27
 
 ## Present tense
 - [x] Subject pronouns and typical omission — taught 2026-07-22
@@ -131,7 +135,7 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [x] Register notes — formal vs everyday spoken — taught 2026-07-27
 
 ## Cultural awareness
-- [x] Passato remoto — **active production, not just recognition** (see `CLAUDE.md` for why) — taught 2026-07-27
+- [x] Passato remoto — recognition-only goal, no active production required (Daniel's call, 2026-07-27) — taught 2026-07-27
 
 ---
 
