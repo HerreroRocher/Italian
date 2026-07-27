@@ -6,6 +6,7 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 
 ## Foundations
 - [x] Orthography & sound rules (c/g before e/i vs a/o/u; *gli, gn, sci/sce*; double consonants; stress and accents)
+- [ ] Word stress (*accento tonico*) beyond the written-accent cases — non-final stress has no visual marker in Italian (unlike Spanish), so it must be learned per word. Especially non-trivial for **-ere verbs**, which split unpredictably between ending-stress (*temere, vedere, cadere*) and stem-stress (*prendere, scrivere, mettere*) — see `WEAKNESS_AREAS.md` row d for detail, not duplicated here. Needs a non-written drill format (explicit "where does the stress fall," or reading aloud).
 
 ## Nouns
 - [x] Gender — defaults and patterns (-o / -a / -e; *-ma, -ista, -ione, -ore* groups) — taught 2026-07-19
@@ -43,6 +44,7 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [x] Simple: *a, da, di, in, su, con, per, tra/fra* — core meanings vs Spanish
 - [x] Articulated forms (*al, dal, del, nel, sul, …*)
 - [x] Lexicalised choices (*andare a / in / da*, *pensare a / di*) — taught 2026-07-22
+- [ ] Time & place idiomatic expressions — never formally taught, only picked up piecemeal via drilling (see `WEAKNESS_AREAS.md` row b). Seasonal (*d'estate, d'inverno, in primavera/in autunno*), time-of-day (*di mattina, la sera, a mezzogiorno*), and the destination-noun families: no-article (*a casa/scuola/letto/teatro*, *in ufficio/banca/chiesa/montagna*) vs with-article (*al cinema/ristorante/mare*).
 
 ## Present tense
 - [x] Subject pronouns and typical omission — taught 2026-07-22
@@ -82,17 +84,17 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [x] Futuro semplice — regular endings
 - [x] Spelling rules: -care/-gare (h-insertion), -ciare/-giare/-iare (vowel merge)
 - [x] Common irregular stems (*essere, avere, andare, venire, fare, dovere, potere, …*)
-- [ ] Futuro anteriore
+- [x] Futuro anteriore — taught 2026-07-25
 
 ## Condizionale
 - [x] Presente (stems shared with futuro) — taught 2026-07-22
 - [x] Passato — taught 2026-07-22
 
 ## Congiuntivo
-- [ ] Presente
-- [ ] Imperfetto
-- [ ] Passato + trapassato
-- [ ] Triggers — verbs of opinion/emotion, impersonal expressions, key conjunctions (*benché, sebbene, affinché, prima che, a meno che, …*)
+- [x] Presente — taught 2026-07-25
+- [x] Imperfetto — taught 2026-07-26
+- [x] Passato + trapassato — taught 2026-07-26
+- [x] Triggers — verbs of opinion/emotion, impersonal expressions, key conjunctions (*benché, sebbene, affinché, prima che, a meno che, …*) — taught 2026-07-25
 
 ## Imperativo
 - [x] Forms (tu / voi / Lei / noi), positive and negative — taught 2026-07-22
@@ -107,29 +109,29 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [x] Impersonal *si* (*si dice che …*) — taught 2026-07-25
 
 ## Comparison
-- [x] Comparativi (*più / meno … di* vs *che*) — taught 2026-07-25
-- [x] Superlativi relativi e assoluti — taught 2026-07-25
-- [x] Irregular: *migliore, peggiore, maggiore, minore* — taught 2026-07-25
+- [x] Comparativi (*più / meno … di* vs *che*) — taught 2026-07-26
+- [x] Superlativi relativi e assoluti — taught 2026-07-26
+- [x] Irregular: *migliore, peggiore, maggiore, minore* — taught 2026-07-26
 
 ## Troncamento
-- [ ] General rule (no apostrophe, vowel-final syllable in *-le/-no/-ne/-re* before a consonant) + word list: *aver, quale→qual, bene→ben, maggiore/migliore/peggiore/minore→maggior/miglior/peggior/minor* — extends the apocopated-forms adjective subset already taught under Adjectives
+- [x] General rule — taught 2026-07-26 (no apostrophe, vowel-final syllable in *-le/-no/-ne/-re* before a consonant) + word list: *aver, quale→qual, bene→ben, maggiore/migliore/peggiore/minore→maggior/miglior/peggior/minor* — extends the apocopated-forms adjective subset already taught under Adjectives
 
 ## Relative clauses
 - [x] *Che, cui, il quale* — selection and use — taught 2026-07-23
 - [x] *Quello che / ciò che* — taught 2026-07-23
 
 ## Periodo ipotetico
-- [ ] Real (presente + presente/futuro)
-- [ ] Possible (congiuntivo imperfetto + condizionale presente)
-- [ ] Impossible (congiuntivo trapassato + condizionale passato)
+- [x] Real (presente + presente/futuro) — taught 2026-07-26
+- [x] Possible (congiuntivo imperfetto + condizionale presente) — taught 2026-07-26
+- [x] Impossible (congiuntivo trapassato + condizionale passato) — taught 2026-07-26
 
 ## Discourse & connectors
 - [x] Coordinating: *ma, però, quindi, allora, invece, infatti, …* — taught 2026-07-24
-- [ ] Subordinating + the mood each takes (indicative vs subjunctive)
-- [ ] Register notes — formal vs everyday spoken
+- [x] Subordinating + the mood each takes (indicative vs subjunctive) — taught 2026-07-27
+- [x] Register notes — formal vs everyday spoken — taught 2026-07-27
 
 ## Cultural awareness
-- [ ] Passato remoto — recognition (regional and literary)
+- [x] Passato remoto — **active production, not just recognition** (see `CLAUDE.md` for why) — taught 2026-07-27
 
 ---
 
