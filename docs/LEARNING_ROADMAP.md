@@ -6,7 +6,8 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 
 ## Foundations
 - [x] Orthography & sound rules (c/g before e/i vs a/o/u; *gli, gn, sci/sce*; double consonants; stress and accents)
-- [ ] Word stress (*accento tonico*) beyond the written-accent cases — non-final stress has no visual marker in Italian (unlike Spanish), so it must be learned per word. Especially non-trivial for **-ere verbs**, which split unpredictably between ending-stress (*temere, vedere, cadere*) and stem-stress (*prendere, scrivere, mettere*) — no derivable rule, has to be learned per verb. Drill format resolved for the ending-stress half: the closed ~22-verb group is now carried in the deck with the stressed vowel capitalised (`RULES_CARDS.md` → annotation markers, 2026-07-28). Stem-stress group not yet covered.
+
+*Word stress (*accento tonico*) was dropped as a notebook section on 2026-07-28: for a Spanish speaker it transfers from the Spanish cognate almost everywhere (mèdico/médico, diffìcile/difícil, telèfono/teléfono), so there is no paradigm to write down. The one part that genuinely doesn't transfer — the `-ere` infinitive split, since Spanish `-er/-ir` verbs are uniformly end-stressed — is per-word and now lives in the deck, where a capitalised vowel flags an end-stressed `-ere` verb and the stem-stressed majority stays unmarked (`RULES_CARDS.md` → annotation markers). Capitals are used nowhere else.*
 
 ## Nouns
 - [x] Gender — defaults and patterns (-o / -a / -e; *-ma, -ista, -ione, -ore* groups) — taught 2026-07-19
