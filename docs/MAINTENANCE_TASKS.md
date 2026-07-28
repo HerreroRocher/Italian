@@ -47,7 +47,7 @@ Extends "Tooling roadmap" below; this section frames them as one connected workf
 
 ## Flashcard audit (resolved 2026-07-14)
 
-2026-06-25 backup audit (capitalization, cross-deck duplicates/overlap, ambiguous or two-concept cards) resolved via the 2026-07 deck restructure plus a follow-up audit/edit pass in this repo, which also added 41 non-trivial cards. Current: 13 decks, 241 cards (was 9/200). Resulting primitives (`edit_card`, `find_card`, `rename_deck` in `mochi_edit.py`) and the **non-triviality** card-selection criterion live in `RULES_CARDS.md` → Mochi flashcard authoring.
+2026-06-25 backup audit (capitalization, cross-deck duplicates/overlap, ambiguous or two-concept cards) resolved via the 2026-07 deck restructure plus a follow-up audit/edit pass in this repo, which also added 41 non-trivial cards. Resulting primitives (`edit_card`, `find_card`, `rename_deck` in `mochi_edit.py`) and the **non-triviality** card-selection criterion live in `RULES_CARDS.md` → Mochi flashcard authoring. Deck size is not tracked here — read it off `data/view/` (14 decks / 279 cards as of 2026-07-28).
 
 ## Tooling roadmap
 

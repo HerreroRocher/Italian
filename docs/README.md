@@ -1,51 +1,45 @@
 # Italian Learning Workspace
 
-A personal workspace for systematically acquiring Italian from a fluent Spanish base. Spanish is the bridge language throughout — every grammar contrast, gloss, and explanation is anchored to Spanish, not English.
+A personal workspace for systematically acquiring Italian from a fluent Spanish base. Spanish is the bridge language throughout — every grammar contrast, gloss, and flashcard front is anchored to Spanish, not English.
 
-## What lives here
+Two things live here: a **tutoring contract** (the rules Claude Code operates under) and a **flashcard pipeline** (Mochi export → edit → repack). The grammar notebook is *physical* — a paper notebook Daniel maintains by hand, not in this repo; Claude proposes transcribable content and Daniel writes it in himself.
 
-- **Flashcard pipeline** — Mochi `.mochi` exports flow in from iPhone over Tailscale via the on-host Samba share (`services/samba-mochi/`), get unpacked into a working JSON + per-deck markdown views (`data/`), edited and audited via `scripts/`, repacked for re-import. Detailed below.
-- **`CLAUDE.md`** — operational context Claude Code reads each session (who Daniel is, doc index).
-- **`RULES_LEARNING.md`** — behavioral contract for tutoring: hard rules, quiz format, response style, session conduct.
-- **`RULES_CARDS.md`** — behavioral contract for the flashcard pipeline: card-authoring conventions, Mochi edit workflow.
-- **`MAINTENANCE_TASKS.md` / `LEARNING_ROADMAP.md` / `WEAKNESS_AREAS.md`** — running task lists and learning state.
+## Map
 
-The **grammar notebook is physical** (a paper notebook Daniel maintains by hand). It is not in this repo. Claude proposes notebook content in transcribable form; Daniel writes it in himself.
+| File | Owns |
+|---|---|
+| `CLAUDE.md` (repo root) | Session context: who Daniel is, index of everything below |
+| `docs/RULES.md` | **The only always-on doc.** Shared conduct + routing to exactly one branch below |
+| `docs/RULES_LEARNING.md` | Lesson branch: quiz format, notebook conventions, session conduct |
+| `docs/RULES_CARDS.md` | Flashcard branch: authoring criteria + the Mochi edit/repack workflow |
+| `docs/LEARNING_ROADMAP.md` | Curriculum in dependency order; ticks = notebook-transcription status |
+| `docs/WEAKNESS_AREAS.md` | Current recurring errors — a live snapshot, not a session log |
+| `docs/MAINTENANCE_TASKS.md` | Workspace/tooling tasks and their status |
+| `data/`, `scripts/` | The deck itself and the primitives that operate on it |
+
+Rules are stated once, in the file that owns them. This README signposts and does not restate; `docs/RULES.md` holds the ownership table. The two branch contracts are **mutually exclusive by design** — a flashcard session must never pay the token cost of loading the tutoring rules, or vice versa.
 
 ## Tooling
 
 | Tool | Role | Sync |
-| --- | --- | --- |
-| **Mochi** (free tier) | Flashcard SRS, Markdown-authored | **Manual wipe-and-reimport** — no cloud sync on free tier; `.mochi` exports flow into `data/` via the on-host Samba share, edits applied here, repacked file goes back to phone |
-| **conjuguemos.com** | Conjugation drilling, holds verb sets | External; used for paradigm practice |
-| **Physical notebook** | Grammar notebook in strict dependency order — closed-class structural grammar | Hand-written; not in this repo |
-| **This repo** | Flashcard pipeline (`data/`, `scripts/`, `services/samba-mochi/`) + tutor contract (`CLAUDE.md`, `RULES_LEARNING.md`, `RULES_CARDS.md`) | — |
-
-Because Mochi sync is manual, card *content* can be edited programmatically here and AI-audited (dedupe, gloss correctness, interference-trap flags, formatting) before being copied back.
-
-## Learning state
-
-The notebook curriculum, current weak spots, and what's next are live-tracked state, not repeated here — see `LEARNING_ROADMAP.md` and `WEAKNESS_AREAS.md` for the current picture.
-
-## Day-to-day usage
-
-- **"quiz me"** — Claude generates 5–8 English→Italian translation sentences with vocab glosses only (no telegraphing), covertly targeting an active weak spot, then marks and scoreboards.
-- **"translate" / "traduci"** — translate the last thing said into Spanish.
-- **Free-form Italian** — anything written in Italian gets gently corrected via Spanish.
-- **Notebook additions** — Claude drafts new sections in transcribable form (tables/grids over prose); Daniel writes them into the physical notebook. Dependency order is preserved; nothing depending on uncovered material is introduced without flagging.
-- **Flashcard audits** — run AI passes over `data/view/<deck>.md` for dedupe, gloss errors, missing interference flags; apply edits to `data/working.json`; repack and re-import to Mochi manually.
+|---|---|---|
+| **Mochi** (free tier) | Flashcard SRS, Markdown-authored | **Manual wipe-and-reimport** — no cloud sync on free tier |
+| **Samba share** | Moves `.mochi` files phone ↔ host over Tailscale | Deployed from the separate [samba](../samba) repo, alongside Jellyfin's media share |
+| **conjuguemos.com** | Conjugation drilling, holds verb sets | External |
+| **Physical notebook** | Closed-class structural grammar, strict dependency order | Hand-written; not in this repo |
 
 ## Flashcard pipeline
 
-1. iPhone exports current Mochi state as `.mochi` (with embedded review history).
-2. Drops over the tailnet via the on-host Samba share (`services/samba-mochi/`) — lands at `data/export.mochi`, overwriting each time.
-3. `scripts/mochi_unpack.py` derives:
-   - `data/working.json` — full-fidelity Transit-JSON, the canonical edit target.
-   - `data/view/<deck>.md` — one cheap-to-scan markdown file per deck for AI audit (card IDs surfaced inline). Regenerated wholesale each unpack; never edited directly.
-4. Edits apply to `working.json` via the `scripts/mochi_edit.py` primitive library or the `scripts/mochi_pack.py edit-card` CLI.
-5. `scripts/mochi_pack.py pack` repacks `working.json` → `data/import.mochi`.
-6. Re-import on iPhone (wipe decks → empty trash → import) restores cards plus SRS state from the preserved `reviews[]` arrays.
+```
+iPhone ──export──▶ data/export.mochi ──mochi_unpack.py──▶ data/working.json  (canonical, mutable)
+                                                        └▶ data/view/*.md   (derived, read-only)
+                          mochi_edit.py primitives ──edit──▶ working.json
+                          mochi_view.py ──────────refresh──▶ view/*.md
+                          mochi_pack.py ───────────pack───▶ data/import-vN.mochi ──▶ iPhone
+```
 
-Snapshots at user discretion live in `data/backups/YYYY-MM-DD-*.mochi`. Working state is otherwise tracked through git history.
+Re-import (wipe decks → empty trash → import) restores cards *and* SRS state from the embedded `reviews[]` arrays. Because sync is manual, card content can be programmatically edited and AI-audited here before going back.
 
-Detailed workflow rules (review-reset rule for meaning changes vs formatting; safety rule for the wipe step; filename-cache gotcha) live in `RULES_CARDS.md`.
+**Do not improvise on this pipeline.** Every step has a rule behind it that was learned the hard way — the review-reset rule, the wipe safety rule, the import-filename cache gotcha, `~:name` vs `~:content`, and why `mochi_view.py` is not `mochi_unpack.py`. They're all in `docs/RULES_CARDS.md` → Mochi edit workflow. Read it before touching the deck.
+
+Snapshots live in `data/backups/YYYY-MM-DD.mochi` at Daniel's discretion; `working.json` and `view/` are otherwise tracked through git.

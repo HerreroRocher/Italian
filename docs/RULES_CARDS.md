@@ -1,6 +1,6 @@
 # RULES_CARDS.md — Behavioral contract for the Mochi flashcard pipeline
 
-Card-authoring criteria and the free-tier edit/repack workflow. Only needed when actually touching the deck — not for a lesson/quiz session; see `RULES_LEARNING.md` for that (and for the general "ask, don't hedge with tangential commands" rule, which applies here too).
+**Load only when actually touching the deck** — never for a lesson/quiz session (that's `RULES_LEARNING.md`, and you should not have both open). Assumes `RULES.md` (core contract: keywords, capture, ask-don't-hedge, precision, single-owner edits, Spanish-as-bridge, frequency-first root) is already active and does not repeat it.
 
 ## Mochi flashcard authoring
 
@@ -12,24 +12,39 @@ Card-authoring criteria and the free-tier edit/repack workflow. Only needed when
 - **Closed idioms/sayings/colloquial constructions are now in scope — policy reversed 2026-07-27.** Previously excluded ("no closed idioms/sayings/proverbs... deliberately purged") on the grounds that frozen, non-productive expressions weren't generative vocabulary. Reversed because Daniel explicitly wants extremely colloquial common sayings/constructions/idiomatic expressions as deliberate study material, not just incidental exposure (e.g. *mica*, *se io fossi in te*) — these matter for sounding native, especially for southern/Sicilian everyday speech per `CLAUDE.md`. Frequency-first still applies: only add sayings that are genuinely common in everyday spoken Italian, not obscure/literary proverbs. Goes in the `Set Phrases & Idioms` deck alongside functional constructions.
 - **Functional multi-word constructions still qualify** — productive/glue-like constructions that recur constantly (*stare per* + inf, *avere voglia di* + inf, *avere bisogno di* + noun/inf, *non vedere l'ora di* + inf) go in the same `Set Phrases & Idioms` deck as closed sayings.
 - **Verbs**: prefer the single most common Italian verb per Spanish synonym cluster (e.g. Sp *ganar* → IT splits into *vincere*/*guadagnare*; pick both only because Italian genuinely forces the split, not because both are equally common translations of one sense).
-- **Stress marking — capitalise the stressed vowel on the Italian side.** Italian stress has no written marker and must be learned per word (see `LEARNING_ROADMAP.md` → word stress); meaning and stress belong on the *same* card, so there is no separate stress deck. Mark **the answer/headword only** — never inside example sentences or parenthetical notes. Applied so far to the end-stressed `-ere` group (Latin `-ēre`: *potEre, dovEre, volEre, sapEre, avEre, vedEre, tenEre, rimanEre, piacEre, cadEre, temEre, tacEre, valEre, parEre, bEre, sedErsi, godErsi*), a closed class of ~22 base verbs standing against the much larger stem-stressed group (*prÈndere, scrÌvere, mÈttere*). **Stress non-triviality alone justifies a card**: a cognate-transparent verb (*temere, cadere, valere*) qualifies even though the meaning is derivable from Spanish — this is a deliberate carve-out from the non-triviality rule above. Derivatives (*ottenere, prevedere, mantenere*) do **not** get their own cards, but are marked if already present for meaning.
-- **-isc marker.** Every -ire verb must be checked against the -isc conjugation pattern (present tense infix: *-isco, -isci, -isce, ...-iscono*, e.g. *capisco, finisco, agisco*). Tag the Italian side with `(isc)` immediately after the verb when it takes the infix (*capire (isc)*, *finire (isc)*, *pulire (isc)*). No marker for regular -ire verbs (*dormire*, *partire*, *aprire*) or irregular ones outside the pattern (*venire*, *uscire*, *salire*, *dire*).
+- **Stress non-triviality alone justifies a card** — a deliberate carve-out from the non-triviality rule above. A cognate-transparent verb (*temere, cadere, valere*) qualifies purely because its stress placement isn't derivable, even though its meaning is. Marking convention below.
 
-**Audit checklist when reviewing existing cards:**
-- Duplicates (within and across decks)
-- Wrong Spanish glosses
-- Missing interference-trap flags
-- Formatting consistency
+**The `Loose` deck is an inbox, never a home.** Ad-hoc cards captured on the phone land in `Loose`. Whenever asked to weave/file them: move each card into the deck that owns its category (verbs → `Verbs`, connectives → `Connectives`, …), and re-gloss any English front into Spanish. **Keep the `Loose` deck itself, always** — empty it, never delete it; it has to exist for the next phone capture.
 
-**Mood markers.** On any card whose Italian construction triggers a specific mood, annotate the Italian side:
-- `(ind.)` when Italian takes the **indicative** but the Spanish equivalent would take subjunctive (e.g. *anche se* takes indicative; Spanish *aunque* often takes subjunctive).
-- `(cong.)` when Italian takes the **subjunctive** but the Spanish equivalent would take indicative, OR where the subjunctive trigger is non-obvious (*magari fosse vero*, *nonostante sia*, *qualunque cosa tu faccia*).
-- **No marker** when both languages behave the same way (no leverage from the annotation).
+## Italian-side annotation markers
 
-**Example sentences.** Every non-verb card must include a short Italian example sentence demonstrating natural use:
+Four annotations, all applied to the Italian (answer) side. Each exists because Italian carries information the Spanish prompt cannot predict — **no marker where Spanish and Italian behave the same way**, since the annotation would carry no leverage. Every new verb card must be checked against all four.
+
+**1. Stress — capitalise the stressed vowel.** Italian stress has no written marker and must be learned per word (see `LEARNING_ROADMAP.md` → word stress); meaning and stress belong on the *same* card, so there is no separate stress deck. Mark **the answer/headword only** — never inside example sentences or parenthetical notes. Applied to the end-stressed `-ere` group (Latin `-ēre`): *potEre, dovEre, volEre, sapEre, avEre, vedEre, tenEre, rimanEre, piacEre, cadEre, temEre, tacEre, valEre, parEre, bEre, sedErsi, godErsi* — a closed class of ~22 base verbs standing against the much larger stem-stressed group (*prÈndere, scrÌvere, mÈttere*). Derivatives (*ottenere, prevedere, mantenere*) don't get their own cards, but are marked if already present for meaning.
+
+**2. Auxiliary — `(essere aux)`.** Spanish forms every compound tense with *haber*; Italian splits, and the essere-half also forces past-participle agreement (*ha caído* → *è cadutA*). Tag any verb taking **essere** in compound tenses: *cadEre (essere aux)*, *scendere (essere aux)*, *salire*, *diventare*, *succedere*, *sembrare*, *riuscire a + inf*, *sedErsi*. **No marker for avere-verbs** — that's the default and matches Spanish. Verbs that take both get the split spelled out: *finire (essere aux when intransitive, avere when transitive)*.
+
+**3. `-isc` infix — `(isc)`.** Every `-ire` verb must be checked against the `-isc` present-tense pattern (*-isco, -isci, -isce, …-iscono*). Tag immediately after the verb when it takes the infix: *capire (isc)*, *finire (isc)*, *pulire (isc)*. No marker for regular `-ire` verbs (*dormire*, *partire*, *aprire*) or irregulars outside the pattern (*venire*, *uscire*, *salire*, *dire*).
+
+**4. Mood — `(ind.)` / `(cong.)`.** On any card whose Italian construction triggers a mood the Spanish equivalent wouldn't:
+- `(ind.)` — Italian takes the **indicative** where Spanish would take subjunctive (*anche se* vs Spanish *aunque*).
+- `(cong.)` — Italian takes the **subjunctive** where Spanish would take indicative, or where the trigger is non-obvious (*magari fosse vero*, *nonostante sia*, *qualunque cosa tu faccia*).
+
+## Example sentences
+
+Every non-verb card must include a short Italian example sentence demonstrating natural use:
 - Format: italicized one-liner (`*...*`) on a new line after the Italian translation.
 - Keep ≤8 words where possible; everyday spoken register.
 - **Verbs are exempt** unless the Italian syntax diverges from Spanish — in which case include an example that demonstrates the divergence. Triggers to include a verb example: no preposition where Spanish uses one (*aspettare*, *chiamare* — no a-personal); inverted construction (*piacere*); split auxiliary (*finire*); auxiliary doubling as possession (*avere*); false friend (*tenere* ≠ Spanish *tener*); Italian collapsing two Spanish verbs (*portare* = *llevar*/*traer*).
+
+## Audit checklist when reviewing existing cards
+
+- Duplicates (within and across decks)
+- Wrong Spanish glosses, or English fronts that should be Spanish
+- Missing annotation markers (all four above)
+- Missing interference-trap flags
+- Missing/malformed example sentences
+- Formatting consistency
 
 ## Mochi edit workflow (free tier)
 

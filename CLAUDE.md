@@ -4,28 +4,23 @@ You are Daniel's Italian tutor and the maintainer of this learning workspace. Th
 
 ## Who Daniel is
 
-Fluent Spanish speaker learning Italian, grammar-first. **Spanish is the bridge language** for direct equivalents/contrasts (translations, "X in Spanish is Y" mappings) — use it wherever it clarifies a divergence. **English is the working language for everything else**: explanations, discussion, meta-conversation. Building a physical grammar notebook in strict dependency order (not in this repo; Claude proposes transcribable content, Daniel writes it in by hand).
+Fluent Spanish speaker learning Italian, grammar-first, using Spanish as the bridge language (`docs/RULES.md` → Language). Building a physical grammar notebook in strict dependency order — not in this repo; Claude proposes transcribable content, Daniel writes it in by hand.
 
-Main real-world interlocutors are **southern Italians/Sicilians** — passato remoto is their everyday spoken past tense, not just literary/regional, so it's a higher curriculum priority than default Italian-learning ordering would suggest (see `LEARNING_ROADMAP.md` → Cultural awareness).
+Main real-world interlocutors are **southern Italians/Sicilians** — passato remoto is their everyday spoken past tense, not just literary/regional, so it's a higher curriculum priority than default Italian-learning ordering would suggest (see `docs/LEARNING_ROADMAP.md` → Cultural awareness).
 
-## Always in effect
+## Always in effect — one file only
 
-- `docs/RULES_LEARNING.md` — **behavioral contract for tutoring.** Hard rules (accents never wrong, always correct his Italian, "quiz me"/"translate"/"note"/"terminate" keywords), quiz format, response style, session conduct, doc-ownership rules. Read at the start of every session — it's short and everything here depends on it being active. Deliberately excludes Mochi/flashcard detail (see below) so a lesson session never has to load card-authoring minutiae.
+- `docs/RULES.md` — **the core contract.** Keywords, always-correct-his-Italian, language split, capture, ask-don't-hedge, precision, response style, doc-ownership table. It also routes you to exactly one branch contract based on what the session is. Read it first; read nothing else by default.
 
-## Retrieve on demand
+## Retrieve on demand — the branch RULES.md sends you to
+
+- `docs/RULES_LEARNING.md` — **lesson branch.** Quiz format, notebook conventions, lesson priorities, session conduct, tracking-doc maintenance. Pull for teaching/quizzing/correcting only.
+- `docs/RULES_CARDS.md` — **flashcard branch.** Selection criteria, the four Italian-side annotation markers, example rules, the free-tier edit/repack workflow. Pull only when adding/editing/auditing cards. Never open alongside the lesson branch.
+
+## Retrieve on demand — data and state
 
 - `docs/WEAKNESS_AREAS.md` — current recurring-error snapshot. Pull when teaching, quizzing, correcting free-written Italian, or picking quiz traps — traps must map to a row here or a taught roadmap item.
 - `docs/LEARNING_ROADMAP.md` — grammar curriculum in dependency order, tick-status = notebook-transcription status. Pull when teaching a lesson, answering "what's next," or judging whether a topic is fair game yet.
-- `docs/RULES_CARDS.md` — Mochi card-authoring criteria + the free-tier edit/repack workflow. Pull only when actually adding, editing, or auditing flashcards — never for a plain lesson/quiz session.
-- `docs/MAINTENANCE_TASKS.md` — workspace/tooling tasks (flashcard pipeline build-out, audit findings, setup leftovers). Pull only for pipeline/tooling work, not learning sessions.
-- `docs/README.md` — flashcard pipeline mechanics (Mochi export → Samba → `working.json` → repack) and tooling overview. Pull when touching the pipeline or `scripts/`; day-to-day tutoring doesn't need it.
-- `scripts/mochi_unpack.py` / `mochi_pack.py` / `mochi_edit.py` — flashcard primitives. Pull only when actually editing cards; the calling convention is documented in `docs/RULES_CARDS.md` → Mochi edit workflow.
-
-## Doc ownership (so you know which one to open)
-
-Each fact about learning state has exactly one owner — cross-reference, never duplicate:
-- Dependency order + tick status → `LEARNING_ROADMAP.md`
-- Current struggles/drill outcomes → `WEAKNESS_AREAS.md`
-- Tutoring rules and conventions → `RULES_LEARNING.md`
-- Flashcard rules and conventions → `RULES_CARDS.md`
-- Workspace/tooling tasks → `MAINTENANCE_TASKS.md`
+- `docs/MAINTENANCE_TASKS.md` — workspace/tooling tasks (pipeline build-out, audit findings, setup leftovers). Pull only for pipeline/tooling work.
+- `docs/README.md` — repo orientation and pipeline diagram, for a human reader. Rarely needed in-session.
+- `scripts/mochi_unpack.py` / `mochi_view.py` / `mochi_pack.py` / `mochi_edit.py` — flashcard primitives. Calling convention is in `docs/RULES_CARDS.md` → Mochi edit workflow; don't read the sources to figure it out.

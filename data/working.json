@@ -5209,41 +5209,7 @@
               "~#set": []
             },
             "~:id": "~:lvSUe6Kv",
-            "~:reviews": [
-              {
-                "~:date": "~t1782255600000",
-                "~:due": "~t1782255600000",
-                "~:remembered?": true
-              },
-              {
-                "~:date": "~t1782255600000",
-                "~:due": "~t1782342000000",
-                "~:interval": 1,
-                "~:remembered?": true,
-                "~:duration": 1
-              },
-              {
-                "~:date": "~t1782428400000",
-                "~:due": "~t1782774000000",
-                "~:interval": 3.6,
-                "~:remembered?": true,
-                "~:duration": 2
-              },
-              {
-                "~:date": "~t1782860400000",
-                "~:due": "~t1783638000000",
-                "~:interval": 9,
-                "~:remembered?": true,
-                "~:duration": 4
-              },
-              {
-                "~:date": "~t1783724400000",
-                "~:due": "~t1785279600000",
-                "~:interval": 18,
-                "~:remembered?": true,
-                "~:duration": 4
-              }
-            ],
+            "~:reviews": [],
             "~:created-at": {
               "~#dt": 1782229529241
             }
@@ -5266,41 +5232,7 @@
               "~#set": []
             },
             "~:id": "~:rdOvMLTy",
-            "~:reviews": [
-              {
-                "~:date": "~t1782342000000",
-                "~:due": "~t1782342000000",
-                "~:remembered?": true
-              },
-              {
-                "~:date": "~t1782342000000",
-                "~:due": "~t1782428400000",
-                "~:interval": 1,
-                "~:remembered?": true,
-                "~:duration": 2
-              },
-              {
-                "~:date": "~t1782428400000",
-                "~:due": "~t1782601200000",
-                "~:interval": 1.8,
-                "~:remembered?": true,
-                "~:duration": 5
-              },
-              {
-                "~:date": "~t1782860400000",
-                "~:due": "~t1783638000000",
-                "~:interval": 9,
-                "~:remembered?": true,
-                "~:duration": 3
-              },
-              {
-                "~:date": "~t1783724400000",
-                "~:due": "~t1785279600000",
-                "~:interval": 18,
-                "~:remembered?": true,
-                "~:duration": 3
-              }
-            ],
+            "~:reviews": [],
             "~:created-at": {
               "~#dt": 1782229529241
             },
@@ -5321,41 +5253,7 @@
               "~#set": []
             },
             "~:id": "~:8XgLzsL7",
-            "~:reviews": [
-              {
-                "~:date": "~t1784502000000",
-                "~:due": "~t1784502000000",
-                "~:remembered?": true
-              },
-              {
-                "~:date": "~t1784502000000",
-                "~:due": "~t1784588400000",
-                "~:interval": 1,
-                "~:remembered?": true,
-                "~:duration": 2
-              },
-              {
-                "~:date": "~t1784588400000",
-                "~:due": "~t1784674800000",
-                "~:interval": 1,
-                "~:remembered?": false,
-                "~:duration": 14
-              },
-              {
-                "~:date": "~t1784674800000",
-                "~:due": "~t1784847600000",
-                "~:interval": 1.8,
-                "~:remembered?": true,
-                "~:duration": 6
-              },
-              {
-                "~:date": "~t1784934000000",
-                "~:due": "~t1785366000000",
-                "~:interval": 5.4,
-                "~:remembered?": true,
-                "~:duration": 2
-              }
-            ],
+            "~:reviews": [],
             "~:created-at": {
               "~#dt": 1783389345029
             }
@@ -5801,48 +5699,7 @@
               "~#set": []
             },
             "~:id": "~:WQ1fVhUa",
-            "~:reviews": [
-              {
-                "~:date": "~t1782255600000",
-                "~:due": "~t1782255600000",
-                "~:remembered?": true
-              },
-              {
-                "~:date": "~t1782255600000",
-                "~:due": "~t1782342000000",
-                "~:interval": 1,
-                "~:remembered?": true,
-                "~:duration": 1
-              },
-              {
-                "~:date": "~t1782342000000",
-                "~:due": "~t1782514800000",
-                "~:interval": 1.8,
-                "~:remembered?": true,
-                "~:duration": 29
-              },
-              {
-                "~:date": "~t1782514800000",
-                "~:due": "~t1782860400000",
-                "~:interval": 3.6,
-                "~:remembered?": true,
-                "~:duration": 3
-              },
-              {
-                "~:date": "~t1782860400000",
-                "~:due": "~t1783465200000",
-                "~:interval": 7.2,
-                "~:remembered?": true,
-                "~:duration": 2
-              },
-              {
-                "~:date": "~t1783724400000",
-                "~:due": "~t1785279600000",
-                "~:interval": 18,
-                "~:remembered?": true,
-                "~:duration": 3
-              }
-            ],
+            "~:reviews": [],
             "~:created-at": {
               "~#dt": 1782229529241
             }
@@ -6454,41 +6311,7 @@
               "~#set": []
             },
             "~:id": "~:5c4hW1Uj",
-            "~:reviews": [
-              {
-                "~:date": "~t1783724400000",
-                "~:due": "~t1783724400000",
-                "~:remembered?": true
-              },
-              {
-                "~:date": "~t1783724400000",
-                "~:due": "~t1783810800000",
-                "~:interval": 1,
-                "~:remembered?": true,
-                "~:duration": 2
-              },
-              {
-                "~:date": "~t1783897200000",
-                "~:due": "~t1784242800000",
-                "~:interval": 3.6,
-                "~:remembered?": true,
-                "~:duration": 14
-              },
-              {
-                "~:date": "~t1784329200000",
-                "~:due": "~t1785106800000",
-                "~:interval": 9,
-                "~:remembered?": true,
-                "~:duration": 14
-              },
-              {
-                "~:date": "~t1785106800000",
-                "~:due": "~t1786489200000",
-                "~:interval": 16.2,
-                "~:remembered?": true,
-                "~:duration": 4
-              }
-            ],
+            "~:reviews": [],
             "~:created-at": {
               "~#dt": 1783389345029
             }
@@ -6670,41 +6493,7 @@
               "~#set": []
             },
             "~:id": "~:1jm8uW9l",
-            "~:reviews": [
-              {
-                "~:date": "~t1784415600000",
-                "~:due": "~t1784415600000",
-                "~:remembered?": true
-              },
-              {
-                "~:date": "~t1784415600000",
-                "~:due": "~t1784502000000",
-                "~:interval": 1,
-                "~:remembered?": true,
-                "~:duration": 5
-              },
-              {
-                "~:date": "~t1784502000000",
-                "~:due": "~t1784674800000",
-                "~:interval": 1.8,
-                "~:remembered?": true,
-                "~:duration": 25
-              },
-              {
-                "~:date": "~t1784674800000",
-                "~:due": "~t1785020400000",
-                "~:interval": 3.6,
-                "~:remembered?": true,
-                "~:duration": 21
-              },
-              {
-                "~:date": "~t1785106800000",
-                "~:due": "~t1785884400000",
-                "~:interval": 9,
-                "~:remembered?": true,
-                "~:duration": 8
-              }
-            ],
+            "~:reviews": [],
             "~:created-at": {
               "~#dt": 1783994052754
             }
@@ -8543,34 +8332,7 @@
               "~#set": []
             },
             "~:id": "~:Ai9urXPh",
-            "~:reviews": [
-              {
-                "~:date": "~t1784588400000",
-                "~:due": "~t1784588400000",
-                "~:remembered?": true
-              },
-              {
-                "~:date": "~t1784588400000",
-                "~:due": "~t1784674800000",
-                "~:interval": 1,
-                "~:remembered?": true,
-                "~:duration": 13
-              },
-              {
-                "~:date": "~t1784674800000",
-                "~:due": "~t1784847600000",
-                "~:interval": 1.8,
-                "~:remembered?": true,
-                "~:duration": 10
-              },
-              {
-                "~:date": "~t1784934000000",
-                "~:due": "~t1785366000000",
-                "~:interval": 5.4,
-                "~:remembered?": true,
-                "~:duration": 7
-              }
-            ],
+            "~:reviews": [],
             "~:created-at": {
               "~#dt": 1783994052753
             },
@@ -8873,48 +8635,7 @@
               "~#set": []
             },
             "~:id": "~:erjto47r",
-            "~:reviews": [
-              {
-                "~:date": "~t1782255600000",
-                "~:due": "~t1782255600000",
-                "~:remembered?": true
-              },
-              {
-                "~:date": "~t1782255600000",
-                "~:due": "~t1782342000000",
-                "~:interval": 1,
-                "~:remembered?": true,
-                "~:duration": 3
-              },
-              {
-                "~:date": "~t1782342000000",
-                "~:due": "~t1782514800000",
-                "~:interval": 1.8,
-                "~:remembered?": true,
-                "~:duration": 2
-              },
-              {
-                "~:date": "~t1782514800000",
-                "~:due": "~t1782860400000",
-                "~:interval": 3.6,
-                "~:remembered?": true,
-                "~:duration": 2
-              },
-              {
-                "~:date": "~t1782860400000",
-                "~:due": "~t1783465200000",
-                "~:interval": 7.2,
-                "~:remembered?": true,
-                "~:duration": 7
-              },
-              {
-                "~:date": "~t1783724400000",
-                "~:due": "~t1785279600000",
-                "~:interval": 18,
-                "~:remembered?": true,
-                "~:duration": 1
-              }
-            ],
+            "~:reviews": [],
             "~:created-at": {
               "~#dt": 1782229529241
             }
@@ -9280,62 +9001,7 @@
               "~#set": []
             },
             "~:id": "~:s3hZUUN5",
-            "~:reviews": [
-              {
-                "~:date": "~t1782255600000",
-                "~:due": "~t1782255600000",
-                "~:remembered?": true
-              },
-              {
-                "~:date": "~t1782255600000",
-                "~:due": "~t1782342000000",
-                "~:interval": 1,
-                "~:remembered?": true,
-                "~:duration": 2
-              },
-              {
-                "~:date": "~t1782342000000",
-                "~:due": "~t1782514800000",
-                "~:interval": 1.8,
-                "~:remembered?": true,
-                "~:duration": 1
-              },
-              {
-                "~:date": "~t1782514800000",
-                "~:due": "~t1782860400000",
-                "~:interval": 3.6,
-                "~:remembered?": true,
-                "~:duration": 3
-              },
-              {
-                "~:date": "~t1782860400000",
-                "~:due": "~t1783033200000",
-                "~:interval": 1.8,
-                "~:remembered?": false,
-                "~:duration": 3
-              },
-              {
-                "~:date": "~t1783033200000",
-                "~:due": "~t1783378800000",
-                "~:interval": 3.6,
-                "~:remembered?": true,
-                "~:duration": 3
-              },
-              {
-                "~:date": "~t1783638000000",
-                "~:due": "~t1784761200000",
-                "~:interval": 12.6,
-                "~:remembered?": true,
-                "~:duration": 6
-              },
-              {
-                "~:date": "~t1784761200000",
-                "~:due": "~t1786748400000",
-                "~:interval": 23.4,
-                "~:remembered?": true,
-                "~:duration": 2
-              }
-            ],
+            "~:reviews": [],
             "~:created-at": {
               "~#dt": 1782229529241
             }
@@ -9571,41 +9237,7 @@
               "~#set": []
             },
             "~:id": "~:fWf0DhLF",
-            "~:reviews": [
-              {
-                "~:date": "~t1782428400000",
-                "~:due": "~t1782428400000",
-                "~:remembered?": true
-              },
-              {
-                "~:date": "~t1782428400000",
-                "~:due": "~t1782514800000",
-                "~:interval": 1,
-                "~:remembered?": true,
-                "~:duration": 6
-              },
-              {
-                "~:date": "~t1782514800000",
-                "~:due": "~t1782687600000",
-                "~:interval": 1.8,
-                "~:remembered?": true,
-                "~:duration": 4
-              },
-              {
-                "~:date": "~t1782860400000",
-                "~:due": "~t1783465200000",
-                "~:interval": 7.2,
-                "~:remembered?": true,
-                "~:duration": 12
-              },
-              {
-                "~:date": "~t1783724400000",
-                "~:due": "~t1785279600000",
-                "~:interval": 18,
-                "~:remembered?": true,
-                "~:duration": 5
-              }
-            ],
+            "~:reviews": [],
             "~:created-at": {
               "~#dt": 1782482122468
             }
@@ -10728,48 +10360,7 @@
               "~#set": []
             },
             "~:id": "~:yNWWCMXg",
-            "~:reviews": [
-              {
-                "~:date": "~t1782255600000",
-                "~:due": "~t1782255600000",
-                "~:remembered?": true
-              },
-              {
-                "~:date": "~t1782255600000",
-                "~:due": "~t1782342000000",
-                "~:interval": 1,
-                "~:remembered?": true,
-                "~:duration": 1
-              },
-              {
-                "~:date": "~t1782342000000",
-                "~:due": "~t1782514800000",
-                "~:interval": 1.8,
-                "~:remembered?": true,
-                "~:duration": 3
-              },
-              {
-                "~:date": "~t1782514800000",
-                "~:due": "~t1782860400000",
-                "~:interval": 3.6,
-                "~:remembered?": true,
-                "~:duration": 10
-              },
-              {
-                "~:date": "~t1782860400000",
-                "~:due": "~t1783465200000",
-                "~:interval": 7.2,
-                "~:remembered?": true,
-                "~:duration": 21
-              },
-              {
-                "~:date": "~t1783724400000",
-                "~:due": "~t1785279600000",
-                "~:interval": 18,
-                "~:remembered?": true,
-                "~:duration": 6
-              }
-            ],
+            "~:reviews": [],
             "~:created-at": {
               "~#dt": 1782229529241
             }
@@ -10957,34 +10548,7 @@
               "~#set": []
             },
             "~:id": "~:SPuDiQ9o",
-            "~:reviews": [
-              {
-                "~:date": "~t1782342000000",
-                "~:due": "~t1782342000000",
-                "~:remembered?": true
-              },
-              {
-                "~:date": "~t1782428400000",
-                "~:due": "~t1782601200000",
-                "~:interval": 1.8,
-                "~:remembered?": true,
-                "~:duration": 28
-              },
-              {
-                "~:date": "~t1782860400000",
-                "~:due": "~t1783638000000",
-                "~:interval": 9,
-                "~:remembered?": true,
-                "~:duration": 16
-              },
-              {
-                "~:date": "~t1783724400000",
-                "~:due": "~t1785279600000",
-                "~:interval": 18,
-                "~:remembered?": true,
-                "~:duration": 17
-              }
-            ],
+            "~:reviews": [],
             "~:created-at": {
               "~#dt": 1782229529241
             }
@@ -11235,48 +10799,7 @@
               "~#set": []
             },
             "~:id": "~:wJ6d0QCF",
-            "~:reviews": [
-              {
-                "~:date": "~t1782255600000",
-                "~:due": "~t1782255600000",
-                "~:remembered?": true
-              },
-              {
-                "~:date": "~t1782255600000",
-                "~:due": "~t1782342000000",
-                "~:interval": 1,
-                "~:remembered?": true,
-                "~:duration": 3
-              },
-              {
-                "~:date": "~t1782342000000",
-                "~:due": "~t1782514800000",
-                "~:interval": 1.8,
-                "~:remembered?": true,
-                "~:duration": 8
-              },
-              {
-                "~:date": "~t1782514800000",
-                "~:due": "~t1782860400000",
-                "~:interval": 3.6,
-                "~:remembered?": true,
-                "~:duration": 4
-              },
-              {
-                "~:date": "~t1782860400000",
-                "~:due": "~t1783465200000",
-                "~:interval": 7.2,
-                "~:remembered?": true,
-                "~:duration": 22
-              },
-              {
-                "~:date": "~t1783724400000",
-                "~:due": "~t1785279600000",
-                "~:interval": 18,
-                "~:remembered?": true,
-                "~:duration": 3
-              }
-            ],
+            "~:reviews": [],
             "~:created-at": {
               "~#dt": 1782229529241
             }
@@ -11452,6 +10975,207 @@
             "~:tags": {
               "~#set": []
             }
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1785161682834
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "## quitar\n---\ntogliere",
+            "~:name": "quitar",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "O",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:pZCu14QX",
+            "~:reviews": [],
+            "~:created-at": {
+              "~#dt": 1785161673143
+            },
+            "~:new?": false,
+            "~:template-id": null
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1785043749648
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "## cortar\n---\ntagliare",
+            "~:name": "cortar",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "Q",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:uQtscOuD",
+            "~:reviews": [],
+            "~:created-at": {
+              "~#dt": 1785043720061
+            },
+            "~:new?": false,
+            "~:template-id": null
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1785159659799
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "## cruzar\n---\nattraversare",
+            "~:name": "cruzar",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "P",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:muJpsHJK",
+            "~:reviews": [],
+            "~:created-at": {
+              "~#dt": 1785159651957
+            },
+            "~:new?": false,
+            "~:template-id": null
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1785032767975
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## descansar\n---\nriposare\n",
+            "~:name": "descansar",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "S",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:ipLQiIC8",
+            "~:reviews": [],
+            "~:created-at": {
+              "~#dt": 1785032749783
+            },
+            "~:new?": false,
+            "~:template-id": null
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1785032075605
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## obtener / conseguir\n---\nottenEre\n",
+            "~:name": "obtener / conseguir",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "T",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:xD76qHIb",
+            "~:reviews": [],
+            "~:created-at": {
+              "~#dt": 1785032065662
+            },
+            "~:new?": false,
+            "~:template-id": null
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1785026292045
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "## dudar\n---\ndubitare",
+            "~:name": "dudar",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "U",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:a0C58JF8",
+            "~:reviews": [
+              {
+                "~:date": "~t1785106800000",
+                "~:due": "~t1785106800000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1785193200000",
+                "~:due": "~t1785366000000",
+                "~:interval": 1.8,
+                "~:remembered?": true,
+                "~:duration": 3
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1785026277983
+            },
+            "~:new?": false,
+            "~:template-id": null
+          },
+          {
+            "~:updated-at": {
+              "~#dt": 1785033857662
+            },
+            "~:tags": {
+              "~#set": []
+            },
+            "~:content": "\n## superar\n---\nsuperare\n",
+            "~:name": "superar",
+            "~:deck-id": "~:ddRVIhWs",
+            "~:cloze/indexes": {
+              "~#set": []
+            },
+            "~:pos": "R",
+            "~:references": {
+              "~#set": []
+            },
+            "~:id": "~:shb3Idm7",
+            "~:reviews": [
+              {
+                "~:date": "~t1785193200000",
+                "~:due": "~t1785193200000",
+                "~:remembered?": true
+              },
+              {
+                "~:date": "~t1785193200000",
+                "~:due": "~t1785279600000",
+                "~:interval": 1,
+                "~:remembered?": true,
+                "~:duration": 2
+              }
+            ],
+            "~:created-at": {
+              "~#dt": 1785033842417
+            },
+            "~:new?": false,
+            "~:template-id": null
           }
         ]
       }
@@ -13157,41 +12881,7 @@
               "~#set": []
             },
             "~:id": "~:judvpsle",
-            "~:reviews": [
-              {
-                "~:date": "~t1782946800000",
-                "~:due": "~t1782946800000",
-                "~:remembered?": true
-              },
-              {
-                "~:date": "~t1782946800000",
-                "~:due": "~t1783033200000",
-                "~:interval": 1,
-                "~:remembered?": true,
-                "~:duration": 2
-              },
-              {
-                "~:date": "~t1783033200000",
-                "~:due": "~t1783206000000",
-                "~:interval": 1.8,
-                "~:remembered?": true,
-                "~:duration": 30
-              },
-              {
-                "~:date": "~t1783638000000",
-                "~:due": "~t1784761200000",
-                "~:interval": 12.6,
-                "~:remembered?": true,
-                "~:duration": 9
-              },
-              {
-                "~:date": "~t1784761200000",
-                "~:due": "~t1786748400000",
-                "~:interval": 23.4,
-                "~:remembered?": true,
-                "~:duration": 18
-              }
-            ],
+            "~:reviews": [],
             "~:created-at": {
               "~#dt": 1782564765128
             }
@@ -13356,41 +13046,7 @@
               "~#set": []
             },
             "~:id": "~:mzA7ErhS",
-            "~:reviews": [
-              {
-                "~:date": "~t1782946800000",
-                "~:due": "~t1782946800000",
-                "~:remembered?": true
-              },
-              {
-                "~:date": "~t1782946800000",
-                "~:due": "~t1783033200000",
-                "~:interval": 1,
-                "~:remembered?": true,
-                "~:duration": 13
-              },
-              {
-                "~:date": "~t1783033200000",
-                "~:due": "~t1783206000000",
-                "~:interval": 1.8,
-                "~:remembered?": true,
-                "~:duration": 66
-              },
-              {
-                "~:date": "~t1783378800000",
-                "~:due": "~t1783983600000",
-                "~:interval": 7.2,
-                "~:remembered?": true,
-                "~:duration": 72
-              },
-              {
-                "~:date": "~t1784070000000",
-                "~:due": "~t1785279600000",
-                "~:interval": 14.4,
-                "~:remembered?": true,
-                "~:duration": 26
-              }
-            ],
+            "~:reviews": [],
             "~:created-at": {
               "~#dt": 1782564765128
             }
@@ -13464,34 +13120,7 @@
               "~#set": []
             },
             "~:id": "~:zXG0zemc",
-            "~:reviews": [
-              {
-                "~:date": "~t1782514800000",
-                "~:due": "~t1782514800000",
-                "~:remembered?": true
-              },
-              {
-                "~:date": "~t1782514800000",
-                "~:due": "~t1782601200000",
-                "~:interval": 1,
-                "~:remembered?": true,
-                "~:duration": 17
-              },
-              {
-                "~:date": "~t1782860400000",
-                "~:due": "~t1783465200000",
-                "~:interval": 7.2,
-                "~:remembered?": true,
-                "~:duration": 6
-              },
-              {
-                "~:date": "~t1783724400000",
-                "~:due": "~t1785279600000",
-                "~:interval": 18,
-                "~:remembered?": true,
-                "~:duration": 53
-              }
-            ],
+            "~:reviews": [],
             "~:created-at": {
               "~#dt": 1782564765128
             }
@@ -14429,209 +14058,7 @@
       "~:id": "~:Q0qW77KD",
       "~:sort": 13,
       "~:cards": {
-        "~#list": [
-          {
-            "~:updated-at": {
-              "~#dt": 1785161682834
-            },
-            "~:tags": {
-              "~#set": []
-            },
-            "~:content": "## quitar\n---\ntogliere",
-            "~:name": "quitar",
-            "~:deck-id": "~:Q0qW77KD",
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:pos": "O",
-            "~:references": {
-              "~#set": []
-            },
-            "~:id": "~:pZCu14QX",
-            "~:reviews": [],
-            "~:created-at": {
-              "~#dt": 1785161673143
-            },
-            "~:new?": false,
-            "~:template-id": null
-          },
-          {
-            "~:updated-at": {
-              "~#dt": 1785043749648
-            },
-            "~:tags": {
-              "~#set": []
-            },
-            "~:content": "## cortar\n---\ntagliare",
-            "~:name": "cortar",
-            "~:deck-id": "~:Q0qW77KD",
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:pos": "Q",
-            "~:references": {
-              "~#set": []
-            },
-            "~:id": "~:uQtscOuD",
-            "~:reviews": [],
-            "~:created-at": {
-              "~#dt": 1785043720061
-            },
-            "~:new?": false,
-            "~:template-id": null
-          },
-          {
-            "~:updated-at": {
-              "~#dt": 1785159659799
-            },
-            "~:tags": {
-              "~#set": []
-            },
-            "~:content": "## cruzar\n---\nattraversare",
-            "~:name": "cruzar",
-            "~:deck-id": "~:Q0qW77KD",
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:pos": "P",
-            "~:references": {
-              "~#set": []
-            },
-            "~:id": "~:muJpsHJK",
-            "~:reviews": [],
-            "~:created-at": {
-              "~#dt": 1785159651957
-            },
-            "~:new?": false,
-            "~:template-id": null
-          },
-          {
-            "~:updated-at": {
-              "~#dt": 1785032767975
-            },
-            "~:tags": {
-              "~#set": []
-            },
-            "~:content": "## to rest\n---\nriposare",
-            "~:name": "to rest",
-            "~:deck-id": "~:Q0qW77KD",
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:pos": "S",
-            "~:references": {
-              "~#set": []
-            },
-            "~:id": "~:ipLQiIC8",
-            "~:reviews": [],
-            "~:created-at": {
-              "~#dt": 1785032749783
-            },
-            "~:new?": false,
-            "~:template-id": null
-          },
-          {
-            "~:updated-at": {
-              "~#dt": 1785032075605
-            },
-            "~:tags": {
-              "~#set": []
-            },
-            "~:content": "\n## to get\n---\nottenEre\n",
-            "~:name": "to get",
-            "~:deck-id": "~:Q0qW77KD",
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:pos": "T",
-            "~:references": {
-              "~#set": []
-            },
-            "~:id": "~:xD76qHIb",
-            "~:reviews": [],
-            "~:created-at": {
-              "~#dt": 1785032065662
-            },
-            "~:new?": false,
-            "~:template-id": null
-          },
-          {
-            "~:updated-at": {
-              "~#dt": 1785026292045
-            },
-            "~:tags": {
-              "~#set": []
-            },
-            "~:content": "## dudar\n---\ndubitare",
-            "~:name": "dudar",
-            "~:deck-id": "~:Q0qW77KD",
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:pos": "U",
-            "~:references": {
-              "~#set": []
-            },
-            "~:id": "~:a0C58JF8",
-            "~:reviews": [
-              {
-                "~:date": "~t1785106800000",
-                "~:due": "~t1785106800000",
-                "~:remembered?": true
-              },
-              {
-                "~:date": "~t1785193200000",
-                "~:due": "~t1785366000000",
-                "~:interval": 1.8,
-                "~:remembered?": true,
-                "~:duration": 3
-              }
-            ],
-            "~:created-at": {
-              "~#dt": 1785026277983
-            },
-            "~:new?": false,
-            "~:template-id": null
-          },
-          {
-            "~:updated-at": {
-              "~#dt": 1785033857662
-            },
-            "~:tags": {
-              "~#set": []
-            },
-            "~:content": "## to pass/overcome\n---\nsuperare",
-            "~:name": "to pass/overcome",
-            "~:deck-id": "~:Q0qW77KD",
-            "~:cloze/indexes": {
-              "~#set": []
-            },
-            "~:pos": "R",
-            "~:references": {
-              "~#set": []
-            },
-            "~:id": "~:shb3Idm7",
-            "~:reviews": [
-              {
-                "~:date": "~t1785193200000",
-                "~:due": "~t1785193200000",
-                "~:remembered?": true
-              },
-              {
-                "~:date": "~t1785193200000",
-                "~:due": "~t1785279600000",
-                "~:interval": 1,
-                "~:remembered?": true,
-                "~:duration": 2
-              }
-            ],
-            "~:created-at": {
-              "~#dt": 1785033842417
-            },
-            "~:new?": false,
-            "~:template-id": null
-          }
-        ]
+        "~#list": []
       }
     }
   ]
