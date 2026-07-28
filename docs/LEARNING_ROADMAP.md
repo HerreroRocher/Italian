@@ -46,10 +46,10 @@ For current weaknesses see `WEAKNESS_AREAS.md`; for workspace/tooling tasks see 
 - [x] Articulated forms (*al, dal, del, nel, sul, …*)
 - [x] Lexicalised choices (*andare a / in / da*, *pensare a / di*) — taught 2026-07-22
 - [x] Time & place idiomatic expressions — taught 2026-07-27
-- [ ] *Da* — full functional range: origin vs *essere di*, passive agent (vs Sp *por*), "at [person]'s place" (no Sp equivalent), duration *da* + present tense — flagged 2026-07-27, not yet taught
-- [ ] *Per* vs Spanish *para*/*por* — Italian *per* spans purpose, exchange/price, duration, destination-in-transit, territory Spanish splits across two prepositions — flagged 2026-07-27
-- [ ] *Su* — approximation (*costa sui 100 euro*) and topic (*un libro su Roma*) uses beyond core "on" — flagged 2026-07-27
-- [ ] *Tra/fra* — future-time use (*tra due giorni* = "in two days", Sp switches to *en*) — flagged 2026-07-27
+- [x] *Da* — full functional range: origin vs *essere di*, passive agent (vs Sp *por*), "at [person]'s place" (no Sp equivalent), duration *da* + present tense — taught 2026-07-28
+- [x] *Per* vs Spanish *para*/*por* — Italian *per* spans purpose, exchange/price, duration, destination-in-transit, territory Spanish splits across two prepositions — taught 2026-07-28
+- [x] *Su* — approximation (*costa sui 100 euro*) and topic (*un libro su Roma*) uses beyond core "on" — taught 2026-07-28
+- [x] *Tra/fra* — future-time use (*tra due giorni* = "in two days", Sp switches to *en*) — taught 2026-07-28
 
 ## Present tense
 - [x] Subject pronouns and typical omission — taught 2026-07-22

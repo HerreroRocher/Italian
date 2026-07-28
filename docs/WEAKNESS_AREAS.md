@@ -8,6 +8,7 @@ Current observations about Daniel's Italian — recurring errors, gaps, interfer
 |---|---|---|
 | a | **Verb government: direct vs indirect object per verb** (which verb takes bare object vs *a*) | Self-reported hardest area — clitic *mechanics* are solid, the leak is purely *lexical*: knowing a given verb's category. Trap verbs: *telefonare/rispondere/chiedere* → indirect (Sp *llamar/preguntar* mislead); *ringraziare/pagare/aspettare/ascoltare/cercare/guardare* → direct (no *a*); *pensare a/tenere a/contare su* → neither clitic, needs the right preposition; *dimenticare(si)* → direct without *si* (*ho dimenticato le chiavi*) or *di* + object with *si* (*mi sono dimenticato delle chiavi*, mirrors Sp *olvidarse de*) — never *si* + bare direct object. Confirmed clean 2026-07-25: *chiedere, dimenticare(si), rispondere, pagare*, and *contare su* (*Conto sui miei amici*). *Ringraziare* resolved (two consecutive clean instances, 2026-07-26/27). Still open: *pensare*'s *ci* clitic ("about it") — *ne* substituted for *ci* again 2026-07-28 (first flagged 2026-07-23, recurring), but two clean *ci* productions (io, lui) immediately after in the same session — promising, want one more clean instance on a later day before closing. |
 | b | Idiomatic destination prepositions (*a casa/scuola/letto/teatro* no article, *al cinema/ristorante/mare* with article, *in ufficio/banca/chiesa/montagna* no article) — see `LEARNING_ROADMAP.md` → Prepositions | Formally taught 2026-07-27 (full seasonal/time-of-day/destination-noun set). *In montagna* and bare *a casa* already confirmed clean 2026-07-25/27. *a casa di* + person: the *da*-avoidance pattern looks broken — 2026-07-28 attempted it directly twice instead of dodging to *da*. New, narrower leak surfaced in its place: dropping **a** before the location noun after *vicino*/*davanti* (*vicino [a] casa di mia nonna*; *davanti [a]lla chiesa*) — two instances same day, needs drilling on *vicino a* / *davanti a* + location noun. |
+| c | *Da* + duration (ongoing) vs *per* + passato prossimo (completed) — see `LEARNING_ROADMAP.md` → Prepositions | First quizzed 2026-07-28, right after the *da* lesson: missed on first attempt (*ho vivuto a Torino per tre anni* instead of *vivo a Torino da tre anni*). The completed-duration half (*per* + passato prossimo) was produced correctly in the same quiz, so the leak is specifically picking the right member of the pair, not either construction alone. |
 
 ## Standing interference watchlist
 
@@ -30,6 +31,7 @@ Patterns to flag in any Italian Daniel writes.
 
 **Morphology**
 - Plural family members need the article: *i miei fratelli*, not *mio fratelli*.
+- *vivere*'s past participle is irregular: *vissuto*, not *vivuto* — wrong shape produced twice in one quiz, 2026-07-28.
 
 ## How to maintain this file
 
